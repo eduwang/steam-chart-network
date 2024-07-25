@@ -1,55 +1,115 @@
 body {
-    font-family: 'Arial', sans-serif;
-    background-color: #f0f2f5;
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
     margin: 0;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 100vh;
+    padding: 0;
 }
 
-.container {
+header {
+    background-color: #333;
+    color: white;
+    padding: 10px 0;
     text-align: center;
 }
 
-h1 {
-    color: #333;
+main {
+    padding: 20px;
+}
+
+section {
+    background-color: white;
     margin-bottom: 20px;
-    animation: fadeIn 2s ease-in-out;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 }
 
-#chart {
-    width: 100%;
-    height: 600px;
-    border: 2px solid #333;
-    border-radius: 10px;
-    background-color: #fff;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-    animation: fadeIn 2s ease-in-out;
+.chart-container {
+    position: relative;
+    height: 400px;
+    background-color: #e0e0e0;
+    border-radius: 8px;
 }
 
-.links line {
-    stroke: #999;
-    stroke-opacity: 0.6;
+.checkbox-container {
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    background-color: rgba(255, 255, 255, 0.8);
+    padding: 10px;
+    border-radius: 8px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
 }
 
-.nodes circle {
-    stroke: #fff;
-    stroke-width: 1.5px;
-    cursor: pointer;
-    transition: fill 0.3s ease;
+.checkbox-container label {
+    display: block;
+    margin-bottom: 5px;
 }
 
-.nodes circle:hover {
-    fill: #ff6347;
-    stroke: #ff6347;
+.graph-space {
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #aaa;
+    font-size: 24px;
 }
 
-@keyframes fadeIn {
-    from {
-        opacity: 0;
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+}
+
+footer p {
+    margin: 5px 0; /* 세로 간격을 줄이기 위해 margin 조정 */
+}
+
+/* 모바일 대응 */
+@media (max-width: 768px) {
+    main {
+        padding: 10px;
     }
-    to {
-        opacity: 1;
+
+    section {
+        padding: 15px;
+    }
+
+    .chart-container {
+        height: 300px;
+    }
+
+    .checkbox-container {
+        top: 5px;
+        left: 5px;
+        padding: 5px;
+    }
+
+    .graph-space {
+        font-size: 18px;
+    }
+}
+
+@media (max-width: 480px) {
+    header {
+        padding: 5px 0;
+    }
+
+    section {
+        margin-bottom: 15px;
+        padding: 10px;
+    }
+
+    .chart-container {
+        height: 200px;
+    }
+
+    .checkbox-container {
+        padding: 3px;
+    }
+
+    .graph-space {
+        font-size: 16px;
     }
 }
