@@ -65,13 +65,24 @@ section {
 
 
 footer {
-    background-color: #333;
-    color: white;
+    background-color: #b6b6b6;
+    color: rgb(68, 68, 68);
     text-align: center;
     padding: 10px 0;
 }
 
-footer p {
+footer .footer-content {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+footer .footer-logo {
+    height: 50px; /* 이미지 높이를 조정 */
+    margin-right: 10px;
+}
+
+footer .footer-text p {
     margin: 5px 0; /* 세로 간격을 줄이기 위해 margin 조정 */
 }
 
@@ -118,5 +129,8 @@ footer p {
 
     .graph-space {
         font-size: 16px;
+    }
+    footer .footer-logo {
+        height: 30px; /* 모바일에서 이미지 높이 조정 */
     }
 }
