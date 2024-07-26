@@ -31,6 +31,7 @@ section {
     border-radius: 8px;
     display: flex;
     flex-direction: row;
+    margin: 0px 3% 0px 3%;
 }
 
 .graph-space {
@@ -40,18 +41,20 @@ section {
     align-items: center;
     color: #aaa;
     font-size: 24px;
+    position: relative;
 }
 
 .checkbox-wrapper {
-    display: block; /* 블록 요소로 설정 */
-    align-self: flex-start; /* 위쪽에 정렬 */
+    position: absolute; /* 절대 위치 지정 */
+    top: 10px; /* 위쪽 여백 */
+    right: 10px; /* 왼쪽 여백 */
     padding: 10px 10px 0px 10px;
     background-color: rgba(255, 255, 255, 0.8);
     border-radius: 8px;
     box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
     margin-left: 10px;
     height: auto; /* 높이를 자동으로 설정 */
-    margin: 10px;
+    z-index: 10; /* z-index를 높여서 graph-space 위에 위치 */
 }
 
 .checkbox-container {
@@ -62,7 +65,6 @@ section {
     display: block;
     margin-bottom: 5px;
 }
-
 
 footer {
     background-color: #b6b6b6;
