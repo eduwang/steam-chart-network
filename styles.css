@@ -29,16 +29,33 @@ section {
     height: 400px;
     background-color: #e0e0e0;
     border-radius: 8px;
+    display: flex;
+    flex-direction: row;
+}
+
+.graph-space {
+    flex-grow: 1; /* 남은 공간을 차지하도록 설정 */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #aaa;
+    font-size: 24px;
+}
+
+.checkbox-wrapper {
+    display: block; /* 블록 요소로 설정 */
+    align-self: flex-start; /* 위쪽에 정렬 */
+    padding: 10px 10px 0px 10px;
+    background-color: rgba(255, 255, 255, 0.8);
+    border-radius: 8px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+    margin-left: 10px;
+    height: auto; /* 높이를 자동으로 설정 */
+    margin: 10px;
 }
 
 .checkbox-container {
-    position: absolute;
-    top: 10px;
-    left: 10px;
-    background-color: rgba(255, 255, 255, 0.8);
-    padding: 10px;
-    border-radius: 8px;
-    box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+    margin-bottom: 10px; /* 아래 여백 추가 */
 }
 
 .checkbox-container label {
@@ -46,14 +63,6 @@ section {
     margin-bottom: 5px;
 }
 
-.graph-space {
-    height: 100%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    color: #aaa;
-    font-size: 24px;
-}
 
 footer {
     background-color: #333;
@@ -80,9 +89,7 @@ footer p {
         height: 300px;
     }
 
-    .checkbox-container {
-        top: 5px;
-        left: 5px;
+    .checkbox-wrapper {
         padding: 5px;
     }
 
@@ -105,7 +112,7 @@ footer p {
         height: 200px;
     }
 
-    .checkbox-container {
+    .checkbox-wrapper {
         padding: 3px;
     }
 

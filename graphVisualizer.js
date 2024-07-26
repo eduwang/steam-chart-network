@@ -7,10 +7,37 @@ import Papa from "papaparse";
 let csvData;
 
 document.addEventListener('DOMContentLoaded', function() {
-    // CSV 데이터 로드
     console.log("CSV 파일 로드 시작");
-    Papa.parse('/data/sample_data_02_SH.csv', {
-        download: true,
+    loadData('/data/sample_data_02_SH.csv', 'csv-loaded');
+});
+
+function loadData(csvPath, className) {
+    const csvFilePath = csvPath; // CSV 파일 경로
+    fetch(csvFilePath)
+        .then(response => response.arrayBuffer())
+        .then(arrayBuffer => {
+            const encoding = detectEncoding(arrayBuffer);
+            const text = decodeText(arrayBuffer, encoding); // 인코딩된 텍스트 디코딩
+            parseCSV(text);
+            showDescription(className); // 설명을 표시
+        })
+        .catch(error => {
+            console.error('Error loading CSV file:', error);
+        });
+}
+
+function detectEncoding(buffer) {
+    // 임시로 euc-kr를 반환 (필요한 경우 다른 인코딩 감지 로직 추가 가능)
+    return 'euc-kr';
+}
+
+function decodeText(arrayBuffer, encoding) {
+    const decoder = new TextDecoder(encoding);
+    return decoder.decode(new Uint8Array(arrayBuffer));
+}
+
+function parseCSV(text) {
+    Papa.parse(text, {
         header: true,
         complete: function(results) {
             csvData = results.data;
@@ -22,7 +49,21 @@ document.addEventListener('DOMContentLoaded', function() {
             console.error("CSV 파일 로드 오류:", err);
         }
     });
-});
+}
+
+function showDescription(className) {
+    // 모든 설명을 숨깁니다.
+    const descriptions = document.querySelectorAll('.description');
+    descriptions.forEach(function(description) {
+        description.style.display = 'none';
+    });
+
+    // 해당 설명을 표시합니다.
+    const selectedDescription = document.querySelector('.' + className);
+    if (selectedDescription) {
+        selectedDescription.style.display = 'block';
+    }
+}
 
 let graph;
 let sigmaInstance;
@@ -43,18 +84,30 @@ function drawGraph() {
         // Normalize weights and add nodes/edges to the graph
         csvData.forEach(row => {
             const { Source1, Source2, Weight } = row;
+
+            // Check if Source1 and Source2 are defined
+            if (!Source1 || !Source2) {
+                console.warn('Source1 또는 Source2가 정의되지 않음:', row);
+                return;
+            }
+
             const normalizedWeight = Weight / maxWeight; // Scale the weight
 
             const sourceNode = Source1.trim();
             const targetNode = Source2.trim();
 
             if (!graph.hasNode(sourceNode)) {
-                graph.addNode(sourceNode, { label: sourceNode });
+                // Assign initial random x and y coordinates
+                graph.addNode(sourceNode, { label: sourceNode, x: Math.random(), y: Math.random() });
             }
             if (!graph.hasNode(targetNode)) {
-                graph.addNode(targetNode, { label: targetNode });
+                // Assign initial random x and y coordinates
+                graph.addNode(targetNode, { label: targetNode, x: Math.random(), y: Math.random() });
             }
-            graph.addEdge(sourceNode, targetNode, { size: normalizedWeight * 2 });
+            // Check if the edge already exists before adding it
+            if (!graph.hasEdge(sourceNode, targetNode)) {
+                graph.addEdge(sourceNode, targetNode, { size: normalizedWeight * 2 });
+            }
         });
 
         // Degree-based node size adjustment
@@ -69,9 +122,9 @@ function drawGraph() {
               "size",
               minSize + ((degree - minDegree) / (maxDegree - minDegree)) * (maxSize - minSize),
             );
-          });
+        });
         
-        //Position nodes on a circle, then run Force Atlas 2 for a while to get proper graph layout:  
+        // Position nodes on a circle, then run Force Atlas 2 for a while to get proper graph layout:  
         forceAtlas2.assign(graph, { iterations: 500 });
 
         // Clear previous graph if exists
