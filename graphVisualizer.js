@@ -30,7 +30,20 @@ document.addEventListener('DOMContentLoaded', function() {
     document.querySelectorAll('.checkbox-wrapper input[type="checkbox"]').forEach(checkbox => {
         checkbox.addEventListener('change', handleOptionChange);
     });
+
+    // 범례 표시/숨기기 이벤트 리스너 추가
+    document.getElementById('game-title-on').addEventListener('change', toggleLegend);
 });
+
+function toggleLegend() {
+  const legend = document.getElementById('tier-legend');
+  if (document.getElementById('game-title-on').checked) {
+      legend.classList.remove('hidden');
+  } else {
+      legend.classList.add('hidden');
+  }
+}
+
 
 function handleOptionChange() {
     const selectedFiles = [];
@@ -97,6 +110,22 @@ let graph;
 let renderer;
 let container;
 
+// Define color mapping for tiers
+const tierColors = {
+  'Platinum': '#E5E4E2',
+  'Gold': '#FFD700',
+  'Silver': '#C0C0C0',
+  'Bronze': '#CD7F32'
+};
+
+const tierSizes = {
+  'Platinum': 15,
+  'Gold': 12,
+  'Silver': 10,
+  'Bronze': 8
+};
+
+
 function drawGraph() {
   if (csvData && csvData.length > 0) {
     graph = new Graph();
@@ -112,7 +141,7 @@ function drawGraph() {
     // Normalize weights and add nodes/edges to the graph
     const nodeSet = new Set();
     csvData.forEach((row) => {
-      const { Source1, Source2, Weight, isTitleFile } = row;
+      const { Source1, Source2, Weight, Tier, isTitleFile } = row;
 
       // Check if Source1 and Source2 are defined
       if (!Source1 || !Source2) {
@@ -129,10 +158,12 @@ function drawGraph() {
       nodeSet.add(targetNode);
 
       if (!graph.hasNode(sourceNode)) {
-        graph.addNode(sourceNode, { label: sourceNode, color: isTitleFile ? 'blue' : 'gray' });
+        const color = isTitleFile ? (tierColors[Tier] || 'blue') : 'gray';
+        const size = isTitleFile ? (tierSizes[Tier] || 10) : 5;
+        graph.addNode(sourceNode, { label: sourceNode, color: color, size: size });
       }
       if (!graph.hasNode(targetNode)) {
-        graph.addNode(targetNode, { label: targetNode, color: 'gray' });
+        graph.addNode(targetNode, { label: targetNode, color: 'black'});
       }
       if (!graph.hasEdge(sourceNode, targetNode)) {
         graph.addEdge(sourceNode, targetNode, { size: normalizedWeight * 2 });
@@ -150,15 +181,17 @@ function drawGraph() {
       maxSize = 15;
     graph.forEachNode((node) => {
       const degree = graph.degree(node);
-      graph.setNodeAttribute(
-        node,
-        'size',
-        minSize + ((degree - minDegree) / (maxDegree - minDegree)) * (maxSize - minSize)
-      );
+      if (!graph.getNodeAttribute(node, 'size')) { // Only adjust size if not set by tier
+        graph.setNodeAttribute(
+          node,
+          'size',
+          minSize + ((degree - minDegree) / (maxDegree - minDegree)) * (maxSize - minSize)
+        );
+      }
     });
 
     // Run Force Atlas 2 for a fixed number of iterations
-    forceAtlas2.assign(graph, { iterations: 500 });
+    forceAtlas2.assign(graph, { iterations: 1000 });
 
     // Clear previous graph if exists
     if (renderer) {

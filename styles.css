@@ -27,7 +27,7 @@ section {
 .chart-container {
     position: relative;
     height: 600px;
-    background-color: #e0e0e0;
+    background-color: #dfdfdf6b;
     border-radius: 8px;
     display: flex;
     flex-direction: row;
@@ -65,6 +65,64 @@ section {
     display: block;
     margin-bottom: 5px;
 }
+
+#tier-legend {
+    margin-top: 10px;
+    padding: 5px;
+    border-radius: 8px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+}
+
+.legend-item {
+    padding: 5px;
+    margin: 5px 0;
+    color: black;
+    text-align: center;
+    border-radius: 4px;
+}
+
+.hidden {
+    display: none;
+}
+
+.graph-details {
+    display: flex;
+    flex-direction: row;
+    margin: 20px 3%;
+    background-color: #e0e0e0;
+    border-radius: 8px;
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.table-container {
+    width: 50%;
+    margin: 0 10px;
+}
+
+.table-title {
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+.details-table {
+    width: 100%;
+    border-collapse: collapse;
+    background-color: white;
+    border-radius: 8px;
+    overflow: hidden;
+    text-align: center; /* 가운데 정렬 */
+}
+
+.details-table th, .details-table td {
+    border: 1px solid #ddd;
+    padding: 8px;
+}
+
+.details-table th {
+    background-color: #f2f2f2;
+}
+
 
 footer {
     background-color: #b6b6b6;

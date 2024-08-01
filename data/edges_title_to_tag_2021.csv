@@ -1,1525 +1,1525 @@
-,Source1,Source2,Weight
-0,Battlefield 2042,Casual,1
-1,Battlefield 2042,Singleplayer,1
-2,Battlefield 2042,Action,1
-3,Battlefield 2042,Adventure,1
-4,Battlefield 2042,Multiplayer,1
-5,Battlefield 2042,FPS,1
-6,Battlefield 2042,War,1
-7,Battlefield 2042,Military,1
-8,Battlefield 2042,Combat,1
-9,Battlefield 2042,Shooter,1
-10,Battlefield 2042,PvP,1
-11,Battlefield 2042,First-Person,1
-12,Battlefield 2042,Team-Based,1
-13,Battlefield 2042,Cinematic,1
-14,NARAKA BLADEPOINT,Action,1
-15,NARAKA BLADEPOINT,Adventure,1
-16,NARAKA BLADEPOINT,Multiplayer,1
-17,NARAKA BLADEPOINT,PvP,1
-18,NARAKA BLADEPOINT,Survival,1
-19,NARAKA BLADEPOINT,ThirdPerson,1
-20,NARAKA BLADEPOINT,CharacterCustomization,1
-21,NARAKA BLADEPOINT,Violent,1
-22,NARAKA BLADEPOINT,MassivelyMultiplayer,1
-23,NARAKA BLADEPOINT,Mature,1
-24,NARAKA BLADEPOINT,Gore,1
-25,NARAKA BLADEPOINT,HackandSlash,1
-26,NARAKA BLADEPOINT,FemaleProtagonist,1
-27,NARAKA BLADEPOINT,Anime,1
-28,NARAKA BLADEPOINT,FreetoPlay,1
-29,NARAKA BLADEPOINT,BattleRoyale,1
-30,PUBG BATTLEGROUNDS,Action,1
-31,PUBG BATTLEGROUNDS,Multiplayer,1
-32,PUBG BATTLEGROUNDS,Simulation,1
-33,PUBG BATTLEGROUNDS,FPS,1
-34,PUBG BATTLEGROUNDS,Shooter,1
-35,PUBG BATTLEGROUNDS,PvP,1
-36,PUBG BATTLEGROUNDS,First-Person,1
-37,PUBG BATTLEGROUNDS,Team-Based,1
-38,PUBG BATTLEGROUNDS,OnlineCo-Op,1
-39,PUBG BATTLEGROUNDS,EarlyAccess,1
-40,PUBG BATTLEGROUNDS,Co-op,1
-41,PUBG BATTLEGROUNDS,Survival,1
-42,PUBG BATTLEGROUNDS,Difficult,1
-43,PUBG BATTLEGROUNDS,ThirdPerson,1
-44,PUBG BATTLEGROUNDS,Third-PersonShooter,1
-45,PUBG BATTLEGROUNDS,Competitive,1
-46,PUBG BATTLEGROUNDS,Tactical,1
-47,PUBG BATTLEGROUNDS,Strategy,1
-48,PUBG BATTLEGROUNDS,BattleRoyale,1
-49,PUBG BATTLEGROUNDS,Stealth,1
-50,Destiny 2,Action,1
-51,Destiny 2,Adventure,1
-52,Destiny 2,Multiplayer,1
-53,Destiny 2,FPS,1
-54,Destiny 2,Shooter,1
-55,Destiny 2,PvP,1
-56,Destiny 2,First-Person,1
-57,Destiny 2,PvE,1
-58,Destiny 2,Co-op,1
-59,Destiny 2,OpenWorld,1
-60,Destiny 2,MassivelyMultiplayer,1
-61,Destiny 2,Atmospheric,1
-62,Destiny 2,Sci-fi,1
-63,Destiny 2,Space,1
-64,Destiny 2,Competitive,1
-65,Destiny 2,FreetoPlay,1
-66,Destiny 2,Lore-Rich,1
-67,Destiny 2,MMORPG,1
-68,Dota 2,Action,1
-69,Dota 2,Multiplayer,1
-70,Dota 2,Simulation,1
-71,Dota 2,PvP,1
-72,Dota 2,Team-Based,1
-73,Dota 2,OnlineCo-Op,1
-74,Dota 2,Co-op,1
-75,Dota 2,Difficult,1
-76,Dota 2,CharacterCustomization,1
-77,Dota 2,Fantasy,1
-78,Dota 2,RPG,1
-79,Dota 2,ActionRPG,1
-80,Dota 2,ReplayValue,1
-81,Dota 2,eSports,1
-82,Dota 2,Competitive,1
-83,Dota 2,Strategy,1
-84,Dota 2,RTS,1
-85,Dota 2,FreetoPlay,1
-86,Tom Clancys Rainbow Six Siege,Action,1
-87,Tom Clancys Rainbow Six Siege,Multiplayer,1
-88,Tom Clancys Rainbow Six Siege,FPS,1
-89,Tom Clancys Rainbow Six Siege,War,1
-90,Tom Clancys Rainbow Six Siege,Military,1
-91,Tom Clancys Rainbow Six Siege,Shooter,1
-92,Tom Clancys Rainbow Six Siege,PvP,1
-93,Tom Clancys Rainbow Six Siege,First-Person,1
-94,Tom Clancys Rainbow Six Siege,Team-Based,1
-95,Tom Clancys Rainbow Six Siege,OnlineCo-Op,1
-96,Tom Clancys Rainbow Six Siege,Co-op,1
-97,Tom Clancys Rainbow Six Siege,Difficult,1
-98,Tom Clancys Rainbow Six Siege,Realistic,1
-99,Tom Clancys Rainbow Six Siege,eSports,1
-100,Tom Clancys Rainbow Six Siege,Competitive,1
-101,Tom Clancys Rainbow Six Siege,3D,1
-102,Tom Clancys Rainbow Six Siege,Tactical,1
-103,Tom Clancys Rainbow Six Siege,Strategy,1
-104,Counter-Strike 2,Action,1
-105,Counter-Strike 2,Multiplayer,1
-106,Counter-Strike 2,FPS,1
-107,Counter-Strike 2,War,1
-108,Counter-Strike 2,Military,1
-109,Counter-Strike 2,Shooter,1
-110,Counter-Strike 2,PvP,1
-111,Counter-Strike 2,First-Person,1
-112,Counter-Strike 2,Team-Based,1
-113,Counter-Strike 2,OnlineCo-Op,1
-114,Counter-Strike 2,Co-op,1
-115,Counter-Strike 2,Difficult,1
-116,Counter-Strike 2,Moddable,1
-117,Counter-Strike 2,Realistic,1
-118,Counter-Strike 2,eSports,1
-119,Counter-Strike 2,Competitive,1
-120,Counter-Strike 2,Tactical,1
-121,Counter-Strike 2,Strategy,1
-122,Apex Legends,Action,1
-123,Apex Legends,Multiplayer,1
-124,Apex Legends,FPS,1
-125,Apex Legends,Shooter,1
-126,Apex Legends,PvP,1
-127,Apex Legends,First-Person,1
-128,Apex Legends,Team-Based,1
-129,Apex Legends,Co-op,1
-130,Apex Legends,Survival,1
-131,Apex Legends,CharacterCustomization,1
-132,Apex Legends,Funny,1
-133,Apex Legends,Sci-fi,1
-134,Apex Legends,Tactical,1
-135,Apex Legends,FreetoPlay,1
-136,Apex Legends,BattleRoyale,1
-137,Apex Legends,Lore-Rich,1
-138,Apex Legends,Cinematic,1
-139,Valheim,Singleplayer,1
-140,Valheim,Action,1
-141,Valheim,Adventure,1
-142,Valheim,Multiplayer,1
-143,Valheim,Building,1
-144,Valheim,OnlineCo-Op,1
-145,Valheim,EarlyAccess,1
-146,Valheim,PvE,1
-147,Valheim,BaseBuilding,1
-148,Valheim,Co-op,1
-149,Valheim,OpenWorld,1
-150,Valheim,Indie,1
-151,Valheim,Exploration,1
-152,Valheim,Survival,1
-153,Valheim,Difficult,1
-154,Valheim,Sandbox,1
-155,Valheim,ThirdPerson,1
-156,Valheim,Crafting,1
-157,Valheim,OpenWorldSurvivalCraft,1
-158,New World,Singleplayer,1
-159,New World,Action,1
-160,New World,Adventure,1
-161,New World,Multiplayer,1
-162,New World,PvP,1
-163,New World,PvE,1
-164,New World,Co-op,1
-165,New World,OpenWorld,1
-166,New World,Sandbox,1
-167,New World,ThirdPerson,1
-168,New World,Crafting,1
-169,New World,OpenWorldSurvivalCraft,1
-170,New World,CharacterCustomization,1
-171,New World,Fantasy,1
-172,New World,Violent,1
-173,New World,SexualContent,1
-174,New World,MassivelyMultiplayer,1
-175,New World,RPG,1
-176,New World,MMORPG,1
-177,Dead by Daylight,Action,1
-178,Dead by Daylight,Multiplayer,1
-179,Dead by Daylight,First-Person,1
-180,Dead by Daylight,Team-Based,1
-181,Dead by Daylight,OnlineCo-Op,1
-182,Dead by Daylight,Co-op,1
-183,Dead by Daylight,Survival,1
-184,Dead by Daylight,Difficult,1
-185,Dead by Daylight,ThirdPerson,1
-186,Dead by Daylight,Violent,1
-187,Dead by Daylight,Mature,1
-188,Dead by Daylight,Atmospheric,1
-189,Dead by Daylight,Gore,1
-190,Dead by Daylight,Horror,1
-191,Dead by Daylight,Strategy,1
-192,Dead by Daylight,Stealth,1
-193,Dead by Daylight,SurvivalHorror,1
-194,Grand Theft Auto V,Singleplayer,1
-195,Grand Theft Auto V,Action,1
-196,Grand Theft Auto V,Adventure,1
-197,Grand Theft Auto V,Multiplayer,1
-198,Grand Theft Auto V,GreatSoundtrack,1
-199,Grand Theft Auto V,Shooter,1
-200,Grand Theft Auto V,First-Person,1
-201,Grand Theft Auto V,Co-op,1
-202,Grand Theft Auto V,OpenWorld,1
-203,Grand Theft Auto V,Sandbox,1
-204,Grand Theft Auto V,ThirdPerson,1
-205,Grand Theft Auto V,Moddable,1
-206,Grand Theft Auto V,Funny,1
-207,Grand Theft Auto V,Mature,1
-208,Grand Theft Auto V,Third-PersonShooter,1
-209,Grand Theft Auto V,Atmospheric,1
-210,Forza Horizon 5,Singleplayer,1
-211,Forza Horizon 5,Action,1
-212,Forza Horizon 5,Adventure,1
-213,Forza Horizon 5,Multiplayer,1
-214,Forza Horizon 5,Simulation,1
-215,Forza Horizon 5,PvP,1
-216,Forza Horizon 5,First-Person,1
-217,Forza Horizon 5,OnlineCo-Op,1
-218,Forza Horizon 5,Co-op,1
-219,Forza Horizon 5,OpenWorld,1
-220,Forza Horizon 5,Exploration,1
-221,Forza Horizon 5,ThirdPerson,1
-222,Forza Horizon 5,Atmospheric,1
-223,Forza Horizon 5,Realistic,1
-224,Forza Horizon 5,Beautiful,1
-225,Forza Horizon 5,Sports,1
-226,Sea of Thieves 2024 Edition,Singleplayer,1
-227,Sea of Thieves 2024 Edition,Action,1
-228,Sea of Thieves 2024 Edition,Adventure,1
-229,Sea of Thieves 2024 Edition,Multiplayer,1
-230,Sea of Thieves 2024 Edition,GreatSoundtrack,1
-231,Sea of Thieves 2024 Edition,FPS,1
-232,Sea of Thieves 2024 Edition,PvP,1
-233,Sea of Thieves 2024 Edition,First-Person,1
-234,Sea of Thieves 2024 Edition,OnlineCo-Op,1
-235,Sea of Thieves 2024 Edition,PvE,1
-236,Sea of Thieves 2024 Edition,Co-op,1
-237,Sea of Thieves 2024 Edition,OpenWorld,1
-238,Sea of Thieves 2024 Edition,Exploration,1
-239,Sea of Thieves 2024 Edition,MassivelyMultiplayer,1
-240,Sea of Thieves 2024 Edition,Funny,1
-241,Sea of Thieves 2024 Edition,Atmospheric,1
-242,Red Dead Redemption 2,Singleplayer,1
-243,Red Dead Redemption 2,Action,1
-244,Red Dead Redemption 2,Adventure,1
-245,Red Dead Redemption 2,Multiplayer,1
-246,Red Dead Redemption 2,GreatSoundtrack,1
-247,Red Dead Redemption 2,FPS,1
-248,Red Dead Redemption 2,Shooter,1
-249,Red Dead Redemption 2,First-Person,1
-250,Red Dead Redemption 2,OpenWorld,1
-251,Red Dead Redemption 2,Sandbox,1
-252,Red Dead Redemption 2,ThirdPerson,1
-253,Red Dead Redemption 2,Mature,1
-254,Red Dead Redemption 2,Third-PersonShooter,1
-255,Red Dead Redemption 2,Atmospheric,1
-256,Red Dead Redemption 2,Realistic,1
-257,Red Dead Redemption 2,Beautiful,1
-258,Red Dead Redemption 2,StoryRich,1
-259,Red Dead Redemption 2,Gore,1
-260,The Elder Scrolls Online,Singleplayer,1
-261,The Elder Scrolls Online,Action,1
-262,The Elder Scrolls Online,Adventure,1
-263,The Elder Scrolls Online,Multiplayer,1
-264,The Elder Scrolls Online,PvP,1
-265,The Elder Scrolls Online,PvE,1
-266,The Elder Scrolls Online,OpenWorld,1
-267,The Elder Scrolls Online,Exploration,1
-268,The Elder Scrolls Online,CharacterCustomization,1
-269,The Elder Scrolls Online,Fantasy,1
-270,The Elder Scrolls Online,MassivelyMultiplayer,1
-271,The Elder Scrolls Online,RPG,1
-272,The Elder Scrolls Online,Atmospheric,1
-273,The Elder Scrolls Online,StoryRich,1
-274,The Elder Scrolls Online,ActionRPG,1
-275,The Elder Scrolls Online,Lore-Rich,1
-276,The Elder Scrolls Online,MMORPG,1
-277,Back 4 Blood,Singleplayer,1
-278,Back 4 Blood,Action,1
-279,Back 4 Blood,Adventure,1
-280,Back 4 Blood,Multiplayer,1
-281,Back 4 Blood,FPS,1
-282,Back 4 Blood,Shooter,1
-283,Back 4 Blood,PvP,1
-284,Back 4 Blood,First-Person,1
-285,Back 4 Blood,OnlineCo-Op,1
-286,Back 4 Blood,PvE,1
-287,Back 4 Blood,Co-op,1
-288,Back 4 Blood,Survival,1
-289,Back 4 Blood,Violent,1
-290,Back 4 Blood,Gore,1
-291,Back 4 Blood,Zombies,1
-292,Back 4 Blood,ReplayValue,1
-293,Back 4 Blood,Horror,1
-294,Back 4 Blood,SurvivalHorror,1
-295,Warframe,Singleplayer,1
-296,Warframe,Action,1
-297,Warframe,Shooter,1
-298,Warframe,OnlineCo-Op,1
-299,Warframe,PvE,1
-300,Warframe,Co-op,1
-301,Warframe,ThirdPerson,1
-302,Warframe,CharacterCustomization,1
-303,Warframe,MassivelyMultiplayer,1
-304,Warframe,RPG,1
-305,Warframe,Third-PersonShooter,1
-306,Warframe,ActionRPG,1
-307,Warframe,HackandSlash,1
-308,Warframe,Sci-fi,1
-309,Warframe,Space,1
-310,Warframe,FreetoPlay,1
-311,Warframe,Lore-Rich,1
-312,Forza Horizon 4,Singleplayer,1
-313,Forza Horizon 4,Action,1
-314,Forza Horizon 4,Adventure,1
-315,Forza Horizon 4,Multiplayer,1
-316,Forza Horizon 4,Simulation,1
-317,Forza Horizon 4,GreatSoundtrack,1
-318,Forza Horizon 4,PvP,1
-319,Forza Horizon 4,First-Person,1
-320,Forza Horizon 4,OnlineCo-Op,1
-321,Forza Horizon 4,OpenWorld,1
-322,Forza Horizon 4,Exploration,1
-323,Forza Horizon 4,Funny,1
-324,Forza Horizon 4,Atmospheric,1
-325,Forza Horizon 4,Realistic,1
-326,Forza Horizon 4,Sports,1
-327,Forza Horizon 4,Controller,1
-328,It Takes Two,Action,1
-329,It Takes Two,Adventure,1
-330,It Takes Two,Multiplayer,1
-331,It Takes Two,OnlineCo-Op,1
-332,It Takes Two,Co-op,1
-333,It Takes Two,Exploration,1
-334,It Takes Two,Atmospheric,1
-335,It Takes Two,StoryRich,1
-336,It Takes Two,FemaleProtagonist,1
-337,It Takes Two,LocalMultiplayer,1
-338,It Takes Two,LocalCo-Op,1
-339,Rust,Action,1
-340,Rust,Adventure,1
-341,Rust,Multiplayer,1
-342,Rust,Simulation,1
-343,Rust,FPS,1
-344,Rust,Shooter,1
-345,Rust,PvP,1
-346,Rust,First-Person,1
-347,Rust,Building,1
-348,Rust,OnlineCo-Op,1
-349,Rust,EarlyAccess,1
-350,Rust,Co-op,1
-351,Rust,OpenWorld,1
-352,Rust,Indie,1
-353,Rust,Survival,1
-354,Rust,Sandbox,1
-355,Rust,Crafting,1
-356,Rust,OpenWorldSurvivalCraft,1
-357,Rust,Nudity,1
-358,Rust,Post-apocalyptic,1
-359,FIFA 22,Singleplayer,1
-360,FIFA 22,Multiplayer,1
-361,FIFA 22,Simulation,1
-362,FIFA 22,FamilyFriendly,1
-363,FIFA 22,PvP,1
-364,FIFA 22,Team-Based,1
-365,FIFA 22,OnlineCo-Op,1
-366,FIFA 22,Co-op,1
-367,FIFA 22,SexualContent,1
-368,FIFA 22,Realistic,1
-369,FIFA 22,Sports,1
-370,FIFA 22,Controller,1
-371,FIFA 22,eSports,1
-372,FIFA 22,Competitive,1
-373,FIFA 22,Cinematic,1
-374,FIFA 22,LocalMultiplayer,1
-375,FIFA 22,ImmersiveSim,1
-376,FIFA 22,LocalCo-Op,1
-377,War Thunder,Action,1
-378,War Thunder,Multiplayer,1
-379,War Thunder,Simulation,1
-380,War Thunder,War,1
-381,War Thunder,Military,1
-382,War Thunder,Combat,1
-383,War Thunder,Shooter,1
-384,War Thunder,ThirdPerson,1
-385,War Thunder,MassivelyMultiplayer,1
-386,War Thunder,Third-PersonShooter,1
-387,War Thunder,Realistic,1
-388,War Thunder,VR,1
-389,War Thunder,FreetoPlay,1
-390,ARK Survival Evolved,Singleplayer,1
-391,ARK Survival Evolved,Action,1
-392,ARK Survival Evolved,Adventure,1
-393,ARK Survival Evolved,Multiplayer,1
-394,ARK Survival Evolved,First-Person,1
-395,ARK Survival Evolved,Building,1
-396,ARK Survival Evolved,EarlyAccess,1
-397,ARK Survival Evolved,BaseBuilding,1
-398,ARK Survival Evolved,Co-op,1
-399,ARK Survival Evolved,OpenWorld,1
-400,ARK Survival Evolved,Indie,1
-401,ARK Survival Evolved,Survival,1
-402,ARK Survival Evolved,Sandbox,1
-403,ARK Survival Evolved,Crafting,1
-404,ARK Survival Evolved,OpenWorldSurvivalCraft,1
-405,ARK Survival Evolved,MassivelyMultiplayer,1
-406,ARK Survival Evolved,RPG,1
-407,ARK Survival Evolved,Sci-fi,1
-408,Phasmophobia,Singleplayer,1
-409,Phasmophobia,Action,1
-410,Phasmophobia,Multiplayer,1
-411,Phasmophobia,First-Person,1
-412,Phasmophobia,OnlineCo-Op,1
-413,Phasmophobia,EarlyAccess,1
-414,Phasmophobia,Co-op,1
-415,Phasmophobia,Indie,1
-416,Phasmophobia,Horror,1
-417,Phasmophobia,VR,1
-418,Phasmophobia,3D,1
-419,Phasmophobia,Tactical,1
-420,Phasmophobia,Dark,1
-421,Age of Empires IV Anniversary Edition,Singleplayer,1
-422,Age of Empires IV Anniversary Edition,Multiplayer,1
-423,Age of Empires IV Anniversary Edition,War,1
-424,Age of Empires IV Anniversary Edition,PvP,1
-425,Age of Empires IV Anniversary Edition,OnlineCo-Op,1
-426,Age of Empires IV Anniversary Edition,PvE,1
-427,Age of Empires IV Anniversary Edition,BaseBuilding,1
-428,Age of Empires IV Anniversary Edition,Co-op,1
-429,Age of Empires IV Anniversary Edition,OpenWorld,1
-430,Age of Empires IV Anniversary Edition,Mature,1
-431,Age of Empires IV Anniversary Edition,3D,1
-432,Age of Empires IV Anniversary Edition,Strategy,1
-433,Age of Empires IV Anniversary Edition,RTS,1
-434,Age of Empires IV Anniversary Edition,CityBuilder,1
-435,Age of Empires IV Anniversary Edition,ResourceManagement,1
-436,Age of Empires IV Anniversary Edition,Management,1
-437,Age of Empires IV Anniversary Edition,Historical,1
-438,Cyberpunk 2077,Singleplayer,1
-439,Cyberpunk 2077,Action,1
-440,Cyberpunk 2077,Adventure,1
-441,Cyberpunk 2077,GreatSoundtrack,1
-442,Cyberpunk 2077,FPS,1
-443,Cyberpunk 2077,First-Person,1
-444,Cyberpunk 2077,OpenWorld,1
-445,Cyberpunk 2077,Exploration,1
-446,Cyberpunk 2077,CharacterCustomization,1
-447,Cyberpunk 2077,Violent,1
-448,Cyberpunk 2077,RPG,1
-449,Cyberpunk 2077,Mature,1
-450,Cyberpunk 2077,Atmospheric,1
-451,Cyberpunk 2077,StoryRich,1
-452,Cyberpunk 2077,ActionRPG,1
-453,Cyberpunk 2077,Sci-fi,1
-454,Cyberpunk 2077,Nudity,1
-455,Cyberpunk 2077,ImmersiveSim,1
-456,Sid Meiers Civilization VI,Singleplayer,1
-457,Sid Meiers Civilization VI,Multiplayer,1
-458,Sid Meiers Civilization VI,Simulation,1
-459,Sid Meiers Civilization VI,GreatSoundtrack,1
-460,Sid Meiers Civilization VI,War,1
-461,Sid Meiers Civilization VI,Building,1
-462,Sid Meiers Civilization VI,OnlineCo-Op,1
-463,Sid Meiers Civilization VI,Co-op,1
-464,Sid Meiers Civilization VI,Moddable,1
-465,Sid Meiers Civilization VI,Atmospheric,1
-466,Sid Meiers Civilization VI,Tactical,1
-467,Sid Meiers Civilization VI,Strategy,1
-468,Sid Meiers Civilization VI,CityBuilder,1
-469,Sid Meiers Civilization VI,Management,1
-470,Sid Meiers Civilization VI,Historical,1
-471,Sid Meiers Civilization VI,GrandStrategy,1
-472,Stellaris,Singleplayer,1
-473,Stellaris,Multiplayer,1
-474,Stellaris,Simulation,1
-475,Stellaris,GreatSoundtrack,1
-476,Stellaris,Military,1
-477,Stellaris,Exploration,1
-478,Stellaris,Sandbox,1
-479,Stellaris,Moddable,1
-480,Stellaris,Atmospheric,1
-481,Stellaris,ReplayValue,1
-482,Stellaris,Sci-fi,1
-483,Stellaris,Space,1
-484,Stellaris,Strategy,1
-485,Stellaris,Management,1
-486,Stellaris,GrandStrategy,1
-487,Euro Truck Simulator 2,Casual,1
-488,Euro Truck Simulator 2,Adventure,1
-489,Euro Truck Simulator 2,Multiplayer,1
-490,Euro Truck Simulator 2,Simulation,1
-491,Euro Truck Simulator 2,FamilyFriendly,1
-492,Euro Truck Simulator 2,OpenWorld,1
-493,Euro Truck Simulator 2,Indie,1
-494,Euro Truck Simulator 2,Exploration,1
-495,Euro Truck Simulator 2,ThirdPerson,1
-496,Euro Truck Simulator 2,Moddable,1
-497,Euro Truck Simulator 2,Atmospheric,1
-498,Euro Truck Simulator 2,Realistic,1
-499,Euro Truck Simulator 2,Controller,1
-500,Euro Truck Simulator 2,Management,1
-501,Euro Truck Simulator 2,ImmersiveSim,1
-502,Mass Effect Legendary Edition,Singleplayer,1
-503,Mass Effect Legendary Edition,Action,1
-504,Mass Effect Legendary Edition,GreatSoundtrack,1
-505,Mass Effect Legendary Edition,Military,1
-506,Mass Effect Legendary Edition,Combat,1
-507,Mass Effect Legendary Edition,Shooter,1
-508,Mass Effect Legendary Edition,CharacterCustomization,1
-509,Mass Effect Legendary Edition,SexualContent,1
-510,Mass Effect Legendary Edition,RPG,1
-511,Mass Effect Legendary Edition,Third-PersonShooter,1
-512,Mass Effect Legendary Edition,Atmospheric,1
-513,Mass Effect Legendary Edition,StoryRich,1
-514,Mass Effect Legendary Edition,ActionRPG,1
-515,Mass Effect Legendary Edition,Sci-fi,1
-516,Mass Effect Legendary Edition,Space,1
-517,Mass Effect Legendary Edition,Nudity,1
-518,Mass Effect Legendary Edition,FemaleProtagonist,1
-519,Monster Hunter World,Singleplayer,1
-520,Monster Hunter World,Action,1
-521,Monster Hunter World,Adventure,1
-522,Monster Hunter World,Multiplayer,1
-523,Monster Hunter World,GreatSoundtrack,1
-524,Monster Hunter World,Co-op,1
-525,Monster Hunter World,OpenWorld,1
-526,Monster Hunter World,Exploration,1
-527,Monster Hunter World,Difficult,1
-528,Monster Hunter World,ThirdPerson,1
-529,Monster Hunter World,CharacterCustomization,1
-530,Monster Hunter World,Fantasy,1
-531,Monster Hunter World,RPG,1
-532,Monster Hunter World,Atmospheric,1
-533,Monster Hunter World,ActionRPG,1
-534,Monster Hunter World,ReplayValue,1
-535,Monster Hunter World,HackandSlash,1
-536,Monster Hunter World,MMORPG,1
-537,The Sims 4,Casual,1
-538,The Sims 4,Singleplayer,1
-539,The Sims 4,Adventure,1
-540,The Sims 4,Multiplayer,1
-541,The Sims 4,Simulation,1
-542,The Sims 4,FamilyFriendly,1
-543,The Sims 4,Building,1
-544,The Sims 4,Sandbox,1
-545,The Sims 4,CharacterCustomization,1
-546,The Sims 4,Fantasy,1
-547,The Sims 4,Funny,1
-548,The Sims 4,Realistic,1
-549,The Sims 4,Cute,1
-550,The Sims 4,FreetoPlay,1
-551,The Sims 4,ImmersiveSim,1
-552,Resident Evil Village,Singleplayer,1
-553,Resident Evil Village,Action,1
-554,Resident Evil Village,Adventure,1
-555,Resident Evil Village,Multiplayer,1
-556,Resident Evil Village,FPS,1
-557,Resident Evil Village,First-Person,1
-558,Resident Evil Village,OpenWorld,1
-559,Resident Evil Village,Survival,1
-560,Resident Evil Village,Violent,1
-561,Resident Evil Village,SexualContent,1
-562,Resident Evil Village,Atmospheric,1
-563,Resident Evil Village,StoryRich,1
-564,Resident Evil Village,Gore,1
-565,Resident Evil Village,Zombies,1
-566,Resident Evil Village,Horror,1
-567,Resident Evil Village,VR,1
-568,Resident Evil Village,Dark,1
-569,Resident Evil Village,Nudity,1
-570,Resident Evil Village,SurvivalHorror,1
-571,OUTRIDERS,Singleplayer,1
-572,OUTRIDERS,Action,1
-573,OUTRIDERS,Adventure,1
-574,OUTRIDERS,Multiplayer,1
-575,OUTRIDERS,Shooter,1
-576,OUTRIDERS,OnlineCo-Op,1
-577,OUTRIDERS,Co-op,1
-578,OUTRIDERS,OpenWorld,1
-579,OUTRIDERS,ThirdPerson,1
-580,OUTRIDERS,CharacterCustomization,1
-581,OUTRIDERS,Violent,1
-582,OUTRIDERS,RPG,1
-583,OUTRIDERS,Third-PersonShooter,1
-584,OUTRIDERS,StoryRich,1
-585,OUTRIDERS,Gore,1
-586,OUTRIDERS,Sci-fi,1
-587,OUTRIDERS,Post-apocalyptic,1
-588,Team Fortress 2,Action,1
-589,Team Fortress 2,Multiplayer,1
-590,Team Fortress 2,FPS,1
-591,Team Fortress 2,Shooter,1
-592,Team Fortress 2,First-Person,1
-593,Team Fortress 2,Team-Based,1
-594,Team Fortress 2,OnlineCo-Op,1
-595,Team Fortress 2,Co-op,1
-596,Team Fortress 2,Crafting,1
-597,Team Fortress 2,Funny,1
-598,Team Fortress 2,Competitive,1
-599,Team Fortress 2,Tactical,1
-600,Team Fortress 2,FreetoPlay,1
-601,Halo Infinite,Singleplayer,1
-602,Halo Infinite,Action,1
-603,Halo Infinite,Adventure,1
-604,Halo Infinite,Multiplayer,1
-605,Halo Infinite,FPS,1
-606,Halo Infinite,Shooter,1
-607,Halo Infinite,PvP,1
-608,Halo Infinite,First-Person,1
-609,Halo Infinite,Co-op,1
-610,Halo Infinite,OpenWorld,1
-611,Halo Infinite,Atmospheric,1
-612,Halo Infinite,StoryRich,1
-613,Halo Infinite,Sci-fi,1
-614,Halo Infinite,Space,1
-615,Halo Infinite,Competitive,1
-616,Halo Infinite,FreetoPlay,1
-617,Halo Infinite,Lore-Rich,1
-618,Halo Infinite,Cinematic,1
-619,Stardew Valley,Casual,1
-620,Stardew Valley,Singleplayer,1
-621,Stardew Valley,Multiplayer,1
-622,Stardew Valley,Simulation,1
-623,Stardew Valley,GreatSoundtrack,1
-624,Stardew Valley,Building,1
-625,Stardew Valley,OpenWorld,1
-626,Stardew Valley,Indie,1
-627,Stardew Valley,Sandbox,1
-628,Stardew Valley,Crafting,1
-629,Stardew Valley,RPG,1
-630,Stardew Valley,Cute,1
-631,Stardew Valley,2D,1
-632,Planet Zoo,Casual,1
-633,Planet Zoo,Singleplayer,1
-634,Planet Zoo,Multiplayer,1
-635,Planet Zoo,Simulation,1
-636,Planet Zoo,FamilyFriendly,1
-637,Planet Zoo,GreatSoundtrack,1
-638,Planet Zoo,Building,1
-639,Planet Zoo,OpenWorld,1
-640,Planet Zoo,Sandbox,1
-641,Planet Zoo,Funny,1
-642,Planet Zoo,Realistic,1
-643,Planet Zoo,Strategy,1
-644,Planet Zoo,CityBuilder,1
-645,Planet Zoo,ResourceManagement,1
-646,Planet Zoo,Management,1
-647,Planet Zoo,Cute,1
-648,Dying Light,Action,1
-649,Dying Light,Multiplayer,1
-650,Dying Light,FPS,1
-651,Dying Light,PvP,1
-652,Dying Light,First-Person,1
-653,Dying Light,OnlineCo-Op,1
-654,Dying Light,PvE,1
-655,Dying Light,OpenWorld,1
-656,Dying Light,Survival,1
-657,Dying Light,OpenWorldSurvivalCraft,1
-658,Dying Light,StoryRich,1
-659,Dying Light,Gore,1
-660,Dying Light,ActionRPG,1
-661,Dying Light,Zombies,1
-662,Dying Light,Horror,1
-663,Dying Light,HackandSlash,1
-664,Dying Light,Post-apocalyptic,1
-665,Dying Light,Stealth,1
-666,Dying Light,SurvivalHorror,1
-667,Crusader Kings III,Singleplayer,1
-668,Crusader Kings III,Multiplayer,1
-669,Crusader Kings III,Simulation,1
-670,Crusader Kings III,War,1
-671,Crusader Kings III,Sandbox,1
-672,Crusader Kings III,CharacterCustomization,1
-673,Crusader Kings III,RPG,1
-674,Crusader Kings III,Moddable,1
-675,Crusader Kings III,Strategy,1
-676,Crusader Kings III,RTS,1
-677,Crusader Kings III,Management,1
-678,Crusader Kings III,Historical,1
-679,Crusader Kings III,GrandStrategy,1
-680,Nioh 2  The Complete Edition,Singleplayer,1
-681,Nioh 2  The Complete Edition,Action,1
-682,Nioh 2  The Complete Edition,Multiplayer,1
-683,Nioh 2  The Complete Edition,Co-op,1
-684,Nioh 2  The Complete Edition,Difficult,1
-685,Nioh 2  The Complete Edition,CharacterCustomization,1
-686,Nioh 2  The Complete Edition,Fantasy,1
-687,Nioh 2  The Complete Edition,Violent,1
-688,Nioh 2  The Complete Edition,RPG,1
-689,Nioh 2  The Complete Edition,Atmospheric,1
-690,Nioh 2  The Complete Edition,StoryRich,1
-691,Nioh 2  The Complete Edition,Gore,1
-692,Nioh 2  The Complete Edition,HackandSlash,1
-693,Nioh 2  The Complete Edition,Dark,1
-694,Nioh 2  The Complete Edition,Historical,1
-695,Nioh 2  The Complete Edition,FemaleProtagonist,1
-696,Nioh 2  The Complete Edition,DarkFantasy,1
-697,Fallout 4,Singleplayer,1
-698,Fallout 4,Action,1
-699,Fallout 4,Adventure,1
-700,Fallout 4,GreatSoundtrack,1
-701,Fallout 4,FPS,1
-702,Fallout 4,Shooter,1
-703,Fallout 4,First-Person,1
-704,Fallout 4,OpenWorld,1
-705,Fallout 4,Exploration,1
-706,Fallout 4,Survival,1
-707,Fallout 4,Sandbox,1
-708,Fallout 4,ThirdPerson,1
-709,Fallout 4,CharacterCustomization,1
-710,Fallout 4,RPG,1
-711,Fallout 4,Third-PersonShooter,1
-712,Fallout 4,Atmospheric,1
-713,Fallout 4,StoryRich,1
-714,Fallout 4,ActionRPG,1
-715,Fallout 4,Sci-fi,1
-716,Fallout 4,Post-apocalyptic,1
-717,Call of Duty Black Ops III,Singleplayer,1
-718,Call of Duty Black Ops III,Action,1
-719,Call of Duty Black Ops III,Multiplayer,1
-720,Call of Duty Black Ops III,Simulation,1
-721,Call of Duty Black Ops III,GreatSoundtrack,1
-722,Call of Duty Black Ops III,FPS,1
-723,Call of Duty Black Ops III,Shooter,1
-724,Call of Duty Black Ops III,First-Person,1
-725,Call of Duty Black Ops III,Co-op,1
-726,Call of Duty Black Ops III,Atmospheric,1
-727,Call of Duty Black Ops III,StoryRich,1
-728,Call of Duty Black Ops III,Gore,1
-729,Call of Duty Black Ops III,Zombies,1
-730,Call of Duty Black Ops III,Sci-fi,1
-731,The Forest,Singleplayer,1
-732,The Forest,Action,1
-733,The Forest,Adventure,1
-734,The Forest,Simulation,1
-735,The Forest,First-Person,1
-736,The Forest,Building,1
-737,The Forest,EarlyAccess,1
-738,The Forest,OpenWorld,1
-739,The Forest,Indie,1
-740,The Forest,Exploration,1
-741,The Forest,Survival,1
-742,The Forest,Sandbox,1
-743,The Forest,Crafting,1
-744,The Forest,OpenWorldSurvivalCraft,1
-745,The Forest,Atmospheric,1
-746,The Forest,Realistic,1
-747,The Forest,Gore,1
-748,The Forest,Zombies,1
-749,The Forest,Horror,1
-750,The Forest,SurvivalHorror,1
-751,GUILTY GEAR -STRIVE-,Casual,1
-752,GUILTY GEAR -STRIVE-,Action,1
-753,GUILTY GEAR -STRIVE-,Multiplayer,1
-754,GUILTY GEAR -STRIVE-,GreatSoundtrack,1
-755,GUILTY GEAR -STRIVE-,Combat,1
-756,GUILTY GEAR -STRIVE-,PvP,1
-757,GUILTY GEAR -STRIVE-,Fantasy,1
-758,GUILTY GEAR -STRIVE-,StoryRich,1
-759,GUILTY GEAR -STRIVE-,3D,1
-760,GUILTY GEAR -STRIVE-,2D,1
-761,GUILTY GEAR -STRIVE-,Anime,1
-762,GUILTY GEAR -STRIVE-,Lore-Rich,1
-763,GUILTY GEAR -STRIVE-,Cinematic,1
-764,GUILTY GEAR -STRIVE-,LocalMultiplayer,1
-765,F1 2021,Singleplayer,1
-766,F1 2021,Multiplayer,1
-767,F1 2021,Simulation,1
-768,F1 2021,PvP,1
-769,F1 2021,OnlineCo-Op,1
-770,F1 2021,Co-op,1
-771,F1 2021,Realistic,1
-772,F1 2021,Sports,1
-773,F1 2021,Controller,1
-774,F1 2021,eSports,1
-775,F1 2021,VR,1
-776,F1 2021,3D,1
-777,F1 2021,Cinematic,1
-778,F1 2021,LocalMultiplayer,1
-779,F1 2021,ImmersiveSim,1
-780,EA SPORTS FIFA 21,Casual,1
-781,EA SPORTS FIFA 21,Singleplayer,1
-782,EA SPORTS FIFA 21,Action,1
-783,EA SPORTS FIFA 21,Multiplayer,1
-784,EA SPORTS FIFA 21,Simulation,1
-785,EA SPORTS FIFA 21,GreatSoundtrack,1
-786,EA SPORTS FIFA 21,PvP,1
-787,EA SPORTS FIFA 21,OnlineCo-Op,1
-788,EA SPORTS FIFA 21,Co-op,1
-789,EA SPORTS FIFA 21,Realistic,1
-790,EA SPORTS FIFA 21,Sports,1
-791,EA SPORTS FIFA 21,Controller,1
-792,EA SPORTS FIFA 21,eSports,1
-793,EA SPORTS FIFA 21,Competitive,1
-794,EA SPORTS FIFA 21,LocalMultiplayer,1
-795,EA SPORTS FIFA 21,LocalCo-Op,1
-796,theHunter Call of the Wild,Multiplayer,1
-797,theHunter Call of the Wild,Simulation,1
-798,theHunter Call of the Wild,FPS,1
-799,theHunter Call of the Wild,Shooter,1
-800,theHunter Call of the Wild,First-Person,1
-801,theHunter Call of the Wild,OnlineCo-Op,1
-802,theHunter Call of the Wild,Co-op,1
-803,theHunter Call of the Wild,OpenWorld,1
-804,theHunter Call of the Wild,Survival,1
-805,theHunter Call of the Wild,Sandbox,1
-806,theHunter Call of the Wild,Realistic,1
-807,theHunter Call of the Wild,Sports,1
-808,theHunter Call of the Wild,Controller,1
-809,theHunter Call of the Wild,Stealth,1
-810,theHunter Call of the Wild,ImmersiveSim,1
-811,Hearts of Iron IV,Singleplayer,1
-812,Hearts of Iron IV,Action,1
-813,Hearts of Iron IV,Multiplayer,1
-814,Hearts of Iron IV,Simulation,1
-815,Hearts of Iron IV,War,1
-816,Hearts of Iron IV,Military,1
-817,Hearts of Iron IV,Co-op,1
-818,Hearts of Iron IV,OpenWorld,1
-819,Hearts of Iron IV,Sandbox,1
-820,Hearts of Iron IV,Competitive,1
-821,Hearts of Iron IV,Tactical,1
-822,Hearts of Iron IV,Strategy,1
-823,Hearts of Iron IV,RTS,1
-824,Hearts of Iron IV,Historical,1
-825,Hearts of Iron IV,GrandStrategy,1
-826,Hades,Singleplayer,1
-827,Hades,Action,1
-828,Hades,GreatSoundtrack,1
-829,Hades,Indie,1
-830,Hades,Difficult,1
-831,Hades,RPG,1
-832,Hades,Atmospheric,1
-833,Hades,StoryRich,1
-834,Hades,ActionRPG,1
-835,Hades,ReplayValue,1
-836,Hades,HackandSlash,1
-837,Hunt Showdown,Action,1
-838,Hunt Showdown,Multiplayer,1
-839,Hunt Showdown,FPS,1
-840,Hunt Showdown,Shooter,1
-841,Hunt Showdown,PvP,1
-842,Hunt Showdown,Team-Based,1
-843,Hunt Showdown,OnlineCo-Op,1
-844,Hunt Showdown,Co-op,1
-845,Hunt Showdown,OpenWorld,1
-846,Hunt Showdown,Difficult,1
-847,Hunt Showdown,Atmospheric,1
-848,Hunt Showdown,Gore,1
-849,Hunt Showdown,Zombies,1
-850,Hunt Showdown,Horror,1
-851,Hunt Showdown,Tactical,1
-852,Hunt Showdown,BattleRoyale,1
-853,Hunt Showdown,SurvivalHorror,1
-854,No Mans Sky,Singleplayer,1
-855,No Mans Sky,Action,1
-856,No Mans Sky,Adventure,1
-857,No Mans Sky,Multiplayer,1
-858,No Mans Sky,Simulation,1
-859,No Mans Sky,FPS,1
-860,No Mans Sky,First-Person,1
-861,No Mans Sky,OpenWorld,1
-862,No Mans Sky,Indie,1
-863,No Mans Sky,Exploration,1
-864,No Mans Sky,Survival,1
-865,No Mans Sky,Sandbox,1
-866,No Mans Sky,Crafting,1
-867,No Mans Sky,OpenWorldSurvivalCraft,1
-868,No Mans Sky,Atmospheric,1
-869,No Mans Sky,Sci-fi,1
-870,No Mans Sky,Space,1
-871,No Mans Sky,VR,1
-872,Microsoft Flight Simulator 40th Anniversary Edition,Singleplayer,1
-873,Microsoft Flight Simulator 40th Anniversary Edition,Adventure,1
-874,Microsoft Flight Simulator 40th Anniversary Edition,Multiplayer,1
-875,Microsoft Flight Simulator 40th Anniversary Edition,Simulation,1
-876,Microsoft Flight Simulator 40th Anniversary Edition,FamilyFriendly,1
-877,Microsoft Flight Simulator 40th Anniversary Edition,OpenWorld,1
-878,Microsoft Flight Simulator 40th Anniversary Edition,Atmospheric,1
-879,Microsoft Flight Simulator 40th Anniversary Edition,Realistic,1
-880,Microsoft Flight Simulator 40th Anniversary Edition,Beautiful,1
-881,Microsoft Flight Simulator 40th Anniversary Edition,Controller,1
-882,Microsoft Flight Simulator 40th Anniversary Edition,VR,1
-883,Satisfactory,Singleplayer,1
-884,Satisfactory,Adventure,1
-885,Satisfactory,Multiplayer,1
-886,Satisfactory,Simulation,1
-887,Satisfactory,First-Person,1
-888,Satisfactory,Building,1
-889,Satisfactory,EarlyAccess,1
-890,Satisfactory,BaseBuilding,1
-891,Satisfactory,Co-op,1
-892,Satisfactory,OpenWorld,1
-893,Satisfactory,Indie,1
-894,Satisfactory,Exploration,1
-895,Satisfactory,Survival,1
-896,Satisfactory,Sandbox,1
-897,Satisfactory,Crafting,1
-898,Satisfactory,OpenWorldSurvivalCraft,1
-899,Satisfactory,Sci-fi,1
-900,Satisfactory,Strategy,1
-901,Satisfactory,ResourceManagement,1
-902,Days Gone,Singleplayer,1
-903,Days Gone,Action,1
-904,Days Gone,Adventure,1
-905,Days Gone,Multiplayer,1
-906,Days Gone,OpenWorld,1
-907,Days Gone,Survival,1
-908,Days Gone,ThirdPerson,1
-909,Days Gone,Crafting,1
-910,Days Gone,OpenWorldSurvivalCraft,1
-911,Days Gone,Violent,1
-912,Days Gone,Third-PersonShooter,1
-913,Days Gone,StoryRich,1
-914,Days Gone,Gore,1
-915,Days Gone,Zombies,1
-916,Days Gone,Horror,1
-917,Days Gone,Post-apocalyptic,1
-918,Days Gone,SurvivalHorror,1
-919,Days Gone,Cinematic,1
-920,Terraria,Singleplayer,1
-921,Terraria,Action,1
-922,Terraria,Adventure,1
-923,Terraria,Multiplayer,1
-924,Terraria,Building,1
-925,Terraria,OnlineCo-Op,1
-926,Terraria,Co-op,1
-927,Terraria,OpenWorld,1
-928,Terraria,Indie,1
-929,Terraria,Exploration,1
-930,Terraria,Survival,1
-931,Terraria,Sandbox,1
-932,Terraria,Crafting,1
-933,Terraria,OpenWorldSurvivalCraft,1
-934,Terraria,RPG,1
-935,Terraria,Atmospheric,1
-936,Terraria,ReplayValue,1
-937,Terraria,2D,1
-938,The Elder Scrolls V Skyrim Special Edition,Singleplayer,1
-939,The Elder Scrolls V Skyrim Special Edition,Action,1
-940,The Elder Scrolls V Skyrim Special Edition,Adventure,1
-941,The Elder Scrolls V Skyrim Special Edition,GreatSoundtrack,1
-942,The Elder Scrolls V Skyrim Special Edition,First-Person,1
-943,The Elder Scrolls V Skyrim Special Edition,OpenWorld,1
-944,The Elder Scrolls V Skyrim Special Edition,ThirdPerson,1
-945,The Elder Scrolls V Skyrim Special Edition,CharacterCustomization,1
-946,The Elder Scrolls V Skyrim Special Edition,Fantasy,1
-947,The Elder Scrolls V Skyrim Special Edition,RPG,1
-948,The Elder Scrolls V Skyrim Special Edition,Moddable,1
-949,The Elder Scrolls V Skyrim Special Edition,Atmospheric,1
-950,The Elder Scrolls V Skyrim Special Edition,StoryRich,1
-951,The Elder Scrolls V Skyrim Special Edition,FemaleProtagonist,1
-952,The Elder Scrolls V Skyrim Special Edition,Stealth,1
-953,Horizon Zero Dawn Complete Edition,Singleplayer,1
-954,Horizon Zero Dawn Complete Edition,Action,1
-955,Horizon Zero Dawn Complete Edition,Adventure,1
-956,Horizon Zero Dawn Complete Edition,GreatSoundtrack,1
-957,Horizon Zero Dawn Complete Edition,OpenWorld,1
-958,Horizon Zero Dawn Complete Edition,Exploration,1
-959,Horizon Zero Dawn Complete Edition,ThirdPerson,1
-960,Horizon Zero Dawn Complete Edition,RPG,1
-961,Horizon Zero Dawn Complete Edition,Atmospheric,1
-962,Horizon Zero Dawn Complete Edition,Beautiful,1
-963,Horizon Zero Dawn Complete Edition,StoryRich,1
-964,Horizon Zero Dawn Complete Edition,ActionRPG,1
-965,Horizon Zero Dawn Complete Edition,Sci-fi,1
-966,Horizon Zero Dawn Complete Edition,FemaleProtagonist,1
-967,Horizon Zero Dawn Complete Edition,Post-apocalyptic,1
-968,Horizon Zero Dawn Complete Edition,Stealth,1
-969,Borderlands 3,Singleplayer,1
-970,Borderlands 3,Action,1
-971,Borderlands 3,Adventure,1
-972,Borderlands 3,Multiplayer,1
-973,Borderlands 3,GreatSoundtrack,1
-974,Borderlands 3,FPS,1
-975,Borderlands 3,Shooter,1
-976,Borderlands 3,First-Person,1
-977,Borderlands 3,OnlineCo-Op,1
-978,Borderlands 3,Co-op,1
-979,Borderlands 3,OpenWorld,1
-980,Borderlands 3,Violent,1
-981,Borderlands 3,RPG,1
-982,Borderlands 3,Gore,1
-983,Borderlands 3,Nudity,1
-984,Sekiro Shadows Die Twice - GOTY Edition,Singleplayer,1
-985,Sekiro Shadows Die Twice - GOTY Edition,Action,1
-986,Sekiro Shadows Die Twice - GOTY Edition,Adventure,1
-987,Sekiro Shadows Die Twice - GOTY Edition,GreatSoundtrack,1
-988,Sekiro Shadows Die Twice - GOTY Edition,OpenWorld,1
-989,Sekiro Shadows Die Twice - GOTY Edition,Difficult,1
-990,Sekiro Shadows Die Twice - GOTY Edition,ThirdPerson,1
-991,Sekiro Shadows Die Twice - GOTY Edition,Violent,1
-992,Sekiro Shadows Die Twice - GOTY Edition,RPG,1
-993,Sekiro Shadows Die Twice - GOTY Edition,Atmospheric,1
-994,Sekiro Shadows Die Twice - GOTY Edition,StoryRich,1
-995,Sekiro Shadows Die Twice - GOTY Edition,Gore,1
-996,Sekiro Shadows Die Twice - GOTY Edition,HackandSlash,1
-997,Sekiro Shadows Die Twice - GOTY Edition,Dark,1
-998,Sekiro Shadows Die Twice - GOTY Edition,DarkFantasy,1
-999,Sekiro Shadows Die Twice - GOTY Edition,Stealth,1
-1000,Fallout 76,Singleplayer,1
-1001,Fallout 76,Multiplayer,1
-1002,Fallout 76,GreatSoundtrack,1
-1003,Fallout 76,FPS,1
-1004,Fallout 76,Shooter,1
-1005,Fallout 76,EarlyAccess,1
-1006,Fallout 76,BaseBuilding,1
-1007,Fallout 76,Co-op,1
-1008,Fallout 76,OpenWorld,1
-1009,Fallout 76,Exploration,1
-1010,Fallout 76,Survival,1
-1011,Fallout 76,Violent,1
-1012,Fallout 76,RPG,1
-1013,Fallout 76,Atmospheric,1
-1014,Fallout 76,Gore,1
-1015,Fallout 76,Horror,1
-1016,Fallout 76,Post-apocalyptic,1
-1017,Fallout 76,MMORPG,1
-1018,The Witcher 3 Wild Hunt,Singleplayer,1
-1019,The Witcher 3 Wild Hunt,Action,1
-1020,The Witcher 3 Wild Hunt,Adventure,1
-1021,The Witcher 3 Wild Hunt,GreatSoundtrack,1
-1022,The Witcher 3 Wild Hunt,OpenWorld,1
-1023,The Witcher 3 Wild Hunt,Sandbox,1
-1024,The Witcher 3 Wild Hunt,ThirdPerson,1
-1025,The Witcher 3 Wild Hunt,Fantasy,1
-1026,The Witcher 3 Wild Hunt,RPG,1
-1027,The Witcher 3 Wild Hunt,Mature,1
-1028,The Witcher 3 Wild Hunt,Atmospheric,1
-1029,The Witcher 3 Wild Hunt,StoryRich,1
-1030,The Witcher 3 Wild Hunt,ActionRPG,1
-1031,The Witcher 3 Wild Hunt,Dark,1
-1032,The Witcher 3 Wild Hunt,Nudity,1
-1033,The Witcher 3 Wild Hunt,DarkFantasy,1
-1034,Raft,Singleplayer,1
-1035,Raft,Action,1
-1036,Raft,Adventure,1
-1037,Raft,Multiplayer,1
-1038,Raft,Simulation,1
-1039,Raft,First-Person,1
-1040,Raft,Building,1
-1041,Raft,OnlineCo-Op,1
-1042,Raft,EarlyAccess,1
-1043,Raft,BaseBuilding,1
-1044,Raft,Co-op,1
-1045,Raft,OpenWorld,1
-1046,Raft,Indie,1
-1047,Raft,Survival,1
-1048,Raft,Sandbox,1
-1049,Raft,Crafting,1
-1050,Raft,OpenWorldSurvivalCraft,1
-1051,Raft,MassivelyMultiplayer,1
-1052,Raft,Strategy,1
-1053,DayZ,Action,1
-1054,DayZ,Adventure,1
-1055,DayZ,Multiplayer,1
-1056,DayZ,Simulation,1
-1057,DayZ,FPS,1
-1058,DayZ,Shooter,1
-1059,DayZ,PvP,1
-1060,DayZ,First-Person,1
-1061,DayZ,OnlineCo-Op,1
-1062,DayZ,Co-op,1
-1063,DayZ,OpenWorld,1
-1064,DayZ,Survival,1
-1065,DayZ,Sandbox,1
-1066,DayZ,MassivelyMultiplayer,1
-1067,DayZ,Atmospheric,1
-1068,DayZ,Zombies,1
-1069,DayZ,Horror,1
-1070,DayZ,Post-apocalyptic,1
-1071,DayZ,SurvivalHorror,1
-1072,Total War WARHAMMER II,Singleplayer,1
-1073,Total War WARHAMMER II,Action,1
-1074,Total War WARHAMMER II,Multiplayer,1
-1075,Total War WARHAMMER II,GreatSoundtrack,1
-1076,Total War WARHAMMER II,War,1
-1077,Total War WARHAMMER II,Co-op,1
-1078,Total War WARHAMMER II,Fantasy,1
-1079,Total War WARHAMMER II,Atmospheric,1
-1080,Total War WARHAMMER II,StoryRich,1
-1081,Total War WARHAMMER II,Tactical,1
-1082,Total War WARHAMMER II,Strategy,1
-1083,Total War WARHAMMER II,RTS,1
-1084,Total War WARHAMMER II,GrandStrategy,1
-1085,Total War WARHAMMER II,DarkFantasy,1
-1086,é¼èè Tale of Immortal,Simulation,1
-1087,Age of Empires II Definitive Edition,Singleplayer,1
-1088,Age of Empires II Definitive Edition,Action,1
-1089,Age of Empires II Definitive Edition,Adventure,1
-1090,Age of Empires II Definitive Edition,Multiplayer,1
-1091,Age of Empires II Definitive Edition,GreatSoundtrack,1
-1092,Age of Empires II Definitive Edition,BaseBuilding,1
-1093,Age of Empires II Definitive Edition,Co-op,1
-1094,Age of Empires II Definitive Edition,ReplayValue,1
-1095,Age of Empires II Definitive Edition,Tactical,1
-1096,Age of Empires II Definitive Edition,Strategy,1
-1097,Age of Empires II Definitive Edition,RTS,1
-1098,Age of Empires II Definitive Edition,CityBuilder,1
-1099,Age of Empires II Definitive Edition,ResourceManagement,1
-1100,Age of Empires II Definitive Edition,Historical,1
-1101,Age of Empires II Definitive Edition,2D,1
-1102,Bloons TD 6,Casual,1
-1103,Bloons TD 6,Singleplayer,1
-1104,Bloons TD 6,Action,1
-1105,Bloons TD 6,Adventure,1
-1106,Bloons TD 6,Multiplayer,1
-1107,Bloons TD 6,FamilyFriendly,1
-1108,Bloons TD 6,GreatSoundtrack,1
-1109,Bloons TD 6,OnlineCo-Op,1
-1110,Bloons TD 6,Co-op,1
-1111,Bloons TD 6,Indie,1
-1112,Bloons TD 6,Survival,1
-1113,Bloons TD 6,Difficult,1
-1114,Bloons TD 6,Sandbox,1
-1115,Bloons TD 6,Funny,1
-1116,Bloons TD 6,3D,1
-1117,Bloons TD 6,Strategy,1
-1118,Bloons TD 6,Cute,1
-1119,Bloons TD 6,2D,1
-1120,Baldurs Gate 3,Singleplayer,1
-1121,Baldurs Gate 3,Adventure,1
-1122,Baldurs Gate 3,Multiplayer,1
-1123,Baldurs Gate 3,Combat,1
-1124,Baldurs Gate 3,OnlineCo-Op,1
-1125,Baldurs Gate 3,CharacterCustomization,1
-1126,Baldurs Gate 3,Fantasy,1
-1127,Baldurs Gate 3,SexualContent,1
-1128,Baldurs Gate 3,RPG,1
-1129,Baldurs Gate 3,StoryRich,1
-1130,Baldurs Gate 3,Strategy,1
-1131,Baldurs Gate 3,Nudity,1
-1132,Baldurs Gate 3,DarkFantasy,1
-1133,Dyson Sphere Program,Singleplayer,1
-1134,Dyson Sphere Program,Multiplayer,1
-1135,Dyson Sphere Program,Simulation,1
-1136,Dyson Sphere Program,Building,1
-1137,Dyson Sphere Program,EarlyAccess,1
-1138,Dyson Sphere Program,BaseBuilding,1
-1139,Dyson Sphere Program,OpenWorld,1
-1140,Dyson Sphere Program,Indie,1
-1141,Dyson Sphere Program,Sandbox,1
-1142,Dyson Sphere Program,ThirdPerson,1
-1143,Dyson Sphere Program,Sci-fi,1
-1144,Dyson Sphere Program,Space,1
-1145,Dyson Sphere Program,3D,1
-1146,Dyson Sphere Program,Strategy,1
-1147,Dyson Sphere Program,RTS,1
-1148,Dyson Sphere Program,CityBuilder,1
-1149,Dyson Sphere Program,ResourceManagement,1
-1150,Dyson Sphere Program,Management,1
-1151,NBA 2K21,Singleplayer,1
-1152,NBA 2K21,Action,1
-1153,NBA 2K21,Multiplayer,1
-1154,NBA 2K21,Simulation,1
-1155,NBA 2K21,Team-Based,1
-1156,NBA 2K21,OnlineCo-Op,1
-1157,NBA 2K21,Co-op,1
-1158,NBA 2K21,ThirdPerson,1
-1159,NBA 2K21,CharacterCustomization,1
-1160,NBA 2K21,Realistic,1
-1161,NBA 2K21,Sports,1
-1162,NBA 2K21,eSports,1
-1163,NBA 2K21,Competitive,1
-1164,NBA 2K21,3D,1
-1165,NBA 2K21,Management,1
-1166,NBA 2K21,LocalMultiplayer,1
-1167,NBA 2K21,ImmersiveSim,1
-1168,NBA 2K21,LocalCo-Op,1
-1169,Fall Guys,Casual,1
-1170,Fall Guys,Action,1
-1171,Fall Guys,Multiplayer,1
-1172,Fall Guys,FamilyFriendly,1
-1173,Fall Guys,PvP,1
-1174,Fall Guys,OnlineCo-Op,1
-1175,Fall Guys,Co-op,1
-1176,Fall Guys,Indie,1
-1177,Fall Guys,Difficult,1
-1178,Fall Guys,MassivelyMultiplayer,1
-1179,Fall Guys,Funny,1
-1180,Fall Guys,Controller,1
-1181,Fall Guys,Cute,1
-1182,Fall Guys,BattleRoyale,1
-1183,Cities Skylines,Casual,1
-1184,Cities Skylines,Singleplayer,1
-1185,Cities Skylines,Action,1
-1186,Cities Skylines,Simulation,1
-1187,Cities Skylines,FamilyFriendly,1
-1188,Cities Skylines,GreatSoundtrack,1
-1189,Cities Skylines,Building,1
-1190,Cities Skylines,Sandbox,1
-1191,Cities Skylines,Moddable,1
-1192,Cities Skylines,Funny,1
-1193,Cities Skylines,Realistic,1
-1194,Cities Skylines,ReplayValue,1
-1195,Cities Skylines,Strategy,1
-1196,Cities Skylines,CityBuilder,1
-1197,Cities Skylines,ResourceManagement,1
-1198,Cities Skylines,Management,1
-1199,Halo The Master Chief Collection,Singleplayer,1
-1200,Halo The Master Chief Collection,Action,1
-1201,Halo The Master Chief Collection,Adventure,1
-1202,Halo The Master Chief Collection,Multiplayer,1
-1203,Halo The Master Chief Collection,GreatSoundtrack,1
-1204,Halo The Master Chief Collection,FPS,1
-1205,Halo The Master Chief Collection,Shooter,1
-1206,Halo The Master Chief Collection,First-Person,1
-1207,Halo The Master Chief Collection,OnlineCo-Op,1
-1208,Halo The Master Chief Collection,Co-op,1
-1209,Halo The Master Chief Collection,Atmospheric,1
-1210,Halo The Master Chief Collection,Beautiful,1
-1211,Halo The Master Chief Collection,StoryRich,1
-1212,Halo The Master Chief Collection,Horror,1
-1213,Halo The Master Chief Collection,Sci-fi,1
-1214,Halo The Master Chief Collection,Space,1
-1215,Halo The Master Chief Collection,Lore-Rich,1
-1216,World of Tanks Blitz,Singleplayer,1
-1217,World of Tanks Blitz,Action,1
-1218,World of Tanks Blitz,Multiplayer,1
-1219,World of Tanks Blitz,FPS,1
-1220,World of Tanks Blitz,War,1
-1221,World of Tanks Blitz,Military,1
-1222,World of Tanks Blitz,Shooter,1
-1223,World of Tanks Blitz,PvP,1
-1224,World of Tanks Blitz,Team-Based,1
-1225,World of Tanks Blitz,OnlineCo-Op,1
-1226,World of Tanks Blitz,MassivelyMultiplayer,1
-1227,World of Tanks Blitz,Realistic,1
-1228,World of Tanks Blitz,Competitive,1
-1229,World of Tanks Blitz,Strategy,1
-1230,World of Tanks Blitz,FreetoPlay,1
-1231,Battlefield V,Singleplayer,1
-1232,Battlefield V,Action,1
-1233,Battlefield V,Multiplayer,1
-1234,Battlefield V,FPS,1
-1235,Battlefield V,War,1
-1236,Battlefield V,Military,1
-1237,Battlefield V,Combat,1
-1238,Battlefield V,Shooter,1
-1239,Battlefield V,PvP,1
-1240,Battlefield V,First-Person,1
-1241,Battlefield V,OpenWorld,1
-1242,Battlefield V,Violent,1
-1243,Battlefield V,SexualContent,1
-1244,Battlefield V,MassivelyMultiplayer,1
-1245,Battlefield V,Atmospheric,1
-1246,Battlefield V,Historical,1
-1247,Battlefield V,FemaleProtagonist,1
-1248,Battlefield V,BattleRoyale,1
-1249,NBA 2K22,Singleplayer,1
-1250,NBA 2K22,Multiplayer,1
-1251,NBA 2K22,Simulation,1
-1252,NBA 2K22,Team-Based,1
-1253,NBA 2K22,OnlineCo-Op,1
-1254,NBA 2K22,Co-op,1
-1255,NBA 2K22,CharacterCustomization,1
-1256,NBA 2K22,Realistic,1
-1257,NBA 2K22,Sports,1
-1258,NBA 2K22,Controller,1
-1259,NBA 2K22,eSports,1
-1260,NBA 2K22,3D,1
-1261,NBA 2K22,Management,1
-1262,NBA 2K22,LocalMultiplayer,1
-1263,NBA 2K22,LocalCo-Op,1
-1264,Arma 3,Singleplayer,1
-1265,Arma 3,Action,1
-1266,Arma 3,Multiplayer,1
-1267,Arma 3,Simulation,1
-1268,Arma 3,FPS,1
-1269,Arma 3,War,1
-1270,Arma 3,Military,1
-1271,Arma 3,Combat,1
-1272,Arma 3,Shooter,1
-1273,Arma 3,First-Person,1
-1274,Arma 3,Team-Based,1
-1275,Arma 3,OnlineCo-Op,1
-1276,Arma 3,Co-op,1
-1277,Arma 3,OpenWorld,1
-1278,Arma 3,Sandbox,1
-1279,Arma 3,Moddable,1
-1280,Arma 3,Third-PersonShooter,1
-1281,Arma 3,Realistic,1
-1282,Arma 3,Tactical,1
-1283,Arma 3,Strategy,1
-1284,Wallpaper Engine,Singleplayer,1
-1285,Wallpaper Engine,Action,1
-1286,Wallpaper Engine,First-Person,1
-1287,Wallpaper Engine,EarlyAccess,1
-1288,Wallpaper Engine,Indie,1
-1289,Wallpaper Engine,Sandbox,1
-1290,Wallpaper Engine,Funny,1
-1291,Wallpaper Engine,Mature,1
-1292,Wallpaper Engine,Horror,1
-1293,Wallpaper Engine,Cute,1
-1294,Wallpaper Engine,Anime,1
-1295,HUMANKIND,Singleplayer,1
-1296,HUMANKIND,Multiplayer,1
-1297,HUMANKIND,Simulation,1
-1298,HUMANKIND,GreatSoundtrack,1
-1299,HUMANKIND,War,1
-1300,HUMANKIND,Building,1
-1301,HUMANKIND,OpenWorld,1
-1302,HUMANKIND,Survival,1
-1303,HUMANKIND,CharacterCustomization,1
-1304,HUMANKIND,Tactical,1
-1305,HUMANKIND,Strategy,1
-1306,HUMANKIND,CityBuilder,1
-1307,HUMANKIND,Management,1
-1308,HUMANKIND,Historical,1
-1309,HUMANKIND,GrandStrategy,1
-1310,World of Warships,Action,1
-1311,World of Warships,Multiplayer,1
-1312,World of Warships,Simulation,1
-1313,World of Warships,War,1
-1314,World of Warships,Military,1
-1315,World of Warships,Shooter,1
-1316,World of Warships,PvP,1
-1317,World of Warships,Team-Based,1
-1318,World of Warships,OnlineCo-Op,1
-1319,World of Warships,PvE,1
-1320,World of Warships,Co-op,1
-1321,World of Warships,MassivelyMultiplayer,1
-1322,World of Warships,Third-PersonShooter,1
-1323,World of Warships,Realistic,1
-1324,World of Warships,Tactical,1
-1325,World of Warships,Historical,1
-1326,World of Warships,FreetoPlay,1
-1327,Farming Simulator 22,Multiplayer,1
-1328,Farming Simulator 22,Simulation,1
-1329,Farming Simulator 22,FamilyFriendly,1
-1330,Farming Simulator 22,First-Person,1
-1331,Farming Simulator 22,OnlineCo-Op,1
-1332,Farming Simulator 22,Co-op,1
-1333,Farming Simulator 22,OpenWorld,1
-1334,Farming Simulator 22,Sandbox,1
-1335,Farming Simulator 22,ThirdPerson,1
-1336,Farming Simulator 22,CharacterCustomization,1
-1337,Farming Simulator 22,Moddable,1
-1338,Farming Simulator 22,3D,1
-1339,Farming Simulator 22,Management,1
-1340,Farming Simulator 22,ImmersiveSim,1
-1341,Deep Rock Galactic,Action,1
-1342,Deep Rock Galactic,FPS,1
-1343,Deep Rock Galactic,Combat,1
-1344,Deep Rock Galactic,Shooter,1
-1345,Deep Rock Galactic,First-Person,1
-1346,Deep Rock Galactic,PvE,1
-1347,Deep Rock Galactic,Co-op,1
-1348,Deep Rock Galactic,Exploration,1
-1349,Deep Rock Galactic,Survival,1
-1350,Deep Rock Galactic,Atmospheric,1
-1351,Deep Rock Galactic,Horror,1
-1352,Deep Rock Galactic,Sci-fi,1
-1353,Deep Rock Galactic,Space,1
-1354,Deep Rock Galactic,Dark,1
-1355,DOOM Eternal,Singleplayer,1
-1356,DOOM Eternal,Action,1
-1357,DOOM Eternal,Adventure,1
-1358,DOOM Eternal,Multiplayer,1
-1359,DOOM Eternal,GreatSoundtrack,1
-1360,DOOM Eternal,FPS,1
-1361,DOOM Eternal,Shooter,1
-1362,DOOM Eternal,First-Person,1
-1363,DOOM Eternal,Difficult,1
-1364,DOOM Eternal,Violent,1
-1365,DOOM Eternal,Mature,1
-1366,DOOM Eternal,Atmospheric,1
-1367,DOOM Eternal,StoryRich,1
-1368,DOOM Eternal,Gore,1
-1369,DOOM Eternal,Horror,1
-1370,DOOM Eternal,Sci-fi,1
-1371,DOOM Eternal,Post-apocalyptic,1
-1372,Tales of Arise,Singleplayer,1
-1373,Tales of Arise,Action,1
-1374,Tales of Arise,Adventure,1
-1375,Tales of Arise,Multiplayer,1
-1376,Tales of Arise,Combat,1
-1377,Tales of Arise,OpenWorld,1
-1378,Tales of Arise,ThirdPerson,1
-1379,Tales of Arise,CharacterCustomization,1
-1380,Tales of Arise,Fantasy,1
-1381,Tales of Arise,SexualContent,1
-1382,Tales of Arise,RPG,1
-1383,Tales of Arise,StoryRich,1
-1384,Tales of Arise,ActionRPG,1
-1385,Tales of Arise,HackandSlash,1
-1386,Tales of Arise,Controller,1
-1387,Tales of Arise,FemaleProtagonist,1
-1388,Tales of Arise,Anime,1
-1389,Yu-Gi-Oh Duel Links,Casual,1
-1390,Yu-Gi-Oh Duel Links,Singleplayer,1
-1391,Yu-Gi-Oh Duel Links,Action,1
-1392,Yu-Gi-Oh Duel Links,Adventure,1
-1393,Yu-Gi-Oh Duel Links,Multiplayer,1
-1394,Yu-Gi-Oh Duel Links,Simulation,1
-1395,Yu-Gi-Oh Duel Links,GreatSoundtrack,1
-1396,Yu-Gi-Oh Duel Links,OnlineCo-Op,1
-1397,Yu-Gi-Oh Duel Links,MassivelyMultiplayer,1
-1398,Yu-Gi-Oh Duel Links,RPG,1
-1399,Yu-Gi-Oh Duel Links,Competitive,1
-1400,Yu-Gi-Oh Duel Links,Strategy,1
-1401,Yu-Gi-Oh Duel Links,Anime,1
-1402,Yu-Gi-Oh Duel Links,FreetoPlay,1
-1403,Yu-Gi-Oh Duel Links,MMORPG,1
-1404,Football Manager 2022,Singleplayer,1
-1405,Football Manager 2022,Multiplayer,1
-1406,Football Manager 2022,Simulation,1
-1407,Football Manager 2022,CharacterCustomization,1
-1408,Football Manager 2022,Sports,1
-1409,Football Manager 2022,eSports,1
-1410,Football Manager 2022,3D,1
-1411,Football Manager 2022,Strategy,1
-1412,Football Manager 2022,Management,1
-1413,Football Manager 2022,2D,1
-1414,BIOMUTANT,Singleplayer,1
-1415,BIOMUTANT,Action,1
-1416,BIOMUTANT,Adventure,1
-1417,BIOMUTANT,Multiplayer,1
-1418,BIOMUTANT,OpenWorld,1
-1419,BIOMUTANT,Indie,1
-1420,BIOMUTANT,Exploration,1
-1421,BIOMUTANT,ThirdPerson,1
-1422,BIOMUTANT,Crafting,1
-1423,BIOMUTANT,CharacterCustomization,1
-1424,BIOMUTANT,Fantasy,1
-1425,BIOMUTANT,RPG,1
-1426,BIOMUTANT,Atmospheric,1
-1427,BIOMUTANT,StoryRich,1
-1428,BIOMUTANT,ActionRPG,1
-1429,BIOMUTANT,HackandSlash,1
-1430,BIOMUTANT,Sci-fi,1
-1431,BIOMUTANT,Cute,1
-1432,BIOMUTANT,Post-apocalyptic,1
-1433,The Binding of Isaac Rebirth,Singleplayer,1
-1434,The Binding of Isaac Rebirth,Action,1
-1435,The Binding of Isaac Rebirth,GreatSoundtrack,1
-1436,The Binding of Isaac Rebirth,Co-op,1
-1437,The Binding of Isaac Rebirth,Indie,1
-1438,The Binding of Isaac Rebirth,Difficult,1
-1439,The Binding of Isaac Rebirth,Atmospheric,1
-1440,The Binding of Isaac Rebirth,Gore,1
-1441,The Binding of Isaac Rebirth,ReplayValue,1
-1442,The Binding of Isaac Rebirth,Horror,1
-1443,The Binding of Isaac Rebirth,Dark,1
-1444,The Binding of Isaac Rebirth,2D,1
-1445,The Binding of Isaac Rebirth,LocalCo-Op,1
-1446,NieR Replicant ver122474487139,Singleplayer,1
-1447,NieR Replicant ver122474487139,Action,1
-1448,NieR Replicant ver122474487139,Adventure,1
-1449,NieR Replicant ver122474487139,GreatSoundtrack,1
-1450,NieR Replicant ver122474487139,Violent,1
-1451,NieR Replicant ver122474487139,RPG,1
-1452,NieR Replicant ver122474487139,Atmospheric,1
-1453,NieR Replicant ver122474487139,StoryRich,1
-1454,NieR Replicant ver122474487139,ActionRPG,1
-1455,NieR Replicant ver122474487139,HackandSlash,1
-1456,NieR Replicant ver122474487139,Nudity,1
-1457,NieR Replicant ver122474487139,Post-apocalyptic,1
-1458,NieR Replicant ver122474487139,DarkFantasy,1
-1459,NieR Replicant ver122474487139,Anime,1
-1460,RimWorld,Singleplayer,1
-1461,RimWorld,Simulation,1
-1462,RimWorld,Building,1
-1463,RimWorld,BaseBuilding,1
-1464,RimWorld,OpenWorld,1
-1465,RimWorld,Indie,1
-1466,RimWorld,Survival,1
-1467,RimWorld,Sandbox,1
-1468,RimWorld,Moddable,1
-1469,RimWorld,Sci-fi,1
-1470,RimWorld,Space,1
-1471,RimWorld,Strategy,1
-1472,RimWorld,CityBuilder,1
-1473,RimWorld,Management,1
-1474,RimWorld,2D,1
-1475,Half-Life Alyx,Singleplayer,1
-1476,Half-Life Alyx,Action,1
-1477,Half-Life Alyx,Adventure,1
-1478,Half-Life Alyx,GreatSoundtrack,1
-1479,Half-Life Alyx,FPS,1
-1480,Half-Life Alyx,Shooter,1
-1481,Half-Life Alyx,First-Person,1
-1482,Half-Life Alyx,Atmospheric,1
-1483,Half-Life Alyx,Beautiful,1
-1484,Half-Life Alyx,StoryRich,1
-1485,Half-Life Alyx,Gore,1
-1486,Half-Life Alyx,Zombies,1
-1487,Half-Life Alyx,Horror,1
-1488,Half-Life Alyx,Sci-fi,1
-1489,Half-Life Alyx,VR,1
-1490,Half-Life Alyx,FemaleProtagonist,1
-1491,SMITE,Casual,1
-1492,SMITE,Action,1
-1493,SMITE,Adventure,1
-1494,SMITE,Multiplayer,1
-1495,SMITE,PvP,1
-1496,SMITE,Team-Based,1
-1497,SMITE,Co-op,1
-1498,SMITE,ThirdPerson,1
-1499,SMITE,MassivelyMultiplayer,1
-1500,SMITE,RPG,1
-1501,SMITE,eSports,1
-1502,SMITE,Competitive,1
-1503,SMITE,Strategy,1
-1504,SMITE,Anime,1
-1505,SMITE,FreetoPlay,1
-1506,SMITE,MMORPG,1
-1507,STAR WARS The Old Republic,Action,1
-1508,STAR WARS The Old Republic,Adventure,1
-1509,STAR WARS The Old Republic,Multiplayer,1
-1510,STAR WARS The Old Republic,GreatSoundtrack,1
-1511,STAR WARS The Old Republic,PvP,1
-1512,STAR WARS The Old Republic,OpenWorld,1
-1513,STAR WARS The Old Republic,ThirdPerson,1
-1514,STAR WARS The Old Republic,CharacterCustomization,1
-1515,STAR WARS The Old Republic,MassivelyMultiplayer,1
-1516,STAR WARS The Old Republic,RPG,1
-1517,STAR WARS The Old Republic,Atmospheric,1
-1518,STAR WARS The Old Republic,StoryRich,1
-1519,STAR WARS The Old Republic,ActionRPG,1
-1520,STAR WARS The Old Republic,Sci-fi,1
-1521,STAR WARS The Old Republic,Space,1
-1522,STAR WARS The Old Republic,FreetoPlay,1
-1523,STAR WARS The Old Republic,MMORPG,1
+,Source1,Source2,Weight,Tier
+0,Battlefield 2042,Casual,1,Platinum
+1,Battlefield 2042,Singleplayer,1,Platinum
+2,Battlefield 2042,Action,1,Platinum
+3,Battlefield 2042,Adventure,1,Platinum
+4,Battlefield 2042,Multiplayer,1,Platinum
+5,Battlefield 2042,FPS,1,Platinum
+6,Battlefield 2042,War,1,Platinum
+7,Battlefield 2042,Military,1,Platinum
+8,Battlefield 2042,Combat,1,Platinum
+9,Battlefield 2042,Shooter,1,Platinum
+10,Battlefield 2042,PvP,1,Platinum
+11,Battlefield 2042,First-Person,1,Platinum
+12,Battlefield 2042,Team-Based,1,Platinum
+13,Battlefield 2042,Cinematic,1,Platinum
+14,NARAKA BLADEPOINT,Action,1,Platinum
+15,NARAKA BLADEPOINT,Adventure,1,Platinum
+16,NARAKA BLADEPOINT,Multiplayer,1,Platinum
+17,NARAKA BLADEPOINT,PvP,1,Platinum
+18,NARAKA BLADEPOINT,Survival,1,Platinum
+19,NARAKA BLADEPOINT,ThirdPerson,1,Platinum
+20,NARAKA BLADEPOINT,CharacterCustomization,1,Platinum
+21,NARAKA BLADEPOINT,Violent,1,Platinum
+22,NARAKA BLADEPOINT,MassivelyMultiplayer,1,Platinum
+23,NARAKA BLADEPOINT,Mature,1,Platinum
+24,NARAKA BLADEPOINT,Gore,1,Platinum
+25,NARAKA BLADEPOINT,HackandSlash,1,Platinum
+26,NARAKA BLADEPOINT,FemaleProtagonist,1,Platinum
+27,NARAKA BLADEPOINT,Anime,1,Platinum
+28,NARAKA BLADEPOINT,FreetoPlay,1,Platinum
+29,NARAKA BLADEPOINT,BattleRoyale,1,Platinum
+30,PUBG BATTLEGROUNDS,Action,1,Platinum
+31,PUBG BATTLEGROUNDS,Multiplayer,1,Platinum
+32,PUBG BATTLEGROUNDS,Simulation,1,Platinum
+33,PUBG BATTLEGROUNDS,FPS,1,Platinum
+34,PUBG BATTLEGROUNDS,Shooter,1,Platinum
+35,PUBG BATTLEGROUNDS,PvP,1,Platinum
+36,PUBG BATTLEGROUNDS,First-Person,1,Platinum
+37,PUBG BATTLEGROUNDS,Team-Based,1,Platinum
+38,PUBG BATTLEGROUNDS,OnlineCo-Op,1,Platinum
+39,PUBG BATTLEGROUNDS,EarlyAccess,1,Platinum
+40,PUBG BATTLEGROUNDS,Co-op,1,Platinum
+41,PUBG BATTLEGROUNDS,Survival,1,Platinum
+42,PUBG BATTLEGROUNDS,Difficult,1,Platinum
+43,PUBG BATTLEGROUNDS,ThirdPerson,1,Platinum
+44,PUBG BATTLEGROUNDS,Third-PersonShooter,1,Platinum
+45,PUBG BATTLEGROUNDS,Competitive,1,Platinum
+46,PUBG BATTLEGROUNDS,Tactical,1,Platinum
+47,PUBG BATTLEGROUNDS,Strategy,1,Platinum
+48,PUBG BATTLEGROUNDS,BattleRoyale,1,Platinum
+49,PUBG BATTLEGROUNDS,Stealth,1,Platinum
+50,Destiny 2,Action,1,Platinum
+51,Destiny 2,Adventure,1,Platinum
+52,Destiny 2,Multiplayer,1,Platinum
+53,Destiny 2,FPS,1,Platinum
+54,Destiny 2,Shooter,1,Platinum
+55,Destiny 2,PvP,1,Platinum
+56,Destiny 2,First-Person,1,Platinum
+57,Destiny 2,PvE,1,Platinum
+58,Destiny 2,Co-op,1,Platinum
+59,Destiny 2,OpenWorld,1,Platinum
+60,Destiny 2,MassivelyMultiplayer,1,Platinum
+61,Destiny 2,Atmospheric,1,Platinum
+62,Destiny 2,Sci-fi,1,Platinum
+63,Destiny 2,Space,1,Platinum
+64,Destiny 2,Competitive,1,Platinum
+65,Destiny 2,FreetoPlay,1,Platinum
+66,Destiny 2,Lore-Rich,1,Platinum
+67,Destiny 2,MMORPG,1,Platinum
+68,Dota 2,Action,1,Platinum
+69,Dota 2,Multiplayer,1,Platinum
+70,Dota 2,Simulation,1,Platinum
+71,Dota 2,PvP,1,Platinum
+72,Dota 2,Team-Based,1,Platinum
+73,Dota 2,OnlineCo-Op,1,Platinum
+74,Dota 2,Co-op,1,Platinum
+75,Dota 2,Difficult,1,Platinum
+76,Dota 2,CharacterCustomization,1,Platinum
+77,Dota 2,Fantasy,1,Platinum
+78,Dota 2,RPG,1,Platinum
+79,Dota 2,ActionRPG,1,Platinum
+80,Dota 2,ReplayValue,1,Platinum
+81,Dota 2,eSports,1,Platinum
+82,Dota 2,Competitive,1,Platinum
+83,Dota 2,Strategy,1,Platinum
+84,Dota 2,RTS,1,Platinum
+85,Dota 2,FreetoPlay,1,Platinum
+86,Tom Clancys Rainbow Six Siege,Action,1,Platinum
+87,Tom Clancys Rainbow Six Siege,Multiplayer,1,Platinum
+88,Tom Clancys Rainbow Six Siege,FPS,1,Platinum
+89,Tom Clancys Rainbow Six Siege,War,1,Platinum
+90,Tom Clancys Rainbow Six Siege,Military,1,Platinum
+91,Tom Clancys Rainbow Six Siege,Shooter,1,Platinum
+92,Tom Clancys Rainbow Six Siege,PvP,1,Platinum
+93,Tom Clancys Rainbow Six Siege,First-Person,1,Platinum
+94,Tom Clancys Rainbow Six Siege,Team-Based,1,Platinum
+95,Tom Clancys Rainbow Six Siege,OnlineCo-Op,1,Platinum
+96,Tom Clancys Rainbow Six Siege,Co-op,1,Platinum
+97,Tom Clancys Rainbow Six Siege,Difficult,1,Platinum
+98,Tom Clancys Rainbow Six Siege,Realistic,1,Platinum
+99,Tom Clancys Rainbow Six Siege,eSports,1,Platinum
+100,Tom Clancys Rainbow Six Siege,Competitive,1,Platinum
+101,Tom Clancys Rainbow Six Siege,3D,1,Platinum
+102,Tom Clancys Rainbow Six Siege,Tactical,1,Platinum
+103,Tom Clancys Rainbow Six Siege,Strategy,1,Platinum
+104,Counter-Strike 2,Action,1,Platinum
+105,Counter-Strike 2,Multiplayer,1,Platinum
+106,Counter-Strike 2,FPS,1,Platinum
+107,Counter-Strike 2,War,1,Platinum
+108,Counter-Strike 2,Military,1,Platinum
+109,Counter-Strike 2,Shooter,1,Platinum
+110,Counter-Strike 2,PvP,1,Platinum
+111,Counter-Strike 2,First-Person,1,Platinum
+112,Counter-Strike 2,Team-Based,1,Platinum
+113,Counter-Strike 2,OnlineCo-Op,1,Platinum
+114,Counter-Strike 2,Co-op,1,Platinum
+115,Counter-Strike 2,Difficult,1,Platinum
+116,Counter-Strike 2,Moddable,1,Platinum
+117,Counter-Strike 2,Realistic,1,Platinum
+118,Counter-Strike 2,eSports,1,Platinum
+119,Counter-Strike 2,Competitive,1,Platinum
+120,Counter-Strike 2,Tactical,1,Platinum
+121,Counter-Strike 2,Strategy,1,Platinum
+122,Apex Legends,Action,1,Platinum
+123,Apex Legends,Multiplayer,1,Platinum
+124,Apex Legends,FPS,1,Platinum
+125,Apex Legends,Shooter,1,Platinum
+126,Apex Legends,PvP,1,Platinum
+127,Apex Legends,First-Person,1,Platinum
+128,Apex Legends,Team-Based,1,Platinum
+129,Apex Legends,Co-op,1,Platinum
+130,Apex Legends,Survival,1,Platinum
+131,Apex Legends,CharacterCustomization,1,Platinum
+132,Apex Legends,Funny,1,Platinum
+133,Apex Legends,Sci-fi,1,Platinum
+134,Apex Legends,Tactical,1,Platinum
+135,Apex Legends,FreetoPlay,1,Platinum
+136,Apex Legends,BattleRoyale,1,Platinum
+137,Apex Legends,Lore-Rich,1,Platinum
+138,Apex Legends,Cinematic,1,Platinum
+139,Valheim,Singleplayer,1,Platinum
+140,Valheim,Action,1,Platinum
+141,Valheim,Adventure,1,Platinum
+142,Valheim,Multiplayer,1,Platinum
+143,Valheim,Building,1,Platinum
+144,Valheim,OnlineCo-Op,1,Platinum
+145,Valheim,EarlyAccess,1,Platinum
+146,Valheim,PvE,1,Platinum
+147,Valheim,BaseBuilding,1,Platinum
+148,Valheim,Co-op,1,Platinum
+149,Valheim,OpenWorld,1,Platinum
+150,Valheim,Indie,1,Platinum
+151,Valheim,Exploration,1,Platinum
+152,Valheim,Survival,1,Platinum
+153,Valheim,Difficult,1,Platinum
+154,Valheim,Sandbox,1,Platinum
+155,Valheim,ThirdPerson,1,Platinum
+156,Valheim,Crafting,1,Platinum
+157,Valheim,OpenWorldSurvivalCraft,1,Platinum
+158,New World,Singleplayer,1,Platinum
+159,New World,Action,1,Platinum
+160,New World,Adventure,1,Platinum
+161,New World,Multiplayer,1,Platinum
+162,New World,PvP,1,Platinum
+163,New World,PvE,1,Platinum
+164,New World,Co-op,1,Platinum
+165,New World,OpenWorld,1,Platinum
+166,New World,Sandbox,1,Platinum
+167,New World,ThirdPerson,1,Platinum
+168,New World,Crafting,1,Platinum
+169,New World,OpenWorldSurvivalCraft,1,Platinum
+170,New World,CharacterCustomization,1,Platinum
+171,New World,Fantasy,1,Platinum
+172,New World,Violent,1,Platinum
+173,New World,SexualContent,1,Platinum
+174,New World,MassivelyMultiplayer,1,Platinum
+175,New World,RPG,1,Platinum
+176,New World,MMORPG,1,Platinum
+177,Dead by Daylight,Action,1,Platinum
+178,Dead by Daylight,Multiplayer,1,Platinum
+179,Dead by Daylight,First-Person,1,Platinum
+180,Dead by Daylight,Team-Based,1,Platinum
+181,Dead by Daylight,OnlineCo-Op,1,Platinum
+182,Dead by Daylight,Co-op,1,Platinum
+183,Dead by Daylight,Survival,1,Platinum
+184,Dead by Daylight,Difficult,1,Platinum
+185,Dead by Daylight,ThirdPerson,1,Platinum
+186,Dead by Daylight,Violent,1,Platinum
+187,Dead by Daylight,Mature,1,Platinum
+188,Dead by Daylight,Atmospheric,1,Platinum
+189,Dead by Daylight,Gore,1,Platinum
+190,Dead by Daylight,Horror,1,Platinum
+191,Dead by Daylight,Strategy,1,Platinum
+192,Dead by Daylight,Stealth,1,Platinum
+193,Dead by Daylight,SurvivalHorror,1,Platinum
+194,Grand Theft Auto V,Singleplayer,1,Platinum
+195,Grand Theft Auto V,Action,1,Platinum
+196,Grand Theft Auto V,Adventure,1,Platinum
+197,Grand Theft Auto V,Multiplayer,1,Platinum
+198,Grand Theft Auto V,GreatSoundtrack,1,Platinum
+199,Grand Theft Auto V,Shooter,1,Platinum
+200,Grand Theft Auto V,First-Person,1,Platinum
+201,Grand Theft Auto V,Co-op,1,Platinum
+202,Grand Theft Auto V,OpenWorld,1,Platinum
+203,Grand Theft Auto V,Sandbox,1,Platinum
+204,Grand Theft Auto V,ThirdPerson,1,Platinum
+205,Grand Theft Auto V,Moddable,1,Platinum
+206,Grand Theft Auto V,Funny,1,Platinum
+207,Grand Theft Auto V,Mature,1,Platinum
+208,Grand Theft Auto V,Third-PersonShooter,1,Platinum
+209,Grand Theft Auto V,Atmospheric,1,Platinum
+210,Forza Horizon 5,Singleplayer,1,Gold
+211,Forza Horizon 5,Action,1,Gold
+212,Forza Horizon 5,Adventure,1,Gold
+213,Forza Horizon 5,Multiplayer,1,Gold
+214,Forza Horizon 5,Simulation,1,Gold
+215,Forza Horizon 5,PvP,1,Gold
+216,Forza Horizon 5,First-Person,1,Gold
+217,Forza Horizon 5,OnlineCo-Op,1,Gold
+218,Forza Horizon 5,Co-op,1,Gold
+219,Forza Horizon 5,OpenWorld,1,Gold
+220,Forza Horizon 5,Exploration,1,Gold
+221,Forza Horizon 5,ThirdPerson,1,Gold
+222,Forza Horizon 5,Atmospheric,1,Gold
+223,Forza Horizon 5,Realistic,1,Gold
+224,Forza Horizon 5,Beautiful,1,Gold
+225,Forza Horizon 5,Sports,1,Gold
+226,Sea of Thieves 2024 Edition,Singleplayer,1,Gold
+227,Sea of Thieves 2024 Edition,Action,1,Gold
+228,Sea of Thieves 2024 Edition,Adventure,1,Gold
+229,Sea of Thieves 2024 Edition,Multiplayer,1,Gold
+230,Sea of Thieves 2024 Edition,GreatSoundtrack,1,Gold
+231,Sea of Thieves 2024 Edition,FPS,1,Gold
+232,Sea of Thieves 2024 Edition,PvP,1,Gold
+233,Sea of Thieves 2024 Edition,First-Person,1,Gold
+234,Sea of Thieves 2024 Edition,OnlineCo-Op,1,Gold
+235,Sea of Thieves 2024 Edition,PvE,1,Gold
+236,Sea of Thieves 2024 Edition,Co-op,1,Gold
+237,Sea of Thieves 2024 Edition,OpenWorld,1,Gold
+238,Sea of Thieves 2024 Edition,Exploration,1,Gold
+239,Sea of Thieves 2024 Edition,MassivelyMultiplayer,1,Gold
+240,Sea of Thieves 2024 Edition,Funny,1,Gold
+241,Sea of Thieves 2024 Edition,Atmospheric,1,Gold
+242,Red Dead Redemption 2,Singleplayer,1,Gold
+243,Red Dead Redemption 2,Action,1,Gold
+244,Red Dead Redemption 2,Adventure,1,Gold
+245,Red Dead Redemption 2,Multiplayer,1,Gold
+246,Red Dead Redemption 2,GreatSoundtrack,1,Gold
+247,Red Dead Redemption 2,FPS,1,Gold
+248,Red Dead Redemption 2,Shooter,1,Gold
+249,Red Dead Redemption 2,First-Person,1,Gold
+250,Red Dead Redemption 2,OpenWorld,1,Gold
+251,Red Dead Redemption 2,Sandbox,1,Gold
+252,Red Dead Redemption 2,ThirdPerson,1,Gold
+253,Red Dead Redemption 2,Mature,1,Gold
+254,Red Dead Redemption 2,Third-PersonShooter,1,Gold
+255,Red Dead Redemption 2,Atmospheric,1,Gold
+256,Red Dead Redemption 2,Realistic,1,Gold
+257,Red Dead Redemption 2,Beautiful,1,Gold
+258,Red Dead Redemption 2,StoryRich,1,Gold
+259,Red Dead Redemption 2,Gore,1,Gold
+260,The Elder Scrolls Online,Singleplayer,1,Gold
+261,The Elder Scrolls Online,Action,1,Gold
+262,The Elder Scrolls Online,Adventure,1,Gold
+263,The Elder Scrolls Online,Multiplayer,1,Gold
+264,The Elder Scrolls Online,PvP,1,Gold
+265,The Elder Scrolls Online,PvE,1,Gold
+266,The Elder Scrolls Online,OpenWorld,1,Gold
+267,The Elder Scrolls Online,Exploration,1,Gold
+268,The Elder Scrolls Online,CharacterCustomization,1,Gold
+269,The Elder Scrolls Online,Fantasy,1,Gold
+270,The Elder Scrolls Online,MassivelyMultiplayer,1,Gold
+271,The Elder Scrolls Online,RPG,1,Gold
+272,The Elder Scrolls Online,Atmospheric,1,Gold
+273,The Elder Scrolls Online,StoryRich,1,Gold
+274,The Elder Scrolls Online,ActionRPG,1,Gold
+275,The Elder Scrolls Online,Lore-Rich,1,Gold
+276,The Elder Scrolls Online,MMORPG,1,Gold
+277,Back 4 Blood,Singleplayer,1,Gold
+278,Back 4 Blood,Action,1,Gold
+279,Back 4 Blood,Adventure,1,Gold
+280,Back 4 Blood,Multiplayer,1,Gold
+281,Back 4 Blood,FPS,1,Gold
+282,Back 4 Blood,Shooter,1,Gold
+283,Back 4 Blood,PvP,1,Gold
+284,Back 4 Blood,First-Person,1,Gold
+285,Back 4 Blood,OnlineCo-Op,1,Gold
+286,Back 4 Blood,PvE,1,Gold
+287,Back 4 Blood,Co-op,1,Gold
+288,Back 4 Blood,Survival,1,Gold
+289,Back 4 Blood,Violent,1,Gold
+290,Back 4 Blood,Gore,1,Gold
+291,Back 4 Blood,Zombies,1,Gold
+292,Back 4 Blood,ReplayValue,1,Gold
+293,Back 4 Blood,Horror,1,Gold
+294,Back 4 Blood,SurvivalHorror,1,Gold
+295,Warframe,Singleplayer,1,Gold
+296,Warframe,Action,1,Gold
+297,Warframe,Shooter,1,Gold
+298,Warframe,OnlineCo-Op,1,Gold
+299,Warframe,PvE,1,Gold
+300,Warframe,Co-op,1,Gold
+301,Warframe,ThirdPerson,1,Gold
+302,Warframe,CharacterCustomization,1,Gold
+303,Warframe,MassivelyMultiplayer,1,Gold
+304,Warframe,RPG,1,Gold
+305,Warframe,Third-PersonShooter,1,Gold
+306,Warframe,ActionRPG,1,Gold
+307,Warframe,HackandSlash,1,Gold
+308,Warframe,Sci-fi,1,Gold
+309,Warframe,Space,1,Gold
+310,Warframe,FreetoPlay,1,Gold
+311,Warframe,Lore-Rich,1,Gold
+312,Forza Horizon 4,Singleplayer,1,Gold
+313,Forza Horizon 4,Action,1,Gold
+314,Forza Horizon 4,Adventure,1,Gold
+315,Forza Horizon 4,Multiplayer,1,Gold
+316,Forza Horizon 4,Simulation,1,Gold
+317,Forza Horizon 4,GreatSoundtrack,1,Gold
+318,Forza Horizon 4,PvP,1,Gold
+319,Forza Horizon 4,First-Person,1,Gold
+320,Forza Horizon 4,OnlineCo-Op,1,Gold
+321,Forza Horizon 4,OpenWorld,1,Gold
+322,Forza Horizon 4,Exploration,1,Gold
+323,Forza Horizon 4,Funny,1,Gold
+324,Forza Horizon 4,Atmospheric,1,Gold
+325,Forza Horizon 4,Realistic,1,Gold
+326,Forza Horizon 4,Sports,1,Gold
+327,Forza Horizon 4,Controller,1,Gold
+328,It Takes Two,Action,1,Gold
+329,It Takes Two,Adventure,1,Gold
+330,It Takes Two,Multiplayer,1,Gold
+331,It Takes Two,OnlineCo-Op,1,Gold
+332,It Takes Two,Co-op,1,Gold
+333,It Takes Two,Exploration,1,Gold
+334,It Takes Two,Atmospheric,1,Gold
+335,It Takes Two,StoryRich,1,Gold
+336,It Takes Two,FemaleProtagonist,1,Gold
+337,It Takes Two,LocalMultiplayer,1,Gold
+338,It Takes Two,LocalCo-Op,1,Gold
+339,Rust,Action,1,Gold
+340,Rust,Adventure,1,Gold
+341,Rust,Multiplayer,1,Gold
+342,Rust,Simulation,1,Gold
+343,Rust,FPS,1,Gold
+344,Rust,Shooter,1,Gold
+345,Rust,PvP,1,Gold
+346,Rust,First-Person,1,Gold
+347,Rust,Building,1,Gold
+348,Rust,OnlineCo-Op,1,Gold
+349,Rust,EarlyAccess,1,Gold
+350,Rust,Co-op,1,Gold
+351,Rust,OpenWorld,1,Gold
+352,Rust,Indie,1,Gold
+353,Rust,Survival,1,Gold
+354,Rust,Sandbox,1,Gold
+355,Rust,Crafting,1,Gold
+356,Rust,OpenWorldSurvivalCraft,1,Gold
+357,Rust,Nudity,1,Gold
+358,Rust,Post-apocalyptic,1,Gold
+359,FIFA 22,Singleplayer,1,Gold
+360,FIFA 22,Multiplayer,1,Gold
+361,FIFA 22,Simulation,1,Gold
+362,FIFA 22,FamilyFriendly,1,Gold
+363,FIFA 22,PvP,1,Gold
+364,FIFA 22,Team-Based,1,Gold
+365,FIFA 22,OnlineCo-Op,1,Gold
+366,FIFA 22,Co-op,1,Gold
+367,FIFA 22,SexualContent,1,Gold
+368,FIFA 22,Realistic,1,Gold
+369,FIFA 22,Sports,1,Gold
+370,FIFA 22,Controller,1,Gold
+371,FIFA 22,eSports,1,Gold
+372,FIFA 22,Competitive,1,Gold
+373,FIFA 22,Cinematic,1,Gold
+374,FIFA 22,LocalMultiplayer,1,Gold
+375,FIFA 22,ImmersiveSim,1,Gold
+376,FIFA 22,LocalCo-Op,1,Gold
+377,War Thunder,Action,1,Gold
+378,War Thunder,Multiplayer,1,Gold
+379,War Thunder,Simulation,1,Gold
+380,War Thunder,War,1,Gold
+381,War Thunder,Military,1,Gold
+382,War Thunder,Combat,1,Gold
+383,War Thunder,Shooter,1,Gold
+384,War Thunder,ThirdPerson,1,Gold
+385,War Thunder,MassivelyMultiplayer,1,Gold
+386,War Thunder,Third-PersonShooter,1,Gold
+387,War Thunder,Realistic,1,Gold
+388,War Thunder,VR,1,Gold
+389,War Thunder,FreetoPlay,1,Gold
+390,ARK Survival Evolved,Singleplayer,1,Silver
+391,ARK Survival Evolved,Action,1,Silver
+392,ARK Survival Evolved,Adventure,1,Silver
+393,ARK Survival Evolved,Multiplayer,1,Silver
+394,ARK Survival Evolved,First-Person,1,Silver
+395,ARK Survival Evolved,Building,1,Silver
+396,ARK Survival Evolved,EarlyAccess,1,Silver
+397,ARK Survival Evolved,BaseBuilding,1,Silver
+398,ARK Survival Evolved,Co-op,1,Silver
+399,ARK Survival Evolved,OpenWorld,1,Silver
+400,ARK Survival Evolved,Indie,1,Silver
+401,ARK Survival Evolved,Survival,1,Silver
+402,ARK Survival Evolved,Sandbox,1,Silver
+403,ARK Survival Evolved,Crafting,1,Silver
+404,ARK Survival Evolved,OpenWorldSurvivalCraft,1,Silver
+405,ARK Survival Evolved,MassivelyMultiplayer,1,Silver
+406,ARK Survival Evolved,RPG,1,Silver
+407,ARK Survival Evolved,Sci-fi,1,Silver
+408,Phasmophobia,Singleplayer,1,Silver
+409,Phasmophobia,Action,1,Silver
+410,Phasmophobia,Multiplayer,1,Silver
+411,Phasmophobia,First-Person,1,Silver
+412,Phasmophobia,OnlineCo-Op,1,Silver
+413,Phasmophobia,EarlyAccess,1,Silver
+414,Phasmophobia,Co-op,1,Silver
+415,Phasmophobia,Indie,1,Silver
+416,Phasmophobia,Horror,1,Silver
+417,Phasmophobia,VR,1,Silver
+418,Phasmophobia,3D,1,Silver
+419,Phasmophobia,Tactical,1,Silver
+420,Phasmophobia,Dark,1,Silver
+421,Age of Empires IV Anniversary Edition,Singleplayer,1,Silver
+422,Age of Empires IV Anniversary Edition,Multiplayer,1,Silver
+423,Age of Empires IV Anniversary Edition,War,1,Silver
+424,Age of Empires IV Anniversary Edition,PvP,1,Silver
+425,Age of Empires IV Anniversary Edition,OnlineCo-Op,1,Silver
+426,Age of Empires IV Anniversary Edition,PvE,1,Silver
+427,Age of Empires IV Anniversary Edition,BaseBuilding,1,Silver
+428,Age of Empires IV Anniversary Edition,Co-op,1,Silver
+429,Age of Empires IV Anniversary Edition,OpenWorld,1,Silver
+430,Age of Empires IV Anniversary Edition,Mature,1,Silver
+431,Age of Empires IV Anniversary Edition,3D,1,Silver
+432,Age of Empires IV Anniversary Edition,Strategy,1,Silver
+433,Age of Empires IV Anniversary Edition,RTS,1,Silver
+434,Age of Empires IV Anniversary Edition,CityBuilder,1,Silver
+435,Age of Empires IV Anniversary Edition,ResourceManagement,1,Silver
+436,Age of Empires IV Anniversary Edition,Management,1,Silver
+437,Age of Empires IV Anniversary Edition,Historical,1,Silver
+438,Cyberpunk 2077,Singleplayer,1,Silver
+439,Cyberpunk 2077,Action,1,Silver
+440,Cyberpunk 2077,Adventure,1,Silver
+441,Cyberpunk 2077,GreatSoundtrack,1,Silver
+442,Cyberpunk 2077,FPS,1,Silver
+443,Cyberpunk 2077,First-Person,1,Silver
+444,Cyberpunk 2077,OpenWorld,1,Silver
+445,Cyberpunk 2077,Exploration,1,Silver
+446,Cyberpunk 2077,CharacterCustomization,1,Silver
+447,Cyberpunk 2077,Violent,1,Silver
+448,Cyberpunk 2077,RPG,1,Silver
+449,Cyberpunk 2077,Mature,1,Silver
+450,Cyberpunk 2077,Atmospheric,1,Silver
+451,Cyberpunk 2077,StoryRich,1,Silver
+452,Cyberpunk 2077,ActionRPG,1,Silver
+453,Cyberpunk 2077,Sci-fi,1,Silver
+454,Cyberpunk 2077,Nudity,1,Silver
+455,Cyberpunk 2077,ImmersiveSim,1,Silver
+456,Sid Meiers Civilization VI,Singleplayer,1,Silver
+457,Sid Meiers Civilization VI,Multiplayer,1,Silver
+458,Sid Meiers Civilization VI,Simulation,1,Silver
+459,Sid Meiers Civilization VI,GreatSoundtrack,1,Silver
+460,Sid Meiers Civilization VI,War,1,Silver
+461,Sid Meiers Civilization VI,Building,1,Silver
+462,Sid Meiers Civilization VI,OnlineCo-Op,1,Silver
+463,Sid Meiers Civilization VI,Co-op,1,Silver
+464,Sid Meiers Civilization VI,Moddable,1,Silver
+465,Sid Meiers Civilization VI,Atmospheric,1,Silver
+466,Sid Meiers Civilization VI,Tactical,1,Silver
+467,Sid Meiers Civilization VI,Strategy,1,Silver
+468,Sid Meiers Civilization VI,CityBuilder,1,Silver
+469,Sid Meiers Civilization VI,Management,1,Silver
+470,Sid Meiers Civilization VI,Historical,1,Silver
+471,Sid Meiers Civilization VI,GrandStrategy,1,Silver
+472,Stellaris,Singleplayer,1,Silver
+473,Stellaris,Multiplayer,1,Silver
+474,Stellaris,Simulation,1,Silver
+475,Stellaris,GreatSoundtrack,1,Silver
+476,Stellaris,Military,1,Silver
+477,Stellaris,Exploration,1,Silver
+478,Stellaris,Sandbox,1,Silver
+479,Stellaris,Moddable,1,Silver
+480,Stellaris,Atmospheric,1,Silver
+481,Stellaris,ReplayValue,1,Silver
+482,Stellaris,Sci-fi,1,Silver
+483,Stellaris,Space,1,Silver
+484,Stellaris,Strategy,1,Silver
+485,Stellaris,Management,1,Silver
+486,Stellaris,GrandStrategy,1,Silver
+487,Euro Truck Simulator 2,Casual,1,Silver
+488,Euro Truck Simulator 2,Adventure,1,Silver
+489,Euro Truck Simulator 2,Multiplayer,1,Silver
+490,Euro Truck Simulator 2,Simulation,1,Silver
+491,Euro Truck Simulator 2,FamilyFriendly,1,Silver
+492,Euro Truck Simulator 2,OpenWorld,1,Silver
+493,Euro Truck Simulator 2,Indie,1,Silver
+494,Euro Truck Simulator 2,Exploration,1,Silver
+495,Euro Truck Simulator 2,ThirdPerson,1,Silver
+496,Euro Truck Simulator 2,Moddable,1,Silver
+497,Euro Truck Simulator 2,Atmospheric,1,Silver
+498,Euro Truck Simulator 2,Realistic,1,Silver
+499,Euro Truck Simulator 2,Controller,1,Silver
+500,Euro Truck Simulator 2,Management,1,Silver
+501,Euro Truck Simulator 2,ImmersiveSim,1,Silver
+502,Mass Effect Legendary Edition,Singleplayer,1,Silver
+503,Mass Effect Legendary Edition,Action,1,Silver
+504,Mass Effect Legendary Edition,GreatSoundtrack,1,Silver
+505,Mass Effect Legendary Edition,Military,1,Silver
+506,Mass Effect Legendary Edition,Combat,1,Silver
+507,Mass Effect Legendary Edition,Shooter,1,Silver
+508,Mass Effect Legendary Edition,CharacterCustomization,1,Silver
+509,Mass Effect Legendary Edition,SexualContent,1,Silver
+510,Mass Effect Legendary Edition,RPG,1,Silver
+511,Mass Effect Legendary Edition,Third-PersonShooter,1,Silver
+512,Mass Effect Legendary Edition,Atmospheric,1,Silver
+513,Mass Effect Legendary Edition,StoryRich,1,Silver
+514,Mass Effect Legendary Edition,ActionRPG,1,Silver
+515,Mass Effect Legendary Edition,Sci-fi,1,Silver
+516,Mass Effect Legendary Edition,Space,1,Silver
+517,Mass Effect Legendary Edition,Nudity,1,Silver
+518,Mass Effect Legendary Edition,FemaleProtagonist,1,Silver
+519,Monster Hunter World,Singleplayer,1,Silver
+520,Monster Hunter World,Action,1,Silver
+521,Monster Hunter World,Adventure,1,Silver
+522,Monster Hunter World,Multiplayer,1,Silver
+523,Monster Hunter World,GreatSoundtrack,1,Silver
+524,Monster Hunter World,Co-op,1,Silver
+525,Monster Hunter World,OpenWorld,1,Silver
+526,Monster Hunter World,Exploration,1,Silver
+527,Monster Hunter World,Difficult,1,Silver
+528,Monster Hunter World,ThirdPerson,1,Silver
+529,Monster Hunter World,CharacterCustomization,1,Silver
+530,Monster Hunter World,Fantasy,1,Silver
+531,Monster Hunter World,RPG,1,Silver
+532,Monster Hunter World,Atmospheric,1,Silver
+533,Monster Hunter World,ActionRPG,1,Silver
+534,Monster Hunter World,ReplayValue,1,Silver
+535,Monster Hunter World,HackandSlash,1,Silver
+536,Monster Hunter World,MMORPG,1,Silver
+537,The Sims 4,Casual,1,Silver
+538,The Sims 4,Singleplayer,1,Silver
+539,The Sims 4,Adventure,1,Silver
+540,The Sims 4,Multiplayer,1,Silver
+541,The Sims 4,Simulation,1,Silver
+542,The Sims 4,FamilyFriendly,1,Silver
+543,The Sims 4,Building,1,Silver
+544,The Sims 4,Sandbox,1,Silver
+545,The Sims 4,CharacterCustomization,1,Silver
+546,The Sims 4,Fantasy,1,Silver
+547,The Sims 4,Funny,1,Silver
+548,The Sims 4,Realistic,1,Silver
+549,The Sims 4,Cute,1,Silver
+550,The Sims 4,FreetoPlay,1,Silver
+551,The Sims 4,ImmersiveSim,1,Silver
+552,Resident Evil Village,Singleplayer,1,Silver
+553,Resident Evil Village,Action,1,Silver
+554,Resident Evil Village,Adventure,1,Silver
+555,Resident Evil Village,Multiplayer,1,Silver
+556,Resident Evil Village,FPS,1,Silver
+557,Resident Evil Village,First-Person,1,Silver
+558,Resident Evil Village,OpenWorld,1,Silver
+559,Resident Evil Village,Survival,1,Silver
+560,Resident Evil Village,Violent,1,Silver
+561,Resident Evil Village,SexualContent,1,Silver
+562,Resident Evil Village,Atmospheric,1,Silver
+563,Resident Evil Village,StoryRich,1,Silver
+564,Resident Evil Village,Gore,1,Silver
+565,Resident Evil Village,Zombies,1,Silver
+566,Resident Evil Village,Horror,1,Silver
+567,Resident Evil Village,VR,1,Silver
+568,Resident Evil Village,Dark,1,Silver
+569,Resident Evil Village,Nudity,1,Silver
+570,Resident Evil Village,SurvivalHorror,1,Silver
+571,OUTRIDERS,Singleplayer,1,Silver
+572,OUTRIDERS,Action,1,Silver
+573,OUTRIDERS,Adventure,1,Silver
+574,OUTRIDERS,Multiplayer,1,Silver
+575,OUTRIDERS,Shooter,1,Silver
+576,OUTRIDERS,OnlineCo-Op,1,Silver
+577,OUTRIDERS,Co-op,1,Silver
+578,OUTRIDERS,OpenWorld,1,Silver
+579,OUTRIDERS,ThirdPerson,1,Silver
+580,OUTRIDERS,CharacterCustomization,1,Silver
+581,OUTRIDERS,Violent,1,Silver
+582,OUTRIDERS,RPG,1,Silver
+583,OUTRIDERS,Third-PersonShooter,1,Silver
+584,OUTRIDERS,StoryRich,1,Silver
+585,OUTRIDERS,Gore,1,Silver
+586,OUTRIDERS,Sci-fi,1,Silver
+587,OUTRIDERS,Post-apocalyptic,1,Silver
+588,Team Fortress 2,Action,1,Silver
+589,Team Fortress 2,Multiplayer,1,Silver
+590,Team Fortress 2,FPS,1,Silver
+591,Team Fortress 2,Shooter,1,Silver
+592,Team Fortress 2,First-Person,1,Silver
+593,Team Fortress 2,Team-Based,1,Silver
+594,Team Fortress 2,OnlineCo-Op,1,Silver
+595,Team Fortress 2,Co-op,1,Silver
+596,Team Fortress 2,Crafting,1,Silver
+597,Team Fortress 2,Funny,1,Silver
+598,Team Fortress 2,Competitive,1,Silver
+599,Team Fortress 2,Tactical,1,Silver
+600,Team Fortress 2,FreetoPlay,1,Silver
+601,Halo Infinite,Singleplayer,1,Silver
+602,Halo Infinite,Action,1,Silver
+603,Halo Infinite,Adventure,1,Silver
+604,Halo Infinite,Multiplayer,1,Silver
+605,Halo Infinite,FPS,1,Silver
+606,Halo Infinite,Shooter,1,Silver
+607,Halo Infinite,PvP,1,Silver
+608,Halo Infinite,First-Person,1,Silver
+609,Halo Infinite,Co-op,1,Silver
+610,Halo Infinite,OpenWorld,1,Silver
+611,Halo Infinite,Atmospheric,1,Silver
+612,Halo Infinite,StoryRich,1,Silver
+613,Halo Infinite,Sci-fi,1,Silver
+614,Halo Infinite,Space,1,Silver
+615,Halo Infinite,Competitive,1,Silver
+616,Halo Infinite,FreetoPlay,1,Silver
+617,Halo Infinite,Lore-Rich,1,Silver
+618,Halo Infinite,Cinematic,1,Silver
+619,Stardew Valley,Casual,1,Bronze
+620,Stardew Valley,Singleplayer,1,Bronze
+621,Stardew Valley,Multiplayer,1,Bronze
+622,Stardew Valley,Simulation,1,Bronze
+623,Stardew Valley,GreatSoundtrack,1,Bronze
+624,Stardew Valley,Building,1,Bronze
+625,Stardew Valley,OpenWorld,1,Bronze
+626,Stardew Valley,Indie,1,Bronze
+627,Stardew Valley,Sandbox,1,Bronze
+628,Stardew Valley,Crafting,1,Bronze
+629,Stardew Valley,RPG,1,Bronze
+630,Stardew Valley,Cute,1,Bronze
+631,Stardew Valley,2D,1,Bronze
+632,Planet Zoo,Casual,1,Bronze
+633,Planet Zoo,Singleplayer,1,Bronze
+634,Planet Zoo,Multiplayer,1,Bronze
+635,Planet Zoo,Simulation,1,Bronze
+636,Planet Zoo,FamilyFriendly,1,Bronze
+637,Planet Zoo,GreatSoundtrack,1,Bronze
+638,Planet Zoo,Building,1,Bronze
+639,Planet Zoo,OpenWorld,1,Bronze
+640,Planet Zoo,Sandbox,1,Bronze
+641,Planet Zoo,Funny,1,Bronze
+642,Planet Zoo,Realistic,1,Bronze
+643,Planet Zoo,Strategy,1,Bronze
+644,Planet Zoo,CityBuilder,1,Bronze
+645,Planet Zoo,ResourceManagement,1,Bronze
+646,Planet Zoo,Management,1,Bronze
+647,Planet Zoo,Cute,1,Bronze
+648,Dying Light,Action,1,Bronze
+649,Dying Light,Multiplayer,1,Bronze
+650,Dying Light,FPS,1,Bronze
+651,Dying Light,PvP,1,Bronze
+652,Dying Light,First-Person,1,Bronze
+653,Dying Light,OnlineCo-Op,1,Bronze
+654,Dying Light,PvE,1,Bronze
+655,Dying Light,OpenWorld,1,Bronze
+656,Dying Light,Survival,1,Bronze
+657,Dying Light,OpenWorldSurvivalCraft,1,Bronze
+658,Dying Light,StoryRich,1,Bronze
+659,Dying Light,Gore,1,Bronze
+660,Dying Light,ActionRPG,1,Bronze
+661,Dying Light,Zombies,1,Bronze
+662,Dying Light,Horror,1,Bronze
+663,Dying Light,HackandSlash,1,Bronze
+664,Dying Light,Post-apocalyptic,1,Bronze
+665,Dying Light,Stealth,1,Bronze
+666,Dying Light,SurvivalHorror,1,Bronze
+667,Crusader Kings III,Singleplayer,1,Bronze
+668,Crusader Kings III,Multiplayer,1,Bronze
+669,Crusader Kings III,Simulation,1,Bronze
+670,Crusader Kings III,War,1,Bronze
+671,Crusader Kings III,Sandbox,1,Bronze
+672,Crusader Kings III,CharacterCustomization,1,Bronze
+673,Crusader Kings III,RPG,1,Bronze
+674,Crusader Kings III,Moddable,1,Bronze
+675,Crusader Kings III,Strategy,1,Bronze
+676,Crusader Kings III,RTS,1,Bronze
+677,Crusader Kings III,Management,1,Bronze
+678,Crusader Kings III,Historical,1,Bronze
+679,Crusader Kings III,GrandStrategy,1,Bronze
+680,Nioh 2  The Complete Edition,Singleplayer,1,Bronze
+681,Nioh 2  The Complete Edition,Action,1,Bronze
+682,Nioh 2  The Complete Edition,Multiplayer,1,Bronze
+683,Nioh 2  The Complete Edition,Co-op,1,Bronze
+684,Nioh 2  The Complete Edition,Difficult,1,Bronze
+685,Nioh 2  The Complete Edition,CharacterCustomization,1,Bronze
+686,Nioh 2  The Complete Edition,Fantasy,1,Bronze
+687,Nioh 2  The Complete Edition,Violent,1,Bronze
+688,Nioh 2  The Complete Edition,RPG,1,Bronze
+689,Nioh 2  The Complete Edition,Atmospheric,1,Bronze
+690,Nioh 2  The Complete Edition,StoryRich,1,Bronze
+691,Nioh 2  The Complete Edition,Gore,1,Bronze
+692,Nioh 2  The Complete Edition,HackandSlash,1,Bronze
+693,Nioh 2  The Complete Edition,Dark,1,Bronze
+694,Nioh 2  The Complete Edition,Historical,1,Bronze
+695,Nioh 2  The Complete Edition,FemaleProtagonist,1,Bronze
+696,Nioh 2  The Complete Edition,DarkFantasy,1,Bronze
+697,Fallout 4,Singleplayer,1,Bronze
+698,Fallout 4,Action,1,Bronze
+699,Fallout 4,Adventure,1,Bronze
+700,Fallout 4,GreatSoundtrack,1,Bronze
+701,Fallout 4,FPS,1,Bronze
+702,Fallout 4,Shooter,1,Bronze
+703,Fallout 4,First-Person,1,Bronze
+704,Fallout 4,OpenWorld,1,Bronze
+705,Fallout 4,Exploration,1,Bronze
+706,Fallout 4,Survival,1,Bronze
+707,Fallout 4,Sandbox,1,Bronze
+708,Fallout 4,ThirdPerson,1,Bronze
+709,Fallout 4,CharacterCustomization,1,Bronze
+710,Fallout 4,RPG,1,Bronze
+711,Fallout 4,Third-PersonShooter,1,Bronze
+712,Fallout 4,Atmospheric,1,Bronze
+713,Fallout 4,StoryRich,1,Bronze
+714,Fallout 4,ActionRPG,1,Bronze
+715,Fallout 4,Sci-fi,1,Bronze
+716,Fallout 4,Post-apocalyptic,1,Bronze
+717,Call of Duty Black Ops III,Singleplayer,1,Bronze
+718,Call of Duty Black Ops III,Action,1,Bronze
+719,Call of Duty Black Ops III,Multiplayer,1,Bronze
+720,Call of Duty Black Ops III,Simulation,1,Bronze
+721,Call of Duty Black Ops III,GreatSoundtrack,1,Bronze
+722,Call of Duty Black Ops III,FPS,1,Bronze
+723,Call of Duty Black Ops III,Shooter,1,Bronze
+724,Call of Duty Black Ops III,First-Person,1,Bronze
+725,Call of Duty Black Ops III,Co-op,1,Bronze
+726,Call of Duty Black Ops III,Atmospheric,1,Bronze
+727,Call of Duty Black Ops III,StoryRich,1,Bronze
+728,Call of Duty Black Ops III,Gore,1,Bronze
+729,Call of Duty Black Ops III,Zombies,1,Bronze
+730,Call of Duty Black Ops III,Sci-fi,1,Bronze
+731,The Forest,Singleplayer,1,Bronze
+732,The Forest,Action,1,Bronze
+733,The Forest,Adventure,1,Bronze
+734,The Forest,Simulation,1,Bronze
+735,The Forest,First-Person,1,Bronze
+736,The Forest,Building,1,Bronze
+737,The Forest,EarlyAccess,1,Bronze
+738,The Forest,OpenWorld,1,Bronze
+739,The Forest,Indie,1,Bronze
+740,The Forest,Exploration,1,Bronze
+741,The Forest,Survival,1,Bronze
+742,The Forest,Sandbox,1,Bronze
+743,The Forest,Crafting,1,Bronze
+744,The Forest,OpenWorldSurvivalCraft,1,Bronze
+745,The Forest,Atmospheric,1,Bronze
+746,The Forest,Realistic,1,Bronze
+747,The Forest,Gore,1,Bronze
+748,The Forest,Zombies,1,Bronze
+749,The Forest,Horror,1,Bronze
+750,The Forest,SurvivalHorror,1,Bronze
+751,GUILTY GEAR -STRIVE-,Casual,1,Bronze
+752,GUILTY GEAR -STRIVE-,Action,1,Bronze
+753,GUILTY GEAR -STRIVE-,Multiplayer,1,Bronze
+754,GUILTY GEAR -STRIVE-,GreatSoundtrack,1,Bronze
+755,GUILTY GEAR -STRIVE-,Combat,1,Bronze
+756,GUILTY GEAR -STRIVE-,PvP,1,Bronze
+757,GUILTY GEAR -STRIVE-,Fantasy,1,Bronze
+758,GUILTY GEAR -STRIVE-,StoryRich,1,Bronze
+759,GUILTY GEAR -STRIVE-,3D,1,Bronze
+760,GUILTY GEAR -STRIVE-,2D,1,Bronze
+761,GUILTY GEAR -STRIVE-,Anime,1,Bronze
+762,GUILTY GEAR -STRIVE-,Lore-Rich,1,Bronze
+763,GUILTY GEAR -STRIVE-,Cinematic,1,Bronze
+764,GUILTY GEAR -STRIVE-,LocalMultiplayer,1,Bronze
+765,F1 2021,Singleplayer,1,Bronze
+766,F1 2021,Multiplayer,1,Bronze
+767,F1 2021,Simulation,1,Bronze
+768,F1 2021,PvP,1,Bronze
+769,F1 2021,OnlineCo-Op,1,Bronze
+770,F1 2021,Co-op,1,Bronze
+771,F1 2021,Realistic,1,Bronze
+772,F1 2021,Sports,1,Bronze
+773,F1 2021,Controller,1,Bronze
+774,F1 2021,eSports,1,Bronze
+775,F1 2021,VR,1,Bronze
+776,F1 2021,3D,1,Bronze
+777,F1 2021,Cinematic,1,Bronze
+778,F1 2021,LocalMultiplayer,1,Bronze
+779,F1 2021,ImmersiveSim,1,Bronze
+780,EA SPORTS FIFA 21,Casual,1,Bronze
+781,EA SPORTS FIFA 21,Singleplayer,1,Bronze
+782,EA SPORTS FIFA 21,Action,1,Bronze
+783,EA SPORTS FIFA 21,Multiplayer,1,Bronze
+784,EA SPORTS FIFA 21,Simulation,1,Bronze
+785,EA SPORTS FIFA 21,GreatSoundtrack,1,Bronze
+786,EA SPORTS FIFA 21,PvP,1,Bronze
+787,EA SPORTS FIFA 21,OnlineCo-Op,1,Bronze
+788,EA SPORTS FIFA 21,Co-op,1,Bronze
+789,EA SPORTS FIFA 21,Realistic,1,Bronze
+790,EA SPORTS FIFA 21,Sports,1,Bronze
+791,EA SPORTS FIFA 21,Controller,1,Bronze
+792,EA SPORTS FIFA 21,eSports,1,Bronze
+793,EA SPORTS FIFA 21,Competitive,1,Bronze
+794,EA SPORTS FIFA 21,LocalMultiplayer,1,Bronze
+795,EA SPORTS FIFA 21,LocalCo-Op,1,Bronze
+796,theHunter Call of the Wild,Multiplayer,1,Bronze
+797,theHunter Call of the Wild,Simulation,1,Bronze
+798,theHunter Call of the Wild,FPS,1,Bronze
+799,theHunter Call of the Wild,Shooter,1,Bronze
+800,theHunter Call of the Wild,First-Person,1,Bronze
+801,theHunter Call of the Wild,OnlineCo-Op,1,Bronze
+802,theHunter Call of the Wild,Co-op,1,Bronze
+803,theHunter Call of the Wild,OpenWorld,1,Bronze
+804,theHunter Call of the Wild,Survival,1,Bronze
+805,theHunter Call of the Wild,Sandbox,1,Bronze
+806,theHunter Call of the Wild,Realistic,1,Bronze
+807,theHunter Call of the Wild,Sports,1,Bronze
+808,theHunter Call of the Wild,Controller,1,Bronze
+809,theHunter Call of the Wild,Stealth,1,Bronze
+810,theHunter Call of the Wild,ImmersiveSim,1,Bronze
+811,Hearts of Iron IV,Singleplayer,1,Bronze
+812,Hearts of Iron IV,Action,1,Bronze
+813,Hearts of Iron IV,Multiplayer,1,Bronze
+814,Hearts of Iron IV,Simulation,1,Bronze
+815,Hearts of Iron IV,War,1,Bronze
+816,Hearts of Iron IV,Military,1,Bronze
+817,Hearts of Iron IV,Co-op,1,Bronze
+818,Hearts of Iron IV,OpenWorld,1,Bronze
+819,Hearts of Iron IV,Sandbox,1,Bronze
+820,Hearts of Iron IV,Competitive,1,Bronze
+821,Hearts of Iron IV,Tactical,1,Bronze
+822,Hearts of Iron IV,Strategy,1,Bronze
+823,Hearts of Iron IV,RTS,1,Bronze
+824,Hearts of Iron IV,Historical,1,Bronze
+825,Hearts of Iron IV,GrandStrategy,1,Bronze
+826,Hades,Singleplayer,1,Bronze
+827,Hades,Action,1,Bronze
+828,Hades,GreatSoundtrack,1,Bronze
+829,Hades,Indie,1,Bronze
+830,Hades,Difficult,1,Bronze
+831,Hades,RPG,1,Bronze
+832,Hades,Atmospheric,1,Bronze
+833,Hades,StoryRich,1,Bronze
+834,Hades,ActionRPG,1,Bronze
+835,Hades,ReplayValue,1,Bronze
+836,Hades,HackandSlash,1,Bronze
+837,Hunt Showdown,Action,1,Bronze
+838,Hunt Showdown,Multiplayer,1,Bronze
+839,Hunt Showdown,FPS,1,Bronze
+840,Hunt Showdown,Shooter,1,Bronze
+841,Hunt Showdown,PvP,1,Bronze
+842,Hunt Showdown,Team-Based,1,Bronze
+843,Hunt Showdown,OnlineCo-Op,1,Bronze
+844,Hunt Showdown,Co-op,1,Bronze
+845,Hunt Showdown,OpenWorld,1,Bronze
+846,Hunt Showdown,Difficult,1,Bronze
+847,Hunt Showdown,Atmospheric,1,Bronze
+848,Hunt Showdown,Gore,1,Bronze
+849,Hunt Showdown,Zombies,1,Bronze
+850,Hunt Showdown,Horror,1,Bronze
+851,Hunt Showdown,Tactical,1,Bronze
+852,Hunt Showdown,BattleRoyale,1,Bronze
+853,Hunt Showdown,SurvivalHorror,1,Bronze
+854,No Mans Sky,Singleplayer,1,Bronze
+855,No Mans Sky,Action,1,Bronze
+856,No Mans Sky,Adventure,1,Bronze
+857,No Mans Sky,Multiplayer,1,Bronze
+858,No Mans Sky,Simulation,1,Bronze
+859,No Mans Sky,FPS,1,Bronze
+860,No Mans Sky,First-Person,1,Bronze
+861,No Mans Sky,OpenWorld,1,Bronze
+862,No Mans Sky,Indie,1,Bronze
+863,No Mans Sky,Exploration,1,Bronze
+864,No Mans Sky,Survival,1,Bronze
+865,No Mans Sky,Sandbox,1,Bronze
+866,No Mans Sky,Crafting,1,Bronze
+867,No Mans Sky,OpenWorldSurvivalCraft,1,Bronze
+868,No Mans Sky,Atmospheric,1,Bronze
+869,No Mans Sky,Sci-fi,1,Bronze
+870,No Mans Sky,Space,1,Bronze
+871,No Mans Sky,VR,1,Bronze
+872,Microsoft Flight Simulator 40th Anniversary Edition,Singleplayer,1,Bronze
+873,Microsoft Flight Simulator 40th Anniversary Edition,Adventure,1,Bronze
+874,Microsoft Flight Simulator 40th Anniversary Edition,Multiplayer,1,Bronze
+875,Microsoft Flight Simulator 40th Anniversary Edition,Simulation,1,Bronze
+876,Microsoft Flight Simulator 40th Anniversary Edition,FamilyFriendly,1,Bronze
+877,Microsoft Flight Simulator 40th Anniversary Edition,OpenWorld,1,Bronze
+878,Microsoft Flight Simulator 40th Anniversary Edition,Atmospheric,1,Bronze
+879,Microsoft Flight Simulator 40th Anniversary Edition,Realistic,1,Bronze
+880,Microsoft Flight Simulator 40th Anniversary Edition,Beautiful,1,Bronze
+881,Microsoft Flight Simulator 40th Anniversary Edition,Controller,1,Bronze
+882,Microsoft Flight Simulator 40th Anniversary Edition,VR,1,Bronze
+883,Satisfactory,Singleplayer,1,Bronze
+884,Satisfactory,Adventure,1,Bronze
+885,Satisfactory,Multiplayer,1,Bronze
+886,Satisfactory,Simulation,1,Bronze
+887,Satisfactory,First-Person,1,Bronze
+888,Satisfactory,Building,1,Bronze
+889,Satisfactory,EarlyAccess,1,Bronze
+890,Satisfactory,BaseBuilding,1,Bronze
+891,Satisfactory,Co-op,1,Bronze
+892,Satisfactory,OpenWorld,1,Bronze
+893,Satisfactory,Indie,1,Bronze
+894,Satisfactory,Exploration,1,Bronze
+895,Satisfactory,Survival,1,Bronze
+896,Satisfactory,Sandbox,1,Bronze
+897,Satisfactory,Crafting,1,Bronze
+898,Satisfactory,OpenWorldSurvivalCraft,1,Bronze
+899,Satisfactory,Sci-fi,1,Bronze
+900,Satisfactory,Strategy,1,Bronze
+901,Satisfactory,ResourceManagement,1,Bronze
+902,Days Gone,Singleplayer,1,Bronze
+903,Days Gone,Action,1,Bronze
+904,Days Gone,Adventure,1,Bronze
+905,Days Gone,Multiplayer,1,Bronze
+906,Days Gone,OpenWorld,1,Bronze
+907,Days Gone,Survival,1,Bronze
+908,Days Gone,ThirdPerson,1,Bronze
+909,Days Gone,Crafting,1,Bronze
+910,Days Gone,OpenWorldSurvivalCraft,1,Bronze
+911,Days Gone,Violent,1,Bronze
+912,Days Gone,Third-PersonShooter,1,Bronze
+913,Days Gone,StoryRich,1,Bronze
+914,Days Gone,Gore,1,Bronze
+915,Days Gone,Zombies,1,Bronze
+916,Days Gone,Horror,1,Bronze
+917,Days Gone,Post-apocalyptic,1,Bronze
+918,Days Gone,SurvivalHorror,1,Bronze
+919,Days Gone,Cinematic,1,Bronze
+920,Terraria,Singleplayer,1,Bronze
+921,Terraria,Action,1,Bronze
+922,Terraria,Adventure,1,Bronze
+923,Terraria,Multiplayer,1,Bronze
+924,Terraria,Building,1,Bronze
+925,Terraria,OnlineCo-Op,1,Bronze
+926,Terraria,Co-op,1,Bronze
+927,Terraria,OpenWorld,1,Bronze
+928,Terraria,Indie,1,Bronze
+929,Terraria,Exploration,1,Bronze
+930,Terraria,Survival,1,Bronze
+931,Terraria,Sandbox,1,Bronze
+932,Terraria,Crafting,1,Bronze
+933,Terraria,OpenWorldSurvivalCraft,1,Bronze
+934,Terraria,RPG,1,Bronze
+935,Terraria,Atmospheric,1,Bronze
+936,Terraria,ReplayValue,1,Bronze
+937,Terraria,2D,1,Bronze
+938,The Elder Scrolls V Skyrim Special Edition,Singleplayer,1,Bronze
+939,The Elder Scrolls V Skyrim Special Edition,Action,1,Bronze
+940,The Elder Scrolls V Skyrim Special Edition,Adventure,1,Bronze
+941,The Elder Scrolls V Skyrim Special Edition,GreatSoundtrack,1,Bronze
+942,The Elder Scrolls V Skyrim Special Edition,First-Person,1,Bronze
+943,The Elder Scrolls V Skyrim Special Edition,OpenWorld,1,Bronze
+944,The Elder Scrolls V Skyrim Special Edition,ThirdPerson,1,Bronze
+945,The Elder Scrolls V Skyrim Special Edition,CharacterCustomization,1,Bronze
+946,The Elder Scrolls V Skyrim Special Edition,Fantasy,1,Bronze
+947,The Elder Scrolls V Skyrim Special Edition,RPG,1,Bronze
+948,The Elder Scrolls V Skyrim Special Edition,Moddable,1,Bronze
+949,The Elder Scrolls V Skyrim Special Edition,Atmospheric,1,Bronze
+950,The Elder Scrolls V Skyrim Special Edition,StoryRich,1,Bronze
+951,The Elder Scrolls V Skyrim Special Edition,FemaleProtagonist,1,Bronze
+952,The Elder Scrolls V Skyrim Special Edition,Stealth,1,Bronze
+953,Horizon Zero Dawn Complete Edition,Singleplayer,1,Bronze
+954,Horizon Zero Dawn Complete Edition,Action,1,Bronze
+955,Horizon Zero Dawn Complete Edition,Adventure,1,Bronze
+956,Horizon Zero Dawn Complete Edition,GreatSoundtrack,1,Bronze
+957,Horizon Zero Dawn Complete Edition,OpenWorld,1,Bronze
+958,Horizon Zero Dawn Complete Edition,Exploration,1,Bronze
+959,Horizon Zero Dawn Complete Edition,ThirdPerson,1,Bronze
+960,Horizon Zero Dawn Complete Edition,RPG,1,Bronze
+961,Horizon Zero Dawn Complete Edition,Atmospheric,1,Bronze
+962,Horizon Zero Dawn Complete Edition,Beautiful,1,Bronze
+963,Horizon Zero Dawn Complete Edition,StoryRich,1,Bronze
+964,Horizon Zero Dawn Complete Edition,ActionRPG,1,Bronze
+965,Horizon Zero Dawn Complete Edition,Sci-fi,1,Bronze
+966,Horizon Zero Dawn Complete Edition,FemaleProtagonist,1,Bronze
+967,Horizon Zero Dawn Complete Edition,Post-apocalyptic,1,Bronze
+968,Horizon Zero Dawn Complete Edition,Stealth,1,Bronze
+969,Borderlands 3,Singleplayer,1,Bronze
+970,Borderlands 3,Action,1,Bronze
+971,Borderlands 3,Adventure,1,Bronze
+972,Borderlands 3,Multiplayer,1,Bronze
+973,Borderlands 3,GreatSoundtrack,1,Bronze
+974,Borderlands 3,FPS,1,Bronze
+975,Borderlands 3,Shooter,1,Bronze
+976,Borderlands 3,First-Person,1,Bronze
+977,Borderlands 3,OnlineCo-Op,1,Bronze
+978,Borderlands 3,Co-op,1,Bronze
+979,Borderlands 3,OpenWorld,1,Bronze
+980,Borderlands 3,Violent,1,Bronze
+981,Borderlands 3,RPG,1,Bronze
+982,Borderlands 3,Gore,1,Bronze
+983,Borderlands 3,Nudity,1,Bronze
+984,Sekiro Shadows Die Twice - GOTY Edition,Singleplayer,1,Bronze
+985,Sekiro Shadows Die Twice - GOTY Edition,Action,1,Bronze
+986,Sekiro Shadows Die Twice - GOTY Edition,Adventure,1,Bronze
+987,Sekiro Shadows Die Twice - GOTY Edition,GreatSoundtrack,1,Bronze
+988,Sekiro Shadows Die Twice - GOTY Edition,OpenWorld,1,Bronze
+989,Sekiro Shadows Die Twice - GOTY Edition,Difficult,1,Bronze
+990,Sekiro Shadows Die Twice - GOTY Edition,ThirdPerson,1,Bronze
+991,Sekiro Shadows Die Twice - GOTY Edition,Violent,1,Bronze
+992,Sekiro Shadows Die Twice - GOTY Edition,RPG,1,Bronze
+993,Sekiro Shadows Die Twice - GOTY Edition,Atmospheric,1,Bronze
+994,Sekiro Shadows Die Twice - GOTY Edition,StoryRich,1,Bronze
+995,Sekiro Shadows Die Twice - GOTY Edition,Gore,1,Bronze
+996,Sekiro Shadows Die Twice - GOTY Edition,HackandSlash,1,Bronze
+997,Sekiro Shadows Die Twice - GOTY Edition,Dark,1,Bronze
+998,Sekiro Shadows Die Twice - GOTY Edition,DarkFantasy,1,Bronze
+999,Sekiro Shadows Die Twice - GOTY Edition,Stealth,1,Bronze
+1000,Fallout 76,Singleplayer,1,Bronze
+1001,Fallout 76,Multiplayer,1,Bronze
+1002,Fallout 76,GreatSoundtrack,1,Bronze
+1003,Fallout 76,FPS,1,Bronze
+1004,Fallout 76,Shooter,1,Bronze
+1005,Fallout 76,EarlyAccess,1,Bronze
+1006,Fallout 76,BaseBuilding,1,Bronze
+1007,Fallout 76,Co-op,1,Bronze
+1008,Fallout 76,OpenWorld,1,Bronze
+1009,Fallout 76,Exploration,1,Bronze
+1010,Fallout 76,Survival,1,Bronze
+1011,Fallout 76,Violent,1,Bronze
+1012,Fallout 76,RPG,1,Bronze
+1013,Fallout 76,Atmospheric,1,Bronze
+1014,Fallout 76,Gore,1,Bronze
+1015,Fallout 76,Horror,1,Bronze
+1016,Fallout 76,Post-apocalyptic,1,Bronze
+1017,Fallout 76,MMORPG,1,Bronze
+1018,The Witcher 3 Wild Hunt,Singleplayer,1,Bronze
+1019,The Witcher 3 Wild Hunt,Action,1,Bronze
+1020,The Witcher 3 Wild Hunt,Adventure,1,Bronze
+1021,The Witcher 3 Wild Hunt,GreatSoundtrack,1,Bronze
+1022,The Witcher 3 Wild Hunt,OpenWorld,1,Bronze
+1023,The Witcher 3 Wild Hunt,Sandbox,1,Bronze
+1024,The Witcher 3 Wild Hunt,ThirdPerson,1,Bronze
+1025,The Witcher 3 Wild Hunt,Fantasy,1,Bronze
+1026,The Witcher 3 Wild Hunt,RPG,1,Bronze
+1027,The Witcher 3 Wild Hunt,Mature,1,Bronze
+1028,The Witcher 3 Wild Hunt,Atmospheric,1,Bronze
+1029,The Witcher 3 Wild Hunt,StoryRich,1,Bronze
+1030,The Witcher 3 Wild Hunt,ActionRPG,1,Bronze
+1031,The Witcher 3 Wild Hunt,Dark,1,Bronze
+1032,The Witcher 3 Wild Hunt,Nudity,1,Bronze
+1033,The Witcher 3 Wild Hunt,DarkFantasy,1,Bronze
+1034,Raft,Singleplayer,1,Bronze
+1035,Raft,Action,1,Bronze
+1036,Raft,Adventure,1,Bronze
+1037,Raft,Multiplayer,1,Bronze
+1038,Raft,Simulation,1,Bronze
+1039,Raft,First-Person,1,Bronze
+1040,Raft,Building,1,Bronze
+1041,Raft,OnlineCo-Op,1,Bronze
+1042,Raft,EarlyAccess,1,Bronze
+1043,Raft,BaseBuilding,1,Bronze
+1044,Raft,Co-op,1,Bronze
+1045,Raft,OpenWorld,1,Bronze
+1046,Raft,Indie,1,Bronze
+1047,Raft,Survival,1,Bronze
+1048,Raft,Sandbox,1,Bronze
+1049,Raft,Crafting,1,Bronze
+1050,Raft,OpenWorldSurvivalCraft,1,Bronze
+1051,Raft,MassivelyMultiplayer,1,Bronze
+1052,Raft,Strategy,1,Bronze
+1053,DayZ,Action,1,Bronze
+1054,DayZ,Adventure,1,Bronze
+1055,DayZ,Multiplayer,1,Bronze
+1056,DayZ,Simulation,1,Bronze
+1057,DayZ,FPS,1,Bronze
+1058,DayZ,Shooter,1,Bronze
+1059,DayZ,PvP,1,Bronze
+1060,DayZ,First-Person,1,Bronze
+1061,DayZ,OnlineCo-Op,1,Bronze
+1062,DayZ,Co-op,1,Bronze
+1063,DayZ,OpenWorld,1,Bronze
+1064,DayZ,Survival,1,Bronze
+1065,DayZ,Sandbox,1,Bronze
+1066,DayZ,MassivelyMultiplayer,1,Bronze
+1067,DayZ,Atmospheric,1,Bronze
+1068,DayZ,Zombies,1,Bronze
+1069,DayZ,Horror,1,Bronze
+1070,DayZ,Post-apocalyptic,1,Bronze
+1071,DayZ,SurvivalHorror,1,Bronze
+1072,Total War WARHAMMER II,Singleplayer,1,Bronze
+1073,Total War WARHAMMER II,Action,1,Bronze
+1074,Total War WARHAMMER II,Multiplayer,1,Bronze
+1075,Total War WARHAMMER II,GreatSoundtrack,1,Bronze
+1076,Total War WARHAMMER II,War,1,Bronze
+1077,Total War WARHAMMER II,Co-op,1,Bronze
+1078,Total War WARHAMMER II,Fantasy,1,Bronze
+1079,Total War WARHAMMER II,Atmospheric,1,Bronze
+1080,Total War WARHAMMER II,StoryRich,1,Bronze
+1081,Total War WARHAMMER II,Tactical,1,Bronze
+1082,Total War WARHAMMER II,Strategy,1,Bronze
+1083,Total War WARHAMMER II,RTS,1,Bronze
+1084,Total War WARHAMMER II,GrandStrategy,1,Bronze
+1085,Total War WARHAMMER II,DarkFantasy,1,Bronze
+1086,é¼èè Tale of Immortal,Simulation,1,Bronze
+1087,Age of Empires II Definitive Edition,Singleplayer,1,Bronze
+1088,Age of Empires II Definitive Edition,Action,1,Bronze
+1089,Age of Empires II Definitive Edition,Adventure,1,Bronze
+1090,Age of Empires II Definitive Edition,Multiplayer,1,Bronze
+1091,Age of Empires II Definitive Edition,GreatSoundtrack,1,Bronze
+1092,Age of Empires II Definitive Edition,BaseBuilding,1,Bronze
+1093,Age of Empires II Definitive Edition,Co-op,1,Bronze
+1094,Age of Empires II Definitive Edition,ReplayValue,1,Bronze
+1095,Age of Empires II Definitive Edition,Tactical,1,Bronze
+1096,Age of Empires II Definitive Edition,Strategy,1,Bronze
+1097,Age of Empires II Definitive Edition,RTS,1,Bronze
+1098,Age of Empires II Definitive Edition,CityBuilder,1,Bronze
+1099,Age of Empires II Definitive Edition,ResourceManagement,1,Bronze
+1100,Age of Empires II Definitive Edition,Historical,1,Bronze
+1101,Age of Empires II Definitive Edition,2D,1,Bronze
+1102,Bloons TD 6,Casual,1,Bronze
+1103,Bloons TD 6,Singleplayer,1,Bronze
+1104,Bloons TD 6,Action,1,Bronze
+1105,Bloons TD 6,Adventure,1,Bronze
+1106,Bloons TD 6,Multiplayer,1,Bronze
+1107,Bloons TD 6,FamilyFriendly,1,Bronze
+1108,Bloons TD 6,GreatSoundtrack,1,Bronze
+1109,Bloons TD 6,OnlineCo-Op,1,Bronze
+1110,Bloons TD 6,Co-op,1,Bronze
+1111,Bloons TD 6,Indie,1,Bronze
+1112,Bloons TD 6,Survival,1,Bronze
+1113,Bloons TD 6,Difficult,1,Bronze
+1114,Bloons TD 6,Sandbox,1,Bronze
+1115,Bloons TD 6,Funny,1,Bronze
+1116,Bloons TD 6,3D,1,Bronze
+1117,Bloons TD 6,Strategy,1,Bronze
+1118,Bloons TD 6,Cute,1,Bronze
+1119,Bloons TD 6,2D,1,Bronze
+1120,Baldurs Gate 3,Singleplayer,1,Bronze
+1121,Baldurs Gate 3,Adventure,1,Bronze
+1122,Baldurs Gate 3,Multiplayer,1,Bronze
+1123,Baldurs Gate 3,Combat,1,Bronze
+1124,Baldurs Gate 3,OnlineCo-Op,1,Bronze
+1125,Baldurs Gate 3,CharacterCustomization,1,Bronze
+1126,Baldurs Gate 3,Fantasy,1,Bronze
+1127,Baldurs Gate 3,SexualContent,1,Bronze
+1128,Baldurs Gate 3,RPG,1,Bronze
+1129,Baldurs Gate 3,StoryRich,1,Bronze
+1130,Baldurs Gate 3,Strategy,1,Bronze
+1131,Baldurs Gate 3,Nudity,1,Bronze
+1132,Baldurs Gate 3,DarkFantasy,1,Bronze
+1133,Dyson Sphere Program,Singleplayer,1,Bronze
+1134,Dyson Sphere Program,Multiplayer,1,Bronze
+1135,Dyson Sphere Program,Simulation,1,Bronze
+1136,Dyson Sphere Program,Building,1,Bronze
+1137,Dyson Sphere Program,EarlyAccess,1,Bronze
+1138,Dyson Sphere Program,BaseBuilding,1,Bronze
+1139,Dyson Sphere Program,OpenWorld,1,Bronze
+1140,Dyson Sphere Program,Indie,1,Bronze
+1141,Dyson Sphere Program,Sandbox,1,Bronze
+1142,Dyson Sphere Program,ThirdPerson,1,Bronze
+1143,Dyson Sphere Program,Sci-fi,1,Bronze
+1144,Dyson Sphere Program,Space,1,Bronze
+1145,Dyson Sphere Program,3D,1,Bronze
+1146,Dyson Sphere Program,Strategy,1,Bronze
+1147,Dyson Sphere Program,RTS,1,Bronze
+1148,Dyson Sphere Program,CityBuilder,1,Bronze
+1149,Dyson Sphere Program,ResourceManagement,1,Bronze
+1150,Dyson Sphere Program,Management,1,Bronze
+1151,NBA 2K21,Singleplayer,1,Bronze
+1152,NBA 2K21,Action,1,Bronze
+1153,NBA 2K21,Multiplayer,1,Bronze
+1154,NBA 2K21,Simulation,1,Bronze
+1155,NBA 2K21,Team-Based,1,Bronze
+1156,NBA 2K21,OnlineCo-Op,1,Bronze
+1157,NBA 2K21,Co-op,1,Bronze
+1158,NBA 2K21,ThirdPerson,1,Bronze
+1159,NBA 2K21,CharacterCustomization,1,Bronze
+1160,NBA 2K21,Realistic,1,Bronze
+1161,NBA 2K21,Sports,1,Bronze
+1162,NBA 2K21,eSports,1,Bronze
+1163,NBA 2K21,Competitive,1,Bronze
+1164,NBA 2K21,3D,1,Bronze
+1165,NBA 2K21,Management,1,Bronze
+1166,NBA 2K21,LocalMultiplayer,1,Bronze
+1167,NBA 2K21,ImmersiveSim,1,Bronze
+1168,NBA 2K21,LocalCo-Op,1,Bronze
+1169,Fall Guys,Casual,1,Bronze
+1170,Fall Guys,Action,1,Bronze
+1171,Fall Guys,Multiplayer,1,Bronze
+1172,Fall Guys,FamilyFriendly,1,Bronze
+1173,Fall Guys,PvP,1,Bronze
+1174,Fall Guys,OnlineCo-Op,1,Bronze
+1175,Fall Guys,Co-op,1,Bronze
+1176,Fall Guys,Indie,1,Bronze
+1177,Fall Guys,Difficult,1,Bronze
+1178,Fall Guys,MassivelyMultiplayer,1,Bronze
+1179,Fall Guys,Funny,1,Bronze
+1180,Fall Guys,Controller,1,Bronze
+1181,Fall Guys,Cute,1,Bronze
+1182,Fall Guys,BattleRoyale,1,Bronze
+1183,Cities Skylines,Casual,1,Bronze
+1184,Cities Skylines,Singleplayer,1,Bronze
+1185,Cities Skylines,Action,1,Bronze
+1186,Cities Skylines,Simulation,1,Bronze
+1187,Cities Skylines,FamilyFriendly,1,Bronze
+1188,Cities Skylines,GreatSoundtrack,1,Bronze
+1189,Cities Skylines,Building,1,Bronze
+1190,Cities Skylines,Sandbox,1,Bronze
+1191,Cities Skylines,Moddable,1,Bronze
+1192,Cities Skylines,Funny,1,Bronze
+1193,Cities Skylines,Realistic,1,Bronze
+1194,Cities Skylines,ReplayValue,1,Bronze
+1195,Cities Skylines,Strategy,1,Bronze
+1196,Cities Skylines,CityBuilder,1,Bronze
+1197,Cities Skylines,ResourceManagement,1,Bronze
+1198,Cities Skylines,Management,1,Bronze
+1199,Halo The Master Chief Collection,Singleplayer,1,Bronze
+1200,Halo The Master Chief Collection,Action,1,Bronze
+1201,Halo The Master Chief Collection,Adventure,1,Bronze
+1202,Halo The Master Chief Collection,Multiplayer,1,Bronze
+1203,Halo The Master Chief Collection,GreatSoundtrack,1,Bronze
+1204,Halo The Master Chief Collection,FPS,1,Bronze
+1205,Halo The Master Chief Collection,Shooter,1,Bronze
+1206,Halo The Master Chief Collection,First-Person,1,Bronze
+1207,Halo The Master Chief Collection,OnlineCo-Op,1,Bronze
+1208,Halo The Master Chief Collection,Co-op,1,Bronze
+1209,Halo The Master Chief Collection,Atmospheric,1,Bronze
+1210,Halo The Master Chief Collection,Beautiful,1,Bronze
+1211,Halo The Master Chief Collection,StoryRich,1,Bronze
+1212,Halo The Master Chief Collection,Horror,1,Bronze
+1213,Halo The Master Chief Collection,Sci-fi,1,Bronze
+1214,Halo The Master Chief Collection,Space,1,Bronze
+1215,Halo The Master Chief Collection,Lore-Rich,1,Bronze
+1216,World of Tanks Blitz,Singleplayer,1,Bronze
+1217,World of Tanks Blitz,Action,1,Bronze
+1218,World of Tanks Blitz,Multiplayer,1,Bronze
+1219,World of Tanks Blitz,FPS,1,Bronze
+1220,World of Tanks Blitz,War,1,Bronze
+1221,World of Tanks Blitz,Military,1,Bronze
+1222,World of Tanks Blitz,Shooter,1,Bronze
+1223,World of Tanks Blitz,PvP,1,Bronze
+1224,World of Tanks Blitz,Team-Based,1,Bronze
+1225,World of Tanks Blitz,OnlineCo-Op,1,Bronze
+1226,World of Tanks Blitz,MassivelyMultiplayer,1,Bronze
+1227,World of Tanks Blitz,Realistic,1,Bronze
+1228,World of Tanks Blitz,Competitive,1,Bronze
+1229,World of Tanks Blitz,Strategy,1,Bronze
+1230,World of Tanks Blitz,FreetoPlay,1,Bronze
+1231,Battlefield V,Singleplayer,1,Bronze
+1232,Battlefield V,Action,1,Bronze
+1233,Battlefield V,Multiplayer,1,Bronze
+1234,Battlefield V,FPS,1,Bronze
+1235,Battlefield V,War,1,Bronze
+1236,Battlefield V,Military,1,Bronze
+1237,Battlefield V,Combat,1,Bronze
+1238,Battlefield V,Shooter,1,Bronze
+1239,Battlefield V,PvP,1,Bronze
+1240,Battlefield V,First-Person,1,Bronze
+1241,Battlefield V,OpenWorld,1,Bronze
+1242,Battlefield V,Violent,1,Bronze
+1243,Battlefield V,SexualContent,1,Bronze
+1244,Battlefield V,MassivelyMultiplayer,1,Bronze
+1245,Battlefield V,Atmospheric,1,Bronze
+1246,Battlefield V,Historical,1,Bronze
+1247,Battlefield V,FemaleProtagonist,1,Bronze
+1248,Battlefield V,BattleRoyale,1,Bronze
+1249,NBA 2K22,Singleplayer,1,Bronze
+1250,NBA 2K22,Multiplayer,1,Bronze
+1251,NBA 2K22,Simulation,1,Bronze
+1252,NBA 2K22,Team-Based,1,Bronze
+1253,NBA 2K22,OnlineCo-Op,1,Bronze
+1254,NBA 2K22,Co-op,1,Bronze
+1255,NBA 2K22,CharacterCustomization,1,Bronze
+1256,NBA 2K22,Realistic,1,Bronze
+1257,NBA 2K22,Sports,1,Bronze
+1258,NBA 2K22,Controller,1,Bronze
+1259,NBA 2K22,eSports,1,Bronze
+1260,NBA 2K22,3D,1,Bronze
+1261,NBA 2K22,Management,1,Bronze
+1262,NBA 2K22,LocalMultiplayer,1,Bronze
+1263,NBA 2K22,LocalCo-Op,1,Bronze
+1264,Arma 3,Singleplayer,1,Bronze
+1265,Arma 3,Action,1,Bronze
+1266,Arma 3,Multiplayer,1,Bronze
+1267,Arma 3,Simulation,1,Bronze
+1268,Arma 3,FPS,1,Bronze
+1269,Arma 3,War,1,Bronze
+1270,Arma 3,Military,1,Bronze
+1271,Arma 3,Combat,1,Bronze
+1272,Arma 3,Shooter,1,Bronze
+1273,Arma 3,First-Person,1,Bronze
+1274,Arma 3,Team-Based,1,Bronze
+1275,Arma 3,OnlineCo-Op,1,Bronze
+1276,Arma 3,Co-op,1,Bronze
+1277,Arma 3,OpenWorld,1,Bronze
+1278,Arma 3,Sandbox,1,Bronze
+1279,Arma 3,Moddable,1,Bronze
+1280,Arma 3,Third-PersonShooter,1,Bronze
+1281,Arma 3,Realistic,1,Bronze
+1282,Arma 3,Tactical,1,Bronze
+1283,Arma 3,Strategy,1,Bronze
+1284,Wallpaper Engine,Singleplayer,1,Bronze
+1285,Wallpaper Engine,Action,1,Bronze
+1286,Wallpaper Engine,First-Person,1,Bronze
+1287,Wallpaper Engine,EarlyAccess,1,Bronze
+1288,Wallpaper Engine,Indie,1,Bronze
+1289,Wallpaper Engine,Sandbox,1,Bronze
+1290,Wallpaper Engine,Funny,1,Bronze
+1291,Wallpaper Engine,Mature,1,Bronze
+1292,Wallpaper Engine,Horror,1,Bronze
+1293,Wallpaper Engine,Cute,1,Bronze
+1294,Wallpaper Engine,Anime,1,Bronze
+1295,HUMANKIND,Singleplayer,1,Bronze
+1296,HUMANKIND,Multiplayer,1,Bronze
+1297,HUMANKIND,Simulation,1,Bronze
+1298,HUMANKIND,GreatSoundtrack,1,Bronze
+1299,HUMANKIND,War,1,Bronze
+1300,HUMANKIND,Building,1,Bronze
+1301,HUMANKIND,OpenWorld,1,Bronze
+1302,HUMANKIND,Survival,1,Bronze
+1303,HUMANKIND,CharacterCustomization,1,Bronze
+1304,HUMANKIND,Tactical,1,Bronze
+1305,HUMANKIND,Strategy,1,Bronze
+1306,HUMANKIND,CityBuilder,1,Bronze
+1307,HUMANKIND,Management,1,Bronze
+1308,HUMANKIND,Historical,1,Bronze
+1309,HUMANKIND,GrandStrategy,1,Bronze
+1310,World of Warships,Action,1,Bronze
+1311,World of Warships,Multiplayer,1,Bronze
+1312,World of Warships,Simulation,1,Bronze
+1313,World of Warships,War,1,Bronze
+1314,World of Warships,Military,1,Bronze
+1315,World of Warships,Shooter,1,Bronze
+1316,World of Warships,PvP,1,Bronze
+1317,World of Warships,Team-Based,1,Bronze
+1318,World of Warships,OnlineCo-Op,1,Bronze
+1319,World of Warships,PvE,1,Bronze
+1320,World of Warships,Co-op,1,Bronze
+1321,World of Warships,MassivelyMultiplayer,1,Bronze
+1322,World of Warships,Third-PersonShooter,1,Bronze
+1323,World of Warships,Realistic,1,Bronze
+1324,World of Warships,Tactical,1,Bronze
+1325,World of Warships,Historical,1,Bronze
+1326,World of Warships,FreetoPlay,1,Bronze
+1327,Farming Simulator 22,Multiplayer,1,Bronze
+1328,Farming Simulator 22,Simulation,1,Bronze
+1329,Farming Simulator 22,FamilyFriendly,1,Bronze
+1330,Farming Simulator 22,First-Person,1,Bronze
+1331,Farming Simulator 22,OnlineCo-Op,1,Bronze
+1332,Farming Simulator 22,Co-op,1,Bronze
+1333,Farming Simulator 22,OpenWorld,1,Bronze
+1334,Farming Simulator 22,Sandbox,1,Bronze
+1335,Farming Simulator 22,ThirdPerson,1,Bronze
+1336,Farming Simulator 22,CharacterCustomization,1,Bronze
+1337,Farming Simulator 22,Moddable,1,Bronze
+1338,Farming Simulator 22,3D,1,Bronze
+1339,Farming Simulator 22,Management,1,Bronze
+1340,Farming Simulator 22,ImmersiveSim,1,Bronze
+1341,Deep Rock Galactic,Action,1,Bronze
+1342,Deep Rock Galactic,FPS,1,Bronze
+1343,Deep Rock Galactic,Combat,1,Bronze
+1344,Deep Rock Galactic,Shooter,1,Bronze
+1345,Deep Rock Galactic,First-Person,1,Bronze
+1346,Deep Rock Galactic,PvE,1,Bronze
+1347,Deep Rock Galactic,Co-op,1,Bronze
+1348,Deep Rock Galactic,Exploration,1,Bronze
+1349,Deep Rock Galactic,Survival,1,Bronze
+1350,Deep Rock Galactic,Atmospheric,1,Bronze
+1351,Deep Rock Galactic,Horror,1,Bronze
+1352,Deep Rock Galactic,Sci-fi,1,Bronze
+1353,Deep Rock Galactic,Space,1,Bronze
+1354,Deep Rock Galactic,Dark,1,Bronze
+1355,DOOM Eternal,Singleplayer,1,Bronze
+1356,DOOM Eternal,Action,1,Bronze
+1357,DOOM Eternal,Adventure,1,Bronze
+1358,DOOM Eternal,Multiplayer,1,Bronze
+1359,DOOM Eternal,GreatSoundtrack,1,Bronze
+1360,DOOM Eternal,FPS,1,Bronze
+1361,DOOM Eternal,Shooter,1,Bronze
+1362,DOOM Eternal,First-Person,1,Bronze
+1363,DOOM Eternal,Difficult,1,Bronze
+1364,DOOM Eternal,Violent,1,Bronze
+1365,DOOM Eternal,Mature,1,Bronze
+1366,DOOM Eternal,Atmospheric,1,Bronze
+1367,DOOM Eternal,StoryRich,1,Bronze
+1368,DOOM Eternal,Gore,1,Bronze
+1369,DOOM Eternal,Horror,1,Bronze
+1370,DOOM Eternal,Sci-fi,1,Bronze
+1371,DOOM Eternal,Post-apocalyptic,1,Bronze
+1372,Tales of Arise,Singleplayer,1,Bronze
+1373,Tales of Arise,Action,1,Bronze
+1374,Tales of Arise,Adventure,1,Bronze
+1375,Tales of Arise,Multiplayer,1,Bronze
+1376,Tales of Arise,Combat,1,Bronze
+1377,Tales of Arise,OpenWorld,1,Bronze
+1378,Tales of Arise,ThirdPerson,1,Bronze
+1379,Tales of Arise,CharacterCustomization,1,Bronze
+1380,Tales of Arise,Fantasy,1,Bronze
+1381,Tales of Arise,SexualContent,1,Bronze
+1382,Tales of Arise,RPG,1,Bronze
+1383,Tales of Arise,StoryRich,1,Bronze
+1384,Tales of Arise,ActionRPG,1,Bronze
+1385,Tales of Arise,HackandSlash,1,Bronze
+1386,Tales of Arise,Controller,1,Bronze
+1387,Tales of Arise,FemaleProtagonist,1,Bronze
+1388,Tales of Arise,Anime,1,Bronze
+1389,Yu-Gi-Oh Duel Links,Casual,1,Bronze
+1390,Yu-Gi-Oh Duel Links,Singleplayer,1,Bronze
+1391,Yu-Gi-Oh Duel Links,Action,1,Bronze
+1392,Yu-Gi-Oh Duel Links,Adventure,1,Bronze
+1393,Yu-Gi-Oh Duel Links,Multiplayer,1,Bronze
+1394,Yu-Gi-Oh Duel Links,Simulation,1,Bronze
+1395,Yu-Gi-Oh Duel Links,GreatSoundtrack,1,Bronze
+1396,Yu-Gi-Oh Duel Links,OnlineCo-Op,1,Bronze
+1397,Yu-Gi-Oh Duel Links,MassivelyMultiplayer,1,Bronze
+1398,Yu-Gi-Oh Duel Links,RPG,1,Bronze
+1399,Yu-Gi-Oh Duel Links,Competitive,1,Bronze
+1400,Yu-Gi-Oh Duel Links,Strategy,1,Bronze
+1401,Yu-Gi-Oh Duel Links,Anime,1,Bronze
+1402,Yu-Gi-Oh Duel Links,FreetoPlay,1,Bronze
+1403,Yu-Gi-Oh Duel Links,MMORPG,1,Bronze
+1404,Football Manager 2022,Singleplayer,1,Bronze
+1405,Football Manager 2022,Multiplayer,1,Bronze
+1406,Football Manager 2022,Simulation,1,Bronze
+1407,Football Manager 2022,CharacterCustomization,1,Bronze
+1408,Football Manager 2022,Sports,1,Bronze
+1409,Football Manager 2022,eSports,1,Bronze
+1410,Football Manager 2022,3D,1,Bronze
+1411,Football Manager 2022,Strategy,1,Bronze
+1412,Football Manager 2022,Management,1,Bronze
+1413,Football Manager 2022,2D,1,Bronze
+1414,BIOMUTANT,Singleplayer,1,Bronze
+1415,BIOMUTANT,Action,1,Bronze
+1416,BIOMUTANT,Adventure,1,Bronze
+1417,BIOMUTANT,Multiplayer,1,Bronze
+1418,BIOMUTANT,OpenWorld,1,Bronze
+1419,BIOMUTANT,Indie,1,Bronze
+1420,BIOMUTANT,Exploration,1,Bronze
+1421,BIOMUTANT,ThirdPerson,1,Bronze
+1422,BIOMUTANT,Crafting,1,Bronze
+1423,BIOMUTANT,CharacterCustomization,1,Bronze
+1424,BIOMUTANT,Fantasy,1,Bronze
+1425,BIOMUTANT,RPG,1,Bronze
+1426,BIOMUTANT,Atmospheric,1,Bronze
+1427,BIOMUTANT,StoryRich,1,Bronze
+1428,BIOMUTANT,ActionRPG,1,Bronze
+1429,BIOMUTANT,HackandSlash,1,Bronze
+1430,BIOMUTANT,Sci-fi,1,Bronze
+1431,BIOMUTANT,Cute,1,Bronze
+1432,BIOMUTANT,Post-apocalyptic,1,Bronze
+1433,The Binding of Isaac Rebirth,Singleplayer,1,Bronze
+1434,The Binding of Isaac Rebirth,Action,1,Bronze
+1435,The Binding of Isaac Rebirth,GreatSoundtrack,1,Bronze
+1436,The Binding of Isaac Rebirth,Co-op,1,Bronze
+1437,The Binding of Isaac Rebirth,Indie,1,Bronze
+1438,The Binding of Isaac Rebirth,Difficult,1,Bronze
+1439,The Binding of Isaac Rebirth,Atmospheric,1,Bronze
+1440,The Binding of Isaac Rebirth,Gore,1,Bronze
+1441,The Binding of Isaac Rebirth,ReplayValue,1,Bronze
+1442,The Binding of Isaac Rebirth,Horror,1,Bronze
+1443,The Binding of Isaac Rebirth,Dark,1,Bronze
+1444,The Binding of Isaac Rebirth,2D,1,Bronze
+1445,The Binding of Isaac Rebirth,LocalCo-Op,1,Bronze
+1446,NieR Replicant ver122474487139,Singleplayer,1,Bronze
+1447,NieR Replicant ver122474487139,Action,1,Bronze
+1448,NieR Replicant ver122474487139,Adventure,1,Bronze
+1449,NieR Replicant ver122474487139,GreatSoundtrack,1,Bronze
+1450,NieR Replicant ver122474487139,Violent,1,Bronze
+1451,NieR Replicant ver122474487139,RPG,1,Bronze
+1452,NieR Replicant ver122474487139,Atmospheric,1,Bronze
+1453,NieR Replicant ver122474487139,StoryRich,1,Bronze
+1454,NieR Replicant ver122474487139,ActionRPG,1,Bronze
+1455,NieR Replicant ver122474487139,HackandSlash,1,Bronze
+1456,NieR Replicant ver122474487139,Nudity,1,Bronze
+1457,NieR Replicant ver122474487139,Post-apocalyptic,1,Bronze
+1458,NieR Replicant ver122474487139,DarkFantasy,1,Bronze
+1459,NieR Replicant ver122474487139,Anime,1,Bronze
+1460,RimWorld,Singleplayer,1,Bronze
+1461,RimWorld,Simulation,1,Bronze
+1462,RimWorld,Building,1,Bronze
+1463,RimWorld,BaseBuilding,1,Bronze
+1464,RimWorld,OpenWorld,1,Bronze
+1465,RimWorld,Indie,1,Bronze
+1466,RimWorld,Survival,1,Bronze
+1467,RimWorld,Sandbox,1,Bronze
+1468,RimWorld,Moddable,1,Bronze
+1469,RimWorld,Sci-fi,1,Bronze
+1470,RimWorld,Space,1,Bronze
+1471,RimWorld,Strategy,1,Bronze
+1472,RimWorld,CityBuilder,1,Bronze
+1473,RimWorld,Management,1,Bronze
+1474,RimWorld,2D,1,Bronze
+1475,Half-Life Alyx,Singleplayer,1,Bronze
+1476,Half-Life Alyx,Action,1,Bronze
+1477,Half-Life Alyx,Adventure,1,Bronze
+1478,Half-Life Alyx,GreatSoundtrack,1,Bronze
+1479,Half-Life Alyx,FPS,1,Bronze
+1480,Half-Life Alyx,Shooter,1,Bronze
+1481,Half-Life Alyx,First-Person,1,Bronze
+1482,Half-Life Alyx,Atmospheric,1,Bronze
+1483,Half-Life Alyx,Beautiful,1,Bronze
+1484,Half-Life Alyx,StoryRich,1,Bronze
+1485,Half-Life Alyx,Gore,1,Bronze
+1486,Half-Life Alyx,Zombies,1,Bronze
+1487,Half-Life Alyx,Horror,1,Bronze
+1488,Half-Life Alyx,Sci-fi,1,Bronze
+1489,Half-Life Alyx,VR,1,Bronze
+1490,Half-Life Alyx,FemaleProtagonist,1,Bronze
+1491,SMITE,Casual,1,Bronze
+1492,SMITE,Action,1,Bronze
+1493,SMITE,Adventure,1,Bronze
+1494,SMITE,Multiplayer,1,Bronze
+1495,SMITE,PvP,1,Bronze
+1496,SMITE,Team-Based,1,Bronze
+1497,SMITE,Co-op,1,Bronze
+1498,SMITE,ThirdPerson,1,Bronze
+1499,SMITE,MassivelyMultiplayer,1,Bronze
+1500,SMITE,RPG,1,Bronze
+1501,SMITE,eSports,1,Bronze
+1502,SMITE,Competitive,1,Bronze
+1503,SMITE,Strategy,1,Bronze
+1504,SMITE,Anime,1,Bronze
+1505,SMITE,FreetoPlay,1,Bronze
+1506,SMITE,MMORPG,1,Bronze
+1507,STAR WARS The Old Republic,Action,1,Bronze
+1508,STAR WARS The Old Republic,Adventure,1,Bronze
+1509,STAR WARS The Old Republic,Multiplayer,1,Bronze
+1510,STAR WARS The Old Republic,GreatSoundtrack,1,Bronze
+1511,STAR WARS The Old Republic,PvP,1,Bronze
+1512,STAR WARS The Old Republic,OpenWorld,1,Bronze
+1513,STAR WARS The Old Republic,ThirdPerson,1,Bronze
+1514,STAR WARS The Old Republic,CharacterCustomization,1,Bronze
+1515,STAR WARS The Old Republic,MassivelyMultiplayer,1,Bronze
+1516,STAR WARS The Old Republic,RPG,1,Bronze
+1517,STAR WARS The Old Republic,Atmospheric,1,Bronze
+1518,STAR WARS The Old Republic,StoryRich,1,Bronze
+1519,STAR WARS The Old Republic,ActionRPG,1,Bronze
+1520,STAR WARS The Old Republic,Sci-fi,1,Bronze
+1521,STAR WARS The Old Republic,Space,1,Bronze
+1522,STAR WARS The Old Republic,FreetoPlay,1,Bronze
+1523,STAR WARS The Old Republic,MMORPG,1,Bronze
