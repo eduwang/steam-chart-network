@@ -5,7 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>STEAM Chart Network</title>
     <link rel="stylesheet" href="styles.css">
-    <script type="module" src="graphVisualizer.js"></script>
+    <script type="module" src="./graphVisualizer.js"></script>
 </head>
 <body>
     <header>
@@ -26,14 +26,16 @@
                 </div>
                 <div class="checkbox-wrapper">
                     <details class="checkbox-container">
-                        <summary>Options Group 1</summary>
-                        <label><input type="checkbox"> Option 1</label>
-                        <label><input type="checkbox"> Option 2</label>
-                        <label><input type="checkbox"> Option 3</label>
+                        <summary>연도별 데이터</summary>
+                        <label><input type="checkbox" id="edges_2019" checked> 2019</label>
+                        <label><input type="checkbox" id="edges_2020"> 2020</label>
+                        <label><input type="checkbox" id="edges_2021"> 2021</label>                        
+                        <label><input type="checkbox" id="edges_2022"> 2022</label>
+                        <label><input type="checkbox" id="edges_2023"> 2023</label>
                     </details>
                     <details class="checkbox-container">
-                        <summary>Options Group 2</summary>
-                        <label><input type="checkbox"> Option A</label>
+                        <summary>옵션</summary>
+                        <label><input type="checkbox" id="game-title-on"> Game Titles 표시</label>
                         <label><input type="checkbox"> Option B</label>
                         <label><input type="checkbox"> Option C</label>
                     </details>
