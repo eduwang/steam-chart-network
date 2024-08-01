@@ -36,8 +36,8 @@
                     <details class="checkbox-container">
                         <summary>옵션</summary>
                         <label><input type="checkbox" id="game-title-on"> Game Titles 표시</label>
-                        <label><input type="checkbox"> 중심성 계산 </label>
-                        <label><input type="checkbox"> 집단 찾기 </label>
+                        <label><input type="checkbox" id="centrality-checkbox"> 중심성 계산 </label>
+                        <label><input type="checkbox" id="community-checkbox"> 집단 찾기 </label>
                     </details>
                     <div id="tier-legend" class="hidden">
                         <div class="legend-item" style="background-color: #E5E4E2;">Platinum</div>
@@ -48,26 +48,26 @@
                 </div>
             </div>
             <div class="graph-details">
-                <div class="table-container">
+                <div class="table-container hidden" id="centrality-table">
                     <h3 class="table-title">중심성</h3>
-                    <table class="details-table">
-                        <tr>
-                            <th>노드</th>
-                            <th>연결중심성</th>
-                        </tr>
-                        <tr>
-                            <td>Game 1</td>
-                            <td>3</td>
-                        </tr>
-                        <tr>
-                            <td>Game 2</td>
-                            <td>3</td>
-                        </tr>
-                    </table>
+                    <div class="details-table-container">
+                        <table class="details-table" >
+                            <thead>
+                                <tr>
+                                    <th>노드</th>
+                                    <th>연결 중심성</th>
+                                    <th>고유벡터 중심성</th>
+                                </tr>
+                            </thead>
+                            <tbody id="centrality-body">
+    
+                            </tbody>
+                        </table>
+                    </div>
                 </div>
-                <div class="table-container">
+                <div class="table-container hidden" id="community-table">
                     <h3 class="table-title">집단 찾기</h3>
-                    <table class="details-table">
+                    <table class="details-table" >
                         <tr>
                             <th>집단</th>
                             <th>노드</th>
@@ -80,6 +80,9 @@
                             <td>집단 2</td>
                             <td>a,b,c</td>
                         </tr>
+                        <tbody>
+
+                        </tbody>
                     </table>
                 </div>
             </div>

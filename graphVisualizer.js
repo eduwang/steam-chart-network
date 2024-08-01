@@ -3,6 +3,10 @@ import forceAtlas2 from "graphology-layout-forceatlas2";
 import Sigma from "sigma";
 import Papa from "papaparse";
 import circular from "graphology-layout/circular";
+import { degreeCentrality } from 'graphology-metrics/centrality/degree';
+import eigenvectorCentrality from 'graphology-metrics/centrality/eigenvector';
+
+
 
 // CSV 데이터를 저장할 전역 변수
 let csvData = [];
@@ -26,6 +30,7 @@ document.addEventListener('DOMContentLoaded', function() {
     // 초기 로드
     loadMultipleCSVs(['/data/edge_data_2019.csv']);
 
+
     // 이벤트 리스너 추가
     document.querySelectorAll('.checkbox-wrapper input[type="checkbox"]').forEach(checkbox => {
         checkbox.addEventListener('change', handleOptionChange);
@@ -33,6 +38,10 @@ document.addEventListener('DOMContentLoaded', function() {
 
     // 범례 표시/숨기기 이벤트 리스너 추가
     document.getElementById('game-title-on').addEventListener('change', toggleLegend);
+
+    document.getElementById('centrality-checkbox').addEventListener('change', toggleCentralityTable);
+
+    document.getElementById('community-checkbox').addEventListener('change', toggleCommunityTable);
 });
 
 function toggleLegend() {
@@ -43,6 +52,26 @@ function toggleLegend() {
       legend.classList.add('hidden');
   }
 }
+
+function toggleCentralityTable() {
+  const centralityTable = document.getElementById('centrality-table');
+  if (document.getElementById('centrality-checkbox').checked) {
+      computeCentrality();
+      centralityTable.classList.remove('hidden');
+  } else {
+      centralityTable.classList.add('hidden');
+  }
+}
+
+function toggleCommunityTable() {
+  const communityTable = document.getElementById('community-table');
+  if (document.getElementById('community-checkbox').checked) {
+      communityTable.classList.remove('hidden');
+  } else {
+      communityTable.classList.add('hidden');
+  }
+}
+
 
 
 function handleOptionChange() {
@@ -259,3 +288,69 @@ function drawGraph() {
     console.error('불러온 CSV 데이터가 없습니다.');
   }
 }
+
+let degreeCen;
+let eigenCen;
+let nodes = [];
+
+function computeCentrality(){
+  degreeCen = degreeCentrality(graph);
+  Object.keys(degreeCen).forEach(node => {
+      graph.setNodeAttribute(node, 'degreeCentrality', parseFloat(degreeCen[node].toFixed(3)));
+  });
+
+  // Eigenvector Centrality 계산 및 할당
+  eigenCen;
+  try {
+      eigenCen = eigenvectorCentrality(graph);
+      Object.keys(eigenCen).forEach(node => {
+          graph.setNodeAttribute(node, 'eigenvectorCentrality', parseFloat(eigenCen[node].toFixed(3)));
+      });
+  } catch (error) {
+      console.error('Error calculating eigenvector centrality:', error);
+      graph.forEachNode(node => {
+          graph.setNodeAttribute(node, 'eigenvectorCentrality', 'N/A');
+      });
+  }
+  
+  const centralityBody = document.getElementById('centrality-body');
+  centralityBody.innerHTML = ''; // 기존 내용 제거
+  nodes = [];
+
+  // 노드를 중심성 기준으로 정렬
+  graph.forEachNode((node, attributes) => {
+      if (!attributes.isTitleFile) {
+          nodes.push({
+              node: node,
+              degreeCentrality: attributes.degreeCentrality,
+              eigenvectorCentrality: attributes.eigenvectorCentrality
+          });
+      }
+  });
+
+  // 정렬: degreeCentrality를 우선, eigenvectorCentrality를 그 다음으로 기준
+  nodes.sort((a, b) => {
+      if (b.degreeCentrality !== a.degreeCentrality) {
+          return b.degreeCentrality - a.degreeCentrality;
+      } else {
+          if (a.eigenvectorCentrality === 'N/A') return 1;
+          if (b.eigenvectorCentrality === 'N/A') return -1;
+          return b.eigenvectorCentrality - a.eigenvectorCentrality;
+      }
+  });
+
+  nodes.forEach(({ node, degreeCentrality, eigenvectorCentrality }) => {
+      const row = document.createElement('tr');
+      const nodeCell = document.createElement('td');
+      nodeCell.textContent = node;
+      const degreeCell = document.createElement('td');
+      degreeCell.textContent = degreeCentrality.toFixed(3);
+      const eigenCell = document.createElement('td');
+      eigenCell.textContent = eigenvectorCentrality === 'N/A' ? 'N/A' : eigenvectorCentrality.toFixed(3);
+      row.appendChild(nodeCell);
+      row.appendChild(degreeCell);
+      row.appendChild(eigenCell);
+      centralityBody.appendChild(row);
+  });
+}
+
