@@ -5,6 +5,7 @@ import Papa from "papaparse";
 import circular from "graphology-layout/circular";
 import { degreeCentrality } from 'graphology-metrics/centrality/degree';
 import eigenvectorCentrality from 'graphology-metrics/centrality/eigenvector';
+import louvain from 'graphology-communities-louvain';
 
 
 
@@ -38,9 +39,7 @@ document.addEventListener('DOMContentLoaded', function() {
 
     // 범례 표시/숨기기 이벤트 리스너 추가
     document.getElementById('game-title-on').addEventListener('change', toggleLegend);
-
     document.getElementById('centrality-checkbox').addEventListener('change', toggleCentralityTable);
-
     document.getElementById('community-checkbox').addEventListener('change', toggleCommunityTable);
 });
 
@@ -66,9 +65,10 @@ function toggleCentralityTable() {
 function toggleCommunityTable() {
   const communityTable = document.getElementById('community-table');
   if (document.getElementById('community-checkbox').checked) {
-      communityTable.classList.remove('hidden');
+    communityAssign();
+    communityTable.classList.remove('hidden');
   } else {
-      communityTable.classList.add('hidden');
+    communityTable.classList.add('hidden');
   }
 }
 
@@ -90,22 +90,38 @@ function handleOptionChange() {
 
     console.log(`CSV 파일 로드 시작: ${selectedFiles.concat(selectedTitleFiles).join(', ')}`);
     loadMultipleCSVs(selectedFiles.concat(selectedTitleFiles));
+
+    if (document.getElementById('centrality-checkbox').checked) {
+      computeCentrality();
+  }
+
+    if (document.getElementById('community-checkbox').checked) {
+        communityAssign();
+        document.getElementById('community-table').classList.remove('hidden');
+    } else {
+        document.getElementById('community-table').classList.add('hidden');
+    }
 }
 
 function loadMultipleCSVs(csvPaths) {
-    csvData = [];
-    Promise.all(csvPaths.map(path => fetch(path).then(response => response.arrayBuffer().then(buffer => ({ buffer, path }))))) // Return both buffer and path
-        .then(results => {
-            results.forEach(({ buffer, path }) => {
-                const encoding = detectEncoding(buffer);
-                const text = decodeText(buffer, encoding);
-                parseCSV(text, path.includes('title_to_tag'));
-            });
-            drawGraph();
-        })
-        .catch(error => {
-            console.error('Error loading CSV files:', error);
-        });
+  csvData = [];
+  Promise.all(csvPaths.map(path => fetch(path).then(response => response.arrayBuffer().then(buffer => ({ buffer, path }))))) // Return both buffer and path
+      .then(results => {
+          results.forEach(({ buffer, path }) => {
+              const encoding = detectEncoding(buffer);
+              const text = decodeText(buffer, encoding);
+              parseCSV(text, path.includes('title_to_tag'));
+          });
+          drawGraph();
+
+          // 중심성 체크박스가 체크된 경우 중심성 계산 및 업데이트
+          if (document.getElementById('centrality-checkbox').checked) {
+              computeCentrality();
+          }
+      })
+      .catch(error => {
+          console.error('Error loading CSV files:', error);
+      });
 }
 
 function detectEncoding(buffer) {
@@ -189,10 +205,10 @@ function drawGraph() {
       if (!graph.hasNode(sourceNode)) {
         const color = isTitleFile ? (tierColors[Tier] || 'blue') : 'gray';
         const size = isTitleFile ? (tierSizes[Tier] || 10) : 5;
-        graph.addNode(sourceNode, { label: sourceNode, color: color, size: size });
+        graph.addNode(sourceNode, { label: sourceNode, color: color, size: size, isTitleFile: isTitleFile });
       }
       if (!graph.hasNode(targetNode)) {
-        graph.addNode(targetNode, { label: targetNode, color: 'black'});
+        graph.addNode(targetNode, { label: targetNode, color: 'black', isTitleFile: isTitleFile });
       }
       if (!graph.hasEdge(sourceNode, targetNode)) {
         graph.addEdge(sourceNode, targetNode, { size: normalizedWeight * 2 });
@@ -296,20 +312,25 @@ let nodes = [];
 function computeCentrality(){
   degreeCen = degreeCentrality(graph);
   Object.keys(degreeCen).forEach(node => {
-      graph.setNodeAttribute(node, 'degreeCentrality', parseFloat(degreeCen[node].toFixed(3)));
+      if (!graph.getNodeAttribute(node, 'isTitleFile')) { // Exclude title files from centrality calculation
+          graph.setNodeAttribute(node, 'degreeCentrality', parseFloat(degreeCen[node].toFixed(3)));
+      }
   });
 
   // Eigenvector Centrality 계산 및 할당
-  eigenCen;
   try {
       eigenCen = eigenvectorCentrality(graph);
       Object.keys(eigenCen).forEach(node => {
-          graph.setNodeAttribute(node, 'eigenvectorCentrality', parseFloat(eigenCen[node].toFixed(3)));
+          if (!graph.getNodeAttribute(node, 'isTitleFile')) { // Exclude title files from centrality calculation
+              graph.setNodeAttribute(node, 'eigenvectorCentrality', parseFloat(eigenCen[node].toFixed(3)));
+          }
       });
   } catch (error) {
       console.error('Error calculating eigenvector centrality:', error);
       graph.forEachNode(node => {
-          graph.setNodeAttribute(node, 'eigenvectorCentrality', 'N/A');
+          if (!graph.getNodeAttribute(node, 'isTitleFile')) { // Exclude title files from centrality calculation
+              graph.setNodeAttribute(node, 'eigenvectorCentrality', 'N/A');
+          }
       });
   }
   
@@ -317,9 +338,9 @@ function computeCentrality(){
   centralityBody.innerHTML = ''; // 기존 내용 제거
   nodes = [];
 
-  // 노드를 중심성 기준으로 정렬
+  // 노드를 중심성 기준으로 정렬 및 GameTitle 제외
   graph.forEachNode((node, attributes) => {
-      if (!attributes.isTitleFile) {
+      if (!attributes.isTitleFile) { // Exclude title files from centrality calculation
           nodes.push({
               node: node,
               degreeCentrality: attributes.degreeCentrality,
@@ -339,6 +360,7 @@ function computeCentrality(){
       }
   });
 
+  // 중심성 테이블에 GameTitle을 제외하고 노드 추가
   nodes.forEach(({ node, degreeCentrality, eigenvectorCentrality }) => {
       const row = document.createElement('tr');
       const nodeCell = document.createElement('td');
@@ -354,3 +376,39 @@ function computeCentrality(){
   });
 }
 
+
+let communityNodes;
+
+function communityAssign(){
+  const communities = louvain(graph); // Community detection using louvain algorithm
+  communityNodes = {};
+
+  graph.forEachNode((node, attributes) => {
+    if (!attributes.isTitleFile) { // Exclude title files from community detection
+      const community = communities[node];
+      if (!communityNodes[community]) {
+        communityNodes[community] = [];
+      }
+      communityNodes[community].push(node);
+      graph.setNodeAttribute(node, 'community', community);
+    }
+  });
+
+  updateCommunityNodes(communityNodes);
+}
+
+function updateCommunityNodes(communityNodes){
+  const communityBody = document.getElementById('community-body');
+  communityBody.innerHTML = ''; // 기존 내용 제거
+
+  Object.keys(communityNodes).forEach(community => {
+      const row = document.createElement('tr');
+      const communityCell = document.createElement('td');
+      communityCell.textContent = community;
+      const nodesCell = document.createElement('td');
+      nodesCell.textContent = communityNodes[community].join(', ');
+      row.appendChild(communityCell);
+      row.appendChild(nodesCell);
+      communityBody.appendChild(row);
+  });
+}
