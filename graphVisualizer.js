@@ -12,24 +12,24 @@ import louvain from 'graphology-communities-louvain';
 // CSV 데이터를 저장할 전역 변수
 let csvData = [];
 const yearFiles = {
-    'edges_2019': '/data/edge_data_2019.csv',
-    'edges_2020': '/data/edge_data_2020.csv',
-    'edges_2021': '/data/edge_data_2021.csv',
-    'edges_2022': '/data/edge_data_2022.csv',
-    'edges_2023': '/data/edge_data_2023.csv',
+    'edges_2019': '/data/edges_btn_udt_2019_final.csv',
+    'edges_2020': '/data/edges_btn_udt_2020_final.csv',
+    'edges_2021': '/data/edges_btn_udt_2021_final.csv',
+    'edges_2022': '/data/edges_btn_udt_2022_final.csv',
+    'edges_2023': '/data/edges_btn_udt_2023_final.csv',
 };
 const titleFiles = {
-    'edges_2019': '/data/edges_title_to_tag_2019.csv',
-    'edges_2020': '/data/edges_title_to_tag_2020.csv',
-    'edges_2021': '/data/edges_title_to_tag_2021.csv',
-    'edges_2022': '/data/edges_title_to_tag_2022.csv',
-    'edges_2023': '/data/edges_title_to_tag_2023.csv',
+    'edges_2019': '/data/title_to_tag_2019.csv',
+    'edges_2020': '/data/title_to_tag_2020.csv',
+    'edges_2021': '/data/title_to_tag_2021.csv',
+    'edges_2022': '/data/title_to_tag_2022.csv',
+    'edges_2023': '/data/title_to_tag_2023.csv',
 };
 
 document.addEventListener('DOMContentLoaded', function() {
     console.log("CSV 파일 로드 시작");
     // 초기 로드
-    loadMultipleCSVs(['/data/edge_data_2019.csv']);
+    loadMultipleCSVs(['/data/edges_btn_udt_2019_final.csv']);
 
 
     // 이벤트 리스너 추가

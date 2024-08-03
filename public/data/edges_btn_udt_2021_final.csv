@@ -1,0 +1,484 @@
+Source1,Source2,Weight
+FPS,Action,28
+FPS,Player Mode,18
+FPS,Adventure/Open World,23
+FPS,Multiplayer/Co-op,26
+FPS,Sci-fi,16
+FPS,Shooter,25
+FPS,Player Interaction,18
+FPS,Perspective,27
+FPS,Military,6
+FPS,War,6
+FPS,Survival,12
+FPS,Co-op,19
+FPS,Simulation,7
+FPS,Strategy,8
+FPS,Visual Style,18
+FPS,Realistic,6
+FPS,Great Soundtrack,10
+FPS,Narrative/Story,10
+FPS,Gore,10
+FPS,Sandbox,7
+FPS,Zombies,7
+FPS,Violent,7
+FPS,Horror,10
+Action,Player Mode,55
+Action,Adventure/Open World,50
+Action,Multiplayer/Co-op,60
+Action,Sci-fi,24
+Action,Casual,8
+Action,Shooter,29
+Action,Player Interaction,37
+Action,Combat,8
+Action,Perspective,54
+Action,Military,10
+Action,War,11
+Action,Survival,19
+Action,Hack and Slash,10
+Action,Female Protagonist,9
+Action,Violent,14
+Action,Character Customization,17
+Action,Massively Multiplayer,17
+Action,Gore,17
+Action,Mature,9
+Action,Battle Royale,6
+Action,Anime,7
+Action,Free to Play,13
+Action,Co-op,43
+Action,Simulation,19
+Action,Strategy,21
+Action,Difficult,15
+Action,Stealth,6
+Action,Early Access,8
+Action,MMORPG,7
+Action,Lore-Rich,7
+Action,Visual Style,40
+Action,RPG,24
+Action,eSports,6
+Action,Replay Value,8
+Action,Fantasy,17
+Action,3D,6
+Action,Realistic,13
+Action,Funny,9
+Action,Crafting/Building,14
+Action,Indie,14
+Action,Sandbox,18
+Action,Horror,16
+Action,Great Soundtrack,28
+Action,Narrative/Story,27
+Action,Zombies,9
+Action,Nudity,7
+Action,Dark,7
+Action,Historical,6
+Player Mode,Adventure/Open World,52
+Player Mode,Multiplayer/Co-op,58
+Player Mode,Sci-fi,22
+Player Mode,Casual,9
+Player Mode,Shooter,18
+Player Mode,Player Interaction,22
+Player Mode,Combat,7
+Player Mode,Cinematic,6
+Player Mode,Perspective,40
+Player Mode,Military,7
+Player Mode,War,10
+Player Mode,Survival,15
+Player Mode,Co-op,34
+Player Mode,Crafting/Building,22
+Player Mode,Difficult,8
+Player Mode,Indie,16
+Player Mode,Fantasy,17
+Player Mode,Sandbox,24
+Player Mode,Early Access,9
+Player Mode,RPG,25
+Player Mode,Sexual Content,7
+Player Mode,Violent,13
+Player Mode,Character Customization,19
+Player Mode,Massively Multiplayer,9
+Player Mode,Moddable,8
+Player Mode,Simulation,28
+Player Mode,Visual Style,36
+Player Mode,Funny,8
+Player Mode,Mature,7
+Player Mode,Great Soundtrack,33
+Player Mode,Realistic,15
+Player Mode,Sports,8
+Player Mode,Narrative/Story,27
+Player Mode,Gore,14
+Player Mode,Zombies,6
+Player Mode,Replay Value,8
+Player Mode,Horror,13
+Player Mode,Hack and Slash,8
+Player Mode,Controller,7
+Player Mode,Female Protagonist,8
+Player Mode,Family Friendly,6
+Player Mode,eSports,6
+Player Mode,3D,9
+Player Mode,VR,6
+Player Mode,Strategy,21
+Player Mode,Dark,6
+Player Mode,Historical,8
+Player Mode,City Builder,8
+Player Mode,RTS,6
+Player Mode,Management,12
+Player Mode,Nudity,7
+Player Mode,Cute,6
+Player Mode,2D,8
+Adventure/Open World,Multiplayer/Co-op,53
+Adventure/Open World,Sci-fi,25
+Adventure/Open World,Casual,8
+Adventure/Open World,Shooter,20
+Adventure/Open World,Player Interaction,23
+Adventure/Open World,Combat,6
+Adventure/Open World,Perspective,45
+Adventure/Open World,War,6
+Adventure/Open World,Survival,21
+Adventure/Open World,Hack and Slash,7
+Adventure/Open World,Female Protagonist,7
+Adventure/Open World,Violent,13
+Adventure/Open World,Character Customization,15
+Adventure/Open World,Massively Multiplayer,12
+Adventure/Open World,Gore,14
+Adventure/Open World,Mature,7
+Adventure/Open World,Free to Play,7
+Adventure/Open World,MMORPG,8
+Adventure/Open World,Co-op,30
+Adventure/Open World,Visual Style,36
+Adventure/Open World,Crafting/Building,22
+Adventure/Open World,Difficult,6
+Adventure/Open World,Indie,14
+Adventure/Open World,Fantasy,14
+Adventure/Open World,Sandbox,25
+Adventure/Open World,Early Access,8
+Adventure/Open World,RPG,22
+Adventure/Open World,Moddable,7
+Adventure/Open World,Simulation,23
+Adventure/Open World,Funny,6
+Adventure/Open World,Great Soundtrack,25
+Adventure/Open World,Realistic,10
+Adventure/Open World,Narrative/Story,22
+Adventure/Open World,Zombies,8
+Adventure/Open World,Horror,14
+Adventure/Open World,Nudity,7
+Adventure/Open World,City Builder,6
+Adventure/Open World,Management,8
+Adventure/Open World,Strategy,16
+Adventure/Open World,Family Friendly,6
+Multiplayer/Co-op,Sci-fi,21
+Multiplayer/Co-op,Casual,11
+Multiplayer/Co-op,Shooter,27
+Multiplayer/Co-op,Player Interaction,39
+Multiplayer/Co-op,Combat,7
+Multiplayer/Co-op,Cinematic,7
+Multiplayer/Co-op,Perspective,48
+Multiplayer/Co-op,Military,10
+Multiplayer/Co-op,War,14
+Multiplayer/Co-op,Survival,20
+Multiplayer/Co-op,Hack and Slash,7
+Multiplayer/Co-op,Violent,12
+Multiplayer/Co-op,Character Customization,20
+Multiplayer/Co-op,Massively Multiplayer,17
+Multiplayer/Co-op,Gore,15
+Multiplayer/Co-op,Mature,6
+Multiplayer/Co-op,Battle Royale,6
+Multiplayer/Co-op,Free to Play,14
+Multiplayer/Co-op,Co-op,50
+Multiplayer/Co-op,Simulation,34
+Multiplayer/Co-op,Strategy,29
+Multiplayer/Co-op,Difficult,13
+Multiplayer/Co-op,Early Access,9
+Multiplayer/Co-op,MMORPG,8
+Multiplayer/Co-op,Lore-Rich,7
+Multiplayer/Co-op,Visual Style,34
+Multiplayer/Co-op,RPG,19
+Multiplayer/Co-op,RTS,7
+Multiplayer/Co-op,eSports,10
+Multiplayer/Co-op,Replay Value,7
+Multiplayer/Co-op,Fantasy,14
+Multiplayer/Co-op,3D,11
+Multiplayer/Co-op,Realistic,19
+Multiplayer/Co-op,Moddable,8
+Multiplayer/Co-op,Funny,9
+Multiplayer/Co-op,Crafting/Building,23
+Multiplayer/Co-op,Indie,15
+Multiplayer/Co-op,Sandbox,22
+Multiplayer/Co-op,Sexual Content,6
+Multiplayer/Co-op,Horror,14
+Multiplayer/Co-op,Great Soundtrack,23
+Multiplayer/Co-op,Sports,9
+Multiplayer/Co-op,Narrative/Story,19
+Multiplayer/Co-op,Zombies,7
+Multiplayer/Co-op,Controller,10
+Multiplayer/Co-op,Family Friendly,8
+Multiplayer/Co-op,Immersive Sim,7
+Multiplayer/Co-op,VR,6
+Multiplayer/Co-op,Historical,9
+Multiplayer/Co-op,City Builder,6
+Multiplayer/Co-op,Management,12
+Multiplayer/Co-op,Cute,6
+Multiplayer/Co-op,2D,7
+Sci-fi,Shooter,16
+Sci-fi,Player Interaction,10
+Sci-fi,Perspective,25
+Sci-fi,Co-op,13
+Sci-fi,Visual Style,18
+Sci-fi,Survival,12
+Sci-fi,Character Customization,8
+Sci-fi,RPG,11
+Sci-fi,Simulation,8
+Sci-fi,Crafting/Building,9
+Sci-fi,Indie,7
+Sci-fi,Sandbox,9
+Sci-fi,Narrative/Story,15
+Sci-fi,Violent,6
+Sci-fi,Great Soundtrack,12
+Sci-fi,Gore,7
+Sci-fi,Horror,8
+Casual,Player Interaction,6
+Casual,Family Friendly,6
+Casual,Simulation,7
+Casual,Great Soundtrack,7
+Shooter,Player Interaction,18
+Shooter,Combat,6
+Shooter,Perspective,28
+Shooter,Military,9
+Shooter,War,8
+Shooter,Survival,9
+Shooter,Co-op,22
+Shooter,Simulation,9
+Shooter,Strategy,9
+Shooter,Visual Style,16
+Shooter,Massively Multiplayer,7
+Shooter,Free to Play,8
+Shooter,Realistic,8
+Shooter,Sandbox,7
+Shooter,Great Soundtrack,10
+Shooter,Narrative/Story,9
+Shooter,Gore,9
+Shooter,Violent,6
+Shooter,Horror,8
+Shooter,RPG,6
+Player Interaction,Cinematic,6
+Player Interaction,Perspective,27
+Player Interaction,Military,8
+Player Interaction,War,9
+Player Interaction,Survival,10
+Player Interaction,Character Customization,9
+Player Interaction,Massively Multiplayer,14
+Player Interaction,Battle Royale,6
+Player Interaction,Free to Play,12
+Player Interaction,Co-op,30
+Player Interaction,Simulation,15
+Player Interaction,Strategy,15
+Player Interaction,Difficult,8
+Player Interaction,MMORPG,6
+Player Interaction,Lore-Rich,6
+Player Interaction,Visual Style,15
+Player Interaction,RPG,7
+Player Interaction,eSports,9
+Player Interaction,Fantasy,6
+Player Interaction,3D,6
+Player Interaction,Realistic,12
+Player Interaction,Sandbox,6
+Player Interaction,Horror,7
+Player Interaction,Sports,7
+Player Interaction,Great Soundtrack,6
+Player Interaction,Controller,6
+Combat,Perspective,7
+Perspective,Military,8
+Perspective,War,7
+Perspective,Survival,19
+Perspective,Hack and Slash,7
+Perspective,Female Protagonist,7
+Perspective,Violent,12
+Perspective,Character Customization,15
+Perspective,Massively Multiplayer,13
+Perspective,Gore,14
+Perspective,Mature,8
+Perspective,Free to Play,10
+Perspective,Co-op,33
+Perspective,Simulation,19
+Perspective,Strategy,13
+Perspective,Difficult,8
+Perspective,Stealth,7
+Perspective,Early Access,10
+Perspective,Visual Style,31
+Perspective,Realistic,12
+Perspective,Moddable,6
+Perspective,Funny,6
+Perspective,Crafting/Building,14
+Perspective,Indie,12
+Perspective,Fantasy,10
+Perspective,Sandbox,18
+Perspective,RPG,17
+Perspective,Horror,13
+Perspective,Great Soundtrack,18
+Perspective,Narrative/Story,20
+Perspective,Zombies,8
+Perspective,Nudity,6
+Military,War,9
+Military,Strategy,7
+Military,Realistic,6
+War,Co-op,8
+War,Strategy,11
+War,Realistic,6
+War,Simulation,7
+War,Historical,7
+Survival,Violent,6
+Survival,Gore,8
+Survival,Co-op,15
+Survival,Simulation,10
+Survival,Strategy,8
+Survival,Early Access,8
+Survival,Crafting/Building,12
+Survival,Indie,10
+Survival,Sandbox,13
+Survival,Visual Style,9
+Survival,Horror,9
+Survival,Zombies,6
+Hack and Slash,Character Customization,6
+Hack and Slash,RPG,8
+Hack and Slash,Visual Style,6
+Hack and Slash,Fantasy,7
+Hack and Slash,Narrative/Story,7
+Female Protagonist,Narrative/Story,7
+Female Protagonist,Visual Style,7
+Violent,Gore,11
+Violent,Co-op,7
+Violent,RPG,8
+Violent,Visual Style,9
+Violent,Horror,6
+Violent,Narrative/Story,8
+Violent,Great Soundtrack,6
+Character Customization,Free to Play,6
+Character Customization,Co-op,10
+Character Customization,RPG,16
+Character Customization,Simulation,8
+Character Customization,Strategy,6
+Character Customization,Fantasy,10
+Character Customization,Crafting/Building,6
+Character Customization,Narrative/Story,12
+Character Customization,Visual Style,9
+Character Customization,Great Soundtrack,7
+Character Customization,Management,6
+Massively Multiplayer,Free to Play,9
+Massively Multiplayer,MMORPG,6
+Massively Multiplayer,Co-op,10
+Massively Multiplayer,Visual Style,8
+Massively Multiplayer,RPG,7
+Gore,Co-op,9
+Gore,Visual Style,12
+Gore,Difficult,6
+Gore,Horror,11
+Gore,Narrative/Story,10
+Gore,Great Soundtrack,8
+Gore,Zombies,8
+Mature,Visual Style,6
+Free to Play,Co-op,8
+Free to Play,Strategy,7
+Co-op,Simulation,20
+Co-op,Strategy,20
+Co-op,Difficult,12
+Co-op,Early Access,8
+Co-op,Visual Style,22
+Co-op,RPG,11
+Co-op,eSports,9
+Co-op,Replay Value,6
+Co-op,Fantasy,8
+Co-op,3D,8
+Co-op,Realistic,11
+Co-op,Funny,6
+Co-op,Crafting/Building,13
+Co-op,Indie,10
+Co-op,Sandbox,14
+Co-op,Horror,9
+Co-op,Great Soundtrack,13
+Co-op,Sports,7
+Co-op,Narrative/Story,7
+Co-op,Controller,6
+Co-op,Historical,6
+Simulation,Strategy,17
+Simulation,Early Access,6
+Simulation,eSports,7
+Simulation,Moddable,9
+Simulation,Visual Style,12
+Simulation,Sandbox,19
+Simulation,Great Soundtrack,11
+Simulation,Realistic,17
+Simulation,Sports,9
+Simulation,Controller,8
+Simulation,Crafting/Building,16
+Simulation,Indie,9
+Simulation,Family Friendly,7
+Simulation,Immersive Sim,7
+Simulation,City Builder,6
+Simulation,Management,13
+Simulation,3D,6
+Strategy,Difficult,7
+Strategy,RTS,7
+Strategy,3D,6
+Strategy,Realistic,7
+Strategy,Moddable,7
+Strategy,Visual Style,7
+Strategy,Indie,6
+Strategy,Historical,7
+Strategy,City Builder,8
+Strategy,Crafting/Building,12
+Strategy,Management,10
+Strategy,Great Soundtrack,9
+Strategy,Sandbox,11
+Difficult,Fantasy,6
+Difficult,Visual Style,9
+Difficult,Great Soundtrack,6
+Early Access,Crafting/Building,8
+Early Access,Indie,9
+Early Access,Sandbox,8
+MMORPG,Visual Style,6
+MMORPG,RPG,7
+Visual Style,Horror,12
+Visual Style,Sandbox,10
+Visual Style,Great Soundtrack,25
+Visual Style,Realistic,6
+Visual Style,Narrative/Story,22
+Visual Style,RPG,18
+Visual Style,Fantasy,11
+Visual Style,Crafting/Building,9
+Visual Style,Indie,9
+Visual Style,Zombies,6
+Visual Style,Dark,6
+RPG,Fantasy,15
+RPG,Crafting/Building,7
+RPG,Sandbox,7
+RPG,Narrative/Story,17
+RPG,Nudity,6
+RPG,Great Soundtrack,15
+eSports,Realistic,7
+eSports,Sports,6
+Replay Value,Great Soundtrack,6
+Fantasy,Narrative/Story,12
+Fantasy,Great Soundtrack,8
+3D,Management,6
+Realistic,Sports,8
+Realistic,Sandbox,7
+Realistic,Controller,8
+Realistic,Family Friendly,6
+Realistic,Immersive Sim,6
+Moddable,Sandbox,7
+Moddable,Management,7
+Moddable,Crafting/Building,6
+Funny,Sandbox,6
+Funny,Great Soundtrack,6
+Crafting/Building,Indie,13
+Crafting/Building,Sandbox,17
+Crafting/Building,City Builder,8
+Crafting/Building,Management,10
+Crafting/Building,Great Soundtrack,7
+Indie,Sandbox,13
+Sandbox,Great Soundtrack,9
+Sandbox,Management,7
+Horror,Zombies,8
+Horror,Narrative/Story,6
+Horror,Great Soundtrack,6
+Great Soundtrack,Narrative/Story,17
+Sports,Controller,6
+Narrative/Story,Nudity,6
+City Builder,Management,7
