@@ -30,8 +30,12 @@
 
         <section id="chart">
             <h2>연구 결과 - STEAM Titles Network</h2>
-            <div class="chart-container">
-                <div class="graph-space" id="sigma-container">
+            <p>
+                <button id="button1" class="active">사용자 정의 태그 사이의 관계망</button>
+                <button id="button2">게임 사이의 관계망</button>
+            </p>
+            <div id="chart-container1" class="chart-container">
+                <div class="graph-space" id="sigma-container1">
                     <!-- 그래프 공간 --> 
                 </div>
                 <div class="checkbox-wrapper">
@@ -46,8 +50,8 @@
                     <details class="checkbox-container">
                         <summary>옵션</summary>
                         <label><input type="checkbox" id="game-title-on"> Game Titles 표시</label>
-                        <label><input type="checkbox" id="centrality-checkbox"> 중심성 계산 </label>
-                        <label><input type="checkbox" id="community-checkbox"> 집단 찾기 </label>
+                        <label><input type="checkbox" id="centrality-checkbox1"> 중심성 계산 </label>
+                        <label><input type="checkbox" id="community-checkbox1"> 집단 찾기 </label>
                     </details>
                     <div id="tier-legend" class="hidden">
                         <div class="legend-item" style="background-color: #E5E4E2;">Platinum</div>
@@ -57,6 +61,33 @@
                     </div>
                 </div>
             </div>
+            <div id="chart-container2" class="chart-container hidden">
+                <div class="graph-space" id="sigma-container2">
+                    <!-- 그래프 공간 --> 
+                </div>
+                <div class="checkbox-wrapper">
+                    <details class="checkbox-container">
+                        <summary>연도별 데이터</summary>
+                        <label><input type="checkbox" id="jaccard_2019" checked> 2019</label>
+                        <label><input type="checkbox" id="jaccard_2020"> 2020</label>
+                        <label><input type="checkbox" id="jaccard_2021"> 2021</label>                        
+                        <label><input type="checkbox" id="jaccard_2022"> 2022</label>
+                        <label><input type="checkbox" id="jaccard_2023"> 2023</label>
+                    </details>
+                    <details class="checkbox-container">
+                        <summary>옵션</summary>
+                        <label><input type="checkbox" id="centrality-checkbox2"> 중심성 계산 </label>
+                        <label><input type="checkbox" id="community-checkbox2"> 집단 찾기 </label>
+                    </details>
+                    <div id="tier-legend" class="hidden">
+                        <div class="legend-item" style="background-color: #E5E4E2;">Platinum</div>
+                        <div class="legend-item" style="background-color: #FFD700;">Gold</div>
+                        <div class="legend-item" style="background-color: #C0C0C0;">Silver</div>
+                        <div class="legend-item" style="background-color: #CD7F32;">Bronze</div>
+                    </div>
+                </div>
+            </div>
+            
             <div class="graph-details">
                 <div class="table-container hidden" id="centrality-table">
                     <h3 class="table-title">중심성</h3>

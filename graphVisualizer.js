@@ -6,8 +6,7 @@ import circular from "graphology-layout/circular";
 import { degreeCentrality } from 'graphology-metrics/centrality/degree';
 import eigenvectorCentrality from 'graphology-metrics/centrality/eigenvector';
 import louvain from 'graphology-communities-louvain';
-
-
+import { NodeBorderProgram } from "@sigma/node-border";
 
 // CSV 데이터를 저장할 전역 변수
 let csvData = [];
@@ -19,18 +18,24 @@ const yearFiles = {
     'edges_2023': '/data/edges_btn_udt_2023_final.csv',
 };
 const titleFiles = {
-    'edges_2019': '/data/title_to_tag_2019.csv',
-    'edges_2020': '/data/title_to_tag_2020.csv',
-    'edges_2021': '/data/title_to_tag_2021.csv',
-    'edges_2022': '/data/title_to_tag_2022.csv',
-    'edges_2023': '/data/title_to_tag_2023.csv',
+  'edges_2019': '/data/title_to_tag_2019.csv',
+  'edges_2020': '/data/title_to_tag_2020.csv',
+  'edges_2021': '/data/title_to_tag_2021.csv',
+  'edges_2022': '/data/title_to_tag_2022.csv',
+  'edges_2023': '/data/title_to_tag_2023.csv',
+};
+const jaccardFiles = {
+    'jaccard_2019': '/data/jaccard_2019.csv',
+    'jaccard_2020': '/data/jaccard_2020.csv',
+    'jaccard_2021': '/data/jaccard_2021.csv',
+    'jaccard_2022': '/data/jaccard_2022.csv',
+    'jaccard_2023': '/data/jaccard_2023.csv',
 };
 
 document.addEventListener('DOMContentLoaded', function() {
     console.log("CSV 파일 로드 시작");
     // 초기 로드
-    loadMultipleCSVs(['/data/edges_btn_udt_2019_final.csv']);
-
+    loadMultipleCSVs([yearFiles['edges_2019']], 'chart-container1');
 
     // 이벤트 리스너 추가
     document.querySelectorAll('.checkbox-wrapper input[type="checkbox"]').forEach(checkbox => {
@@ -38,90 +43,94 @@ document.addEventListener('DOMContentLoaded', function() {
     });
 
     // 범례 표시/숨기기 이벤트 리스너 추가
-    document.getElementById('game-title-on').addEventListener('change', toggleLegend);
-    document.getElementById('centrality-checkbox').addEventListener('change', toggleCentralityTable);
-    document.getElementById('community-checkbox').addEventListener('change', toggleCommunityTable);
+    document.getElementById('game-title-on').addEventListener('change', () => toggleLegend('tier-legend'));
+    document.getElementById('centrality-checkbox1').addEventListener('change', () => toggleCentralityTable('chart-container1'));
+    document.getElementById('community-checkbox1').addEventListener('change', () => toggleCommunityTable('chart-container1'));
+
+    document.getElementById('centrality-checkbox2').addEventListener('change', () => toggleCentralityTable('chart-container2'));
+    document.getElementById('community-checkbox2').addEventListener('change', () => toggleCommunityTable('chart-container2'));
+
+    // Chart switching
+    document.getElementById('button1').addEventListener('click', () => showChart('chart-container1'));
+    document.getElementById('button2').addEventListener('click', () => showChart('chart-container2'));
 });
 
-function toggleLegend() {
-  const legend = document.getElementById('tier-legend');
-  if (document.getElementById('game-title-on').checked) {
-      legend.classList.remove('hidden');
-  } else {
-      legend.classList.add('hidden');
-  }
+function toggleLegend(legendId) {
+    const legend = document.getElementById(legendId);
+    if (document.getElementById(`game-title-on`).checked) {
+        legend.classList.remove('hidden');
+    } else {
+        legend.classList.add('hidden');
+    }
 }
 
-function toggleCentralityTable() {
-  const centralityTable = document.getElementById('centrality-table');
-  if (document.getElementById('centrality-checkbox').checked) {
-      computeCentrality();
-      centralityTable.classList.remove('hidden');
-  } else {
-      centralityTable.classList.add('hidden');
-  }
+function toggleCentralityTable(containerId) {
+    const centralityTable = document.getElementById(`centrality-table`);
+    if (document.getElementById(`centrality-checkbox${containerId === 'chart-container1' ? '1' : '2'}`).checked) {
+        computeCentrality(containerId);
+        centralityTable.classList.remove('hidden');
+    } else {
+        centralityTable.classList.add('hidden');
+    }
 }
 
-function toggleCommunityTable() {
-  const communityTable = document.getElementById('community-table');
-  if (document.getElementById('community-checkbox').checked) {
-    communityAssign();
-    communityTable.classList.remove('hidden');
-  } else {
-    communityTable.classList.add('hidden');
-  }
+function toggleCommunityTable(containerId) {
+    const communityTable = document.getElementById(`community-table`);
+    if (document.getElementById(`community-checkbox${containerId === 'chart-container1' ? '1' : '2'}`).checked) {
+        communityAssign(containerId);
+        communityTable.classList.remove('hidden');
+    } else {
+        communityTable.classList.add('hidden');
+    }
 }
-
-
 
 function handleOptionChange() {
-    const selectedFiles = [];
-    const selectedTitleFiles = [];
-    const isGameTitleOn = document.getElementById('game-title-on').checked;
+  const selectedFiles = [];
+  const selectedTitleFiles = [];
+  const containerId = this.closest('.chart-container').id;
+  const suffix = containerId === 'chart-container1' ? 'edges' : 'jaccard';
+  const isGameTitleOn = document.getElementById('game-title-on').checked;
 
-    for (const year in yearFiles) {
-        if (document.getElementById(year).checked) {
-            selectedFiles.push(yearFiles[year]);
-            if (isGameTitleOn) {
-                selectedTitleFiles.push(titleFiles[year]);
-            }
-        }
-    }
-
-    console.log(`CSV 파일 로드 시작: ${selectedFiles.concat(selectedTitleFiles).join(', ')}`);
-    loadMultipleCSVs(selectedFiles.concat(selectedTitleFiles));
-
-    if (document.getElementById('centrality-checkbox').checked) {
-      computeCentrality();
+  for (const year in (suffix === 'edges' ? yearFiles : jaccardFiles)) {
+      if (document.getElementById(`${year}`).checked) {
+          selectedFiles.push(suffix === 'edges' ? yearFiles[year] : jaccardFiles[year]);
+          if (isGameTitleOn && suffix === 'edges') {
+              selectedTitleFiles.push(titleFiles[year]);
+          }
+      }
   }
 
-    if (document.getElementById('community-checkbox').checked) {
-        communityAssign();
-        document.getElementById('community-table').classList.remove('hidden');
-    } else {
-        document.getElementById('community-table').classList.add('hidden');
-    }
+  console.log(`CSV 파일 로드 시작: ${selectedFiles.concat(selectedTitleFiles).join(', ')}`);
+  loadMultipleCSVs(selectedFiles.concat(selectedTitleFiles), containerId);
 }
 
-function loadMultipleCSVs(csvPaths) {
-  csvData = [];
-  Promise.all(csvPaths.map(path => fetch(path).then(response => response.arrayBuffer().then(buffer => ({ buffer, path }))))) // Return both buffer and path
-      .then(results => {
-          results.forEach(({ buffer, path }) => {
-              const encoding = detectEncoding(buffer);
-              const text = decodeText(buffer, encoding);
-              parseCSV(text, path.includes('title_to_tag'));
-          });
-          drawGraph();
+function loadMultipleCSVs(csvPaths, containerId) {
+    csvData = [];
+    Promise.all(csvPaths.map(path => fetch(path).then(response => response.arrayBuffer().then(buffer => ({ buffer, path }))))) // Return both buffer and path
+        .then(results => {
+            results.forEach(({ buffer, path }) => {
+                const encoding = detectEncoding(buffer);
+                const text = decodeText(buffer, encoding);
+                parseCSV(text, path.includes('title_to_tag'));
+            });
+            drawGraph(containerId);
 
-          // 중심성 체크박스가 체크된 경우 중심성 계산 및 업데이트
-          if (document.getElementById('centrality-checkbox').checked) {
-              computeCentrality();
-          }
-      })
-      .catch(error => {
-          console.error('Error loading CSV files:', error);
-      });
+            const suffix = containerId === 'chart-container1' ? '1' : '2';
+            // 중심성 체크박스가 체크된 경우 중심성 계산 및 업데이트
+            if (document.getElementById(`centrality-checkbox${suffix}`).checked) {
+                computeCentrality(containerId);
+            }
+
+            if (document.getElementById(`community-checkbox${suffix}`).checked) {
+                communityAssign(containerId);
+                document.getElementById(`community-table`).classList.remove('hidden');
+            } else {
+                document.getElementById(`community-table`).classList.add('hidden');
+            }
+        })
+        .catch(error => {
+            console.error('Error loading CSV files:', error);
+        });
 }
 
 function detectEncoding(buffer) {
@@ -151,264 +160,315 @@ function parseCSV(text, isTitleFile) {
     });
 }
 
-let graph;
-let renderer;
-let container;
+let graphs = {};
+let renderers = {};
+let containers = {};
 
 // Define color mapping for tiers
 const tierColors = {
-  'Platinum': '#E5E4E2',
-  'Gold': '#FFD700',
-  'Silver': '#C0C0C0',
-  'Bronze': '#CD7F32'
+    'Platinum': '#E5E4E2',
+    'Gold': '#FFD700',
+    'Silver': '#C0C0C0',
+    'Bronze': '#CD7F32'
 };
 
 const tierSizes = {
-  'Platinum': 15,
-  'Gold': 12,
-  'Silver': 10,
-  'Bronze': 8
+    'Platinum': 15,
+    'Gold': 12,
+    'Silver': 10,
+    'Bronze': 8
 };
 
+function drawGraph(containerId) {
+    if (csvData && csvData.length > 0) {
+        const graph = new Graph();
+        graphs[containerId] = graph;
 
-function drawGraph() {
-  if (csvData && csvData.length > 0) {
-    graph = new Graph();
+        // Find the maximum weight
+        let maxWeight = 0;
+        csvData.forEach((row) => {
+            if (row.Weight > maxWeight) {
+                maxWeight = row.Weight;
+            }
+        });
 
-    // Find the maximum weight
-    let maxWeight = 0;
-    csvData.forEach((row) => {
-      if (row.Weight > maxWeight) {
-        maxWeight = row.Weight;
-      }
-    });
+        // Normalize weights and add nodes/edges to the graph
+        const nodeSet = new Set();
+        csvData.forEach((row) => {
+            const { Source1, Source2, Weight, Tier, isTitleFile } = row;
 
-    // Normalize weights and add nodes/edges to the graph
-    const nodeSet = new Set();
-    csvData.forEach((row) => {
-      const { Source1, Source2, Weight, Tier, isTitleFile } = row;
+            // Check if Source1 and Source2 are defined
+            if (!Source1 || !Source2) {
+                console.warn('Source1 또는 Source2가 정의되지 않음:', row);
+                return;
+            }
 
-      // Check if Source1 and Source2 are defined
-      if (!Source1 || !Source2) {
-        console.warn('Source1 또는 Source2가 정의되지 않음:', row);
-        return;
-      }
+            const normalizedWeight = Weight / maxWeight; // Scale the weight
 
-      const normalizedWeight = Weight / maxWeight; // Scale the weight
+            const sourceNode = Source1.trim();
+            const targetNode = Source2.trim();
 
-      const sourceNode = Source1.trim();
-      const targetNode = Source2.trim();
+            nodeSet.add(sourceNode);
+            nodeSet.add(targetNode);
 
-      nodeSet.add(sourceNode);
-      nodeSet.add(targetNode);
+            if (!graph.hasNode(sourceNode)) {
+                const color = isTitleFile ? (tierColors[Tier] || 'blue') : 'gray';
+                const size = isTitleFile ? (tierSizes[Tier] || 10) : 5;
+                graph.addNode(sourceNode, {
+                    label: sourceNode,
+                    color: color,
+                    size: size,
+                    isTitleFile: isTitleFile,
+                    borderColor: isTitleFile ? 'red' : 'black', // Set border color based on isTitleFile
+                });
+            }
+            if (!graph.hasNode(targetNode)) {
+                graph.addNode(targetNode, {
+                    label: targetNode,
+                    color: 'black',
+                    isTitleFile: isTitleFile,
+                    borderColor: 'black',
+                });
+            }
+            if (!graph.hasEdge(sourceNode, targetNode)) {
+                graph.addEdge(sourceNode, targetNode, { size: normalizedWeight * 2 });
+            }
+        });
 
-      if (!graph.hasNode(sourceNode)) {
-        const color = isTitleFile ? (tierColors[Tier] || 'blue') : 'gray';
-        const size = isTitleFile ? (tierSizes[Tier] || 10) : 5;
-        graph.addNode(sourceNode, { label: sourceNode, color: color, size: size, isTitleFile: isTitleFile });
-      }
-      if (!graph.hasNode(targetNode)) {
-        graph.addNode(targetNode, { label: targetNode, color: 'black', isTitleFile: isTitleFile });
-      }
-      if (!graph.hasEdge(sourceNode, targetNode)) {
-        graph.addEdge(sourceNode, targetNode, { size: normalizedWeight * 2 });
-      }
-    });
+        // Circle layout
+        circular.assign(graph);
 
-    // Circle layout
-    circular.assign(graph);
+        // Degree-based node size adjustment
+        const degrees = graph.nodes().map((node) => graph.degree(node));
+        const minDegree = Math.min(...degrees);
+        const maxDegree = Math.max(...degrees);
+        const minSize = 3,
+            maxSize = 15;
+        graph.forEachNode((node) => {
+            const degree = graph.degree(node);
+            if (!graph.getNodeAttribute(node, 'size')) { // Only adjust size if not set by tier
+                graph.setNodeAttribute(
+                    node,
+                    'size',
+                    minSize + ((degree - minDegree) / (maxDegree - minDegree)) * (maxSize - minSize)
+                );
+            }
+        });
 
-    // Degree-based node size adjustment
-    const degrees = graph.nodes().map((node) => graph.degree(node));
-    const minDegree = Math.min(...degrees);
-    const maxDegree = Math.max(...degrees);
-    const minSize = 3,
-      maxSize = 15;
-    graph.forEachNode((node) => {
-      const degree = graph.degree(node);
-      if (!graph.getNodeAttribute(node, 'size')) { // Only adjust size if not set by tier
-        graph.setNodeAttribute(
-          node,
-          'size',
-          minSize + ((degree - minDegree) / (maxDegree - minDegree)) * (maxSize - minSize)
-        );
-      }
-    });
+        // Run Force Atlas 2 for a fixed number of iterations
+        forceAtlas2.assign(graph, { iterations: 1000 });
 
-    // Run Force Atlas 2 for a fixed number of iterations
-    forceAtlas2.assign(graph, { iterations: 1000 });
-
-    // Clear previous graph if exists
-    if (renderer) {
-      renderer.kill();
-      renderer = null;
-    }
-
-    // Sigma.js settings to enlarge node labels
-    container = document.getElementById('sigma-container');
-    container.innerHTML = '';
-    renderer = new Sigma(graph, container);
-
-    // State to manage hovered and selected nodes
-    const state = {
-      hoveredNode: undefined,
-      hoveredNeighbors: new Set(),
-    };
-
-    // Add event listeners for highlighting
-    renderer.on('enterNode', ({ node }) => {
-      setHoveredNode(node);
-    });
-
-    renderer.on('leaveNode', () => {
-      setHoveredNode(undefined);
-    });
-
-    function setHoveredNode(node) {
-      if (node) {
-        state.hoveredNode = node;
-        state.hoveredNeighbors = new Set(graph.neighbors(node));
-      } else {
-        state.hoveredNode = undefined;
-        state.hoveredNeighbors = new Set();
-      }
-      refreshGraph();
-    }
-
-    function refreshGraph() {
-      renderer.setSetting('nodeReducer', (node, data) => {
-        const res = { ...data };
-        if (state.hoveredNode && !state.hoveredNeighbors.has(node) && state.hoveredNode !== node) {
-          res.color = '#f6f6f6';
-          res.label = '';
-        } else {
-          res.color = data.color;
-          res.label = data.label;
+        // Clear previous graph if exists
+        if (renderers[containerId]) {
+            renderers[containerId].kill();
+            renderers[containerId] = null;
         }
-        return res;
-      });
 
-      renderer.setSetting('edgeReducer', (edge, data) => {
-        const res = { ...data };
-        if (state.hoveredNode && !graph.hasExtremity(edge, state.hoveredNode)) {
-          res.hidden = true;
-        } else {
-          res.hidden = false;
+        // Sigma.js settings to enlarge node labels and include node borders
+        const container = document.getElementById(containerId.replace('chart-container', 'sigma-container'));
+        container.innerHTML = '';
+        const renderer = new Sigma(graph, container, {
+            nodePrograms: {
+                border: NodeBorderProgram,
+            },
+        });
+
+        renderers[containerId] = renderer;
+
+        // State to manage hovered and selected nodes
+        const state = {
+            hoveredNode: undefined,
+            hoveredNeighbors: new Set(),
+        };
+
+        // Add event listeners for highlighting
+        renderer.on('enterNode', ({ node }) => {
+            setHoveredNode(node);
+        });
+
+        renderer.on('leaveNode', () => {
+            setHoveredNode(undefined);
+        });
+
+        function setHoveredNode(node) {
+            if (node) {
+                state.hoveredNode = node;
+                state.hoveredNeighbors = new Set(graph.neighbors(node));
+            } else {
+                state.hoveredNode = undefined;
+                state.hoveredNeighbors = new Set();
+            }
+            refreshGraph();
         }
-        return res;
-      });
 
-      renderer.refresh();
+        function refreshGraph() {
+            renderer.setSetting('nodeReducer', (node, data) => {
+                const res = { ...data };
+                if (state.hoveredNode && !state.hoveredNeighbors.has(node) && state.hoveredNode !== node) {
+                    res.color = '#f6f6f6';
+                    res.label = '';
+                } else {
+                    res.color = data.color;
+                    res.label = data.label;
+                    res.borderColor = data.borderColor; // Ensure border color is maintained
+                }
+                return res;
+            });
+
+            renderer.setSetting('edgeReducer', (edge, data) => {
+                const res = { ...data };
+                if (state.hoveredNode && !graph.hasExtremity(edge, state.hoveredNode)) {
+                    res.hidden = true;
+                } else {
+                    res.hidden = false;
+                }
+                return res;
+            });
+
+            renderer.refresh();
+        }
+    } else {
+        console.error('불러온 CSV 데이터가 없습니다.');
     }
-  } else {
-    console.error('불러온 CSV 데이터가 없습니다.');
-  }
 }
 
-let degreeCen;
-let eigenCen;
-let nodes = [];
+function computeCentrality(containerId) {
+    const graph = graphs[containerId];
+    const centralityBody = document.getElementById(`centrality-body`);
+    centralityBody.innerHTML = ''; // 기존 내용 제거
+    let nodes = [];
 
-function computeCentrality(){
-  degreeCen = degreeCentrality(graph);
-  Object.keys(degreeCen).forEach(node => {
-      if (!graph.getNodeAttribute(node, 'isTitleFile')) { // Exclude title files from centrality calculation
-          graph.setNodeAttribute(node, 'degreeCentrality', parseFloat(degreeCen[node].toFixed(3)));
-      }
-  });
+    const degreeCen = degreeCentrality(graph);
+    Object.keys(degreeCen).forEach(node => {
+        if (!graph.getNodeAttribute(node, 'isTitleFile')) { // Exclude title files from centrality calculation
+            graph.setNodeAttribute(node, 'degreeCentrality', parseFloat(degreeCen[node].toFixed(3)));
+        }
+    });
 
-  // Eigenvector Centrality 계산 및 할당
-  try {
-      eigenCen = eigenvectorCentrality(graph);
-      Object.keys(eigenCen).forEach(node => {
-          if (!graph.getNodeAttribute(node, 'isTitleFile')) { // Exclude title files from centrality calculation
-              graph.setNodeAttribute(node, 'eigenvectorCentrality', parseFloat(eigenCen[node].toFixed(3)));
-          }
-      });
-  } catch (error) {
-      console.error('Error calculating eigenvector centrality:', error);
-      graph.forEachNode(node => {
-          if (!graph.getNodeAttribute(node, 'isTitleFile')) { // Exclude title files from centrality calculation
-              graph.setNodeAttribute(node, 'eigenvectorCentrality', 'N/A');
-          }
-      });
-  }
-  
-  const centralityBody = document.getElementById('centrality-body');
-  centralityBody.innerHTML = ''; // 기존 내용 제거
-  nodes = [];
+    // Eigenvector Centrality 계산 및 할당
+    let eigenCen;
+    try {
+        eigenCen = eigenvectorCentrality(graph);
+        Object.keys(eigenCen).forEach(node => {
+            if (!graph.getNodeAttribute(node, 'isTitleFile')) { // Exclude title files from centrality calculation
+                graph.setNodeAttribute(node, 'eigenvectorCentrality', parseFloat(eigenCen[node].toFixed(3)));
+            }
+        });
+    } catch (error) {
+        console.error('Error calculating eigenvector centrality:', error);
+        graph.forEachNode(node => {
+            if (!graph.getNodeAttribute(node, 'isTitleFile')) { // Exclude title files from centrality calculation
+                graph.setNodeAttribute(node, 'eigenvectorCentrality', 'N/A');
+            }
+        });
+    }
 
-  // 노드를 중심성 기준으로 정렬 및 GameTitle 제외
-  graph.forEachNode((node, attributes) => {
-      if (!attributes.isTitleFile) { // Exclude title files from centrality calculation
-          nodes.push({
-              node: node,
-              degreeCentrality: attributes.degreeCentrality,
-              eigenvectorCentrality: attributes.eigenvectorCentrality
-          });
-      }
-  });
+    // 노드를 중심성 기준으로 정렬 및 GameTitle 제외
+    graph.forEachNode((node, attributes) => {
+        if (!attributes.isTitleFile) { // Exclude title files from centrality calculation
+            nodes.push({
+                node: node,
+                degreeCentrality: attributes.degreeCentrality,
+                eigenvectorCentrality: attributes.eigenvectorCentrality
+            });
+        }
+    });
 
-  // 정렬: degreeCentrality를 우선, eigenvectorCentrality를 그 다음으로 기준
-  nodes.sort((a, b) => {
-      if (b.degreeCentrality !== a.degreeCentrality) {
-          return b.degreeCentrality - a.degreeCentrality;
+    // 정렬: degreeCentrality를 우선, eigenvectorCentrality를 그 다음으로 기준
+    nodes.sort((a, b) => {
+        if (b.degreeCentrality !== a.degreeCentrality) {
+            return b.degreeCentrality - a.degreeCentrality;
+        } else {
+            if (a.eigenvectorCentrality === 'N/A') return 1;
+            if (b.eigenvectorCentrality === 'N/A') return -1;
+            return b.eigenvectorCentrality - a.eigenvectorCentrality;
+        }
+    });
+
+    // 중심성 테이블에 GameTitle을 제외하고 노드 추가
+    nodes.forEach(({ node, degreeCentrality, eigenvectorCentrality }) => {
+        const row = document.createElement('tr');
+        const nodeCell = document.createElement('td');
+        nodeCell.textContent = node;
+        const degreeCell = document.createElement('td');
+        degreeCell.textContent = degreeCentrality.toFixed(3);
+        const eigenCell = document.createElement('td');
+        eigenCell.textContent = eigenvectorCentrality === 'N/A' ? 'N/A' : eigenvectorCentrality.toFixed(3);
+        row.appendChild(nodeCell);
+        row.appendChild(degreeCell);
+        row.appendChild(eigenCell);
+        centralityBody.appendChild(row);
+    });
+}
+
+function communityAssign(containerId) {
+    const graph = graphs[containerId];
+    const communityBody = document.getElementById(`community-body`);
+    communityBody.innerHTML = ''; // 기존 내용 제거
+
+    const communities = louvain(graph); // Community detection using louvain algorithm
+    let communityNodes = {};
+
+    graph.forEachNode((node, attributes) => {
+        if (!attributes.isTitleFile) { // Exclude title files from community detection
+            const community = communities[node];
+            if (!communityNodes[community]) {
+                communityNodes[community] = [];
+            }
+            communityNodes[community].push(node);
+            graph.setNodeAttribute(node, 'community', community);
+        }
+    });
+
+    updateCommunityNodes(communityNodes, communityBody);
+}
+
+function updateCommunityNodes(communityNodes, communityBody) {
+    Object.keys(communityNodes).forEach(community => {
+        const row = document.createElement('tr');
+        const communityCell = document.createElement('td');
+        communityCell.textContent = community;
+        const nodesCell = document.createElement('td');
+        nodesCell.textContent = communityNodes[community].join(', ');
+        row.appendChild(communityCell);
+        row.appendChild(nodesCell);
+        communityBody.appendChild(row);
+    });
+}
+
+function showChart(containerId) {
+  const containers = document.querySelectorAll('.chart-container');
+  containers.forEach(container => {
+      if (container.id === containerId) {
+          container.classList.remove('hidden');
       } else {
-          if (a.eigenvectorCentrality === 'N/A') return 1;
-          if (b.eigenvectorCentrality === 'N/A') return -1;
-          return b.eigenvectorCentrality - a.eigenvectorCentrality;
+          container.classList.add('hidden');
       }
   });
 
-  // 중심성 테이블에 GameTitle을 제외하고 노드 추가
-  nodes.forEach(({ node, degreeCentrality, eigenvectorCentrality }) => {
-      const row = document.createElement('tr');
-      const nodeCell = document.createElement('td');
-      nodeCell.textContent = node;
-      const degreeCell = document.createElement('td');
-      degreeCell.textContent = degreeCentrality.toFixed(3);
-      const eigenCell = document.createElement('td');
-      eigenCell.textContent = eigenvectorCentrality === 'N/A' ? 'N/A' : eigenvectorCentrality.toFixed(3);
-      row.appendChild(nodeCell);
-      row.appendChild(degreeCell);
-      row.appendChild(eigenCell);
-      centralityBody.appendChild(row);
-  });
-}
-
-
-let communityNodes;
-
-function communityAssign(){
-  const communities = louvain(graph); // Community detection using louvain algorithm
-  communityNodes = {};
-
-  graph.forEachNode((node, attributes) => {
-    if (!attributes.isTitleFile) { // Exclude title files from community detection
-      const community = communities[node];
-      if (!communityNodes[community]) {
-        communityNodes[community] = [];
+  const buttons = document.querySelectorAll('#chart button');
+  buttons.forEach(button => {
+      if (button.id === `button${containerId === 'chart-container1' ? '1' : '2'}`) {
+          button.classList.add('active');
+      } else {
+          button.classList.remove('active');
       }
-      communityNodes[community].push(node);
-      graph.setNodeAttribute(node, 'community', community);
-    }
   });
 
-  updateCommunityNodes(communityNodes);
-}
+  // Load CSV data for the selected container
+  const suffix = containerId === 'chart-container1' ? 'edges' : 'jaccard';
+  const selectedFiles = [];
+  const selectedTitleFiles = [];
+  const isGameTitleOn = document.getElementById('game-title-on').checked;
 
-function updateCommunityNodes(communityNodes){
-  const communityBody = document.getElementById('community-body');
-  communityBody.innerHTML = ''; // 기존 내용 제거
+  for (const year in (suffix === 'edges' ? yearFiles : jaccardFiles)) {
+      if (document.getElementById(`${year}`).checked) {
+          selectedFiles.push(suffix === 'edges' ? yearFiles[year] : jaccardFiles[year]);
+          if (isGameTitleOn && suffix === 'edges') {
+              selectedTitleFiles.push(titleFiles[year]);
+          }
+      }
+  }
 
-  Object.keys(communityNodes).forEach(community => {
-      const row = document.createElement('tr');
-      const communityCell = document.createElement('td');
-      communityCell.textContent = community;
-      const nodesCell = document.createElement('td');
-      nodesCell.textContent = communityNodes[community].join(', ');
-      row.appendChild(communityCell);
-      row.appendChild(nodesCell);
-      communityBody.appendChild(row);
-  });
+  loadMultipleCSVs(selectedFiles.concat(selectedTitleFiles), containerId);
 }
