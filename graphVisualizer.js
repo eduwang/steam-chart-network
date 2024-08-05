@@ -401,27 +401,94 @@ function computeCentrality(containerId) {
     });
 }
 
-function communityAssign(containerId) {
+let comResoulution = 1.0; // Default resolution value
+
+function communityAssign(containerId, resolution = 1.0) {
     const graph = graphs[containerId];
     const communityBody = document.getElementById(`community-body`);
     communityBody.innerHTML = ''; // 기존 내용 제거
 
-    const communities = louvain(graph); // Community detection using louvain algorithm
+    const communities = louvain(graph, { resolution: comResoulution }); // Community detection using louvain algorithm with resolution
     let communityNodes = {};
+    let communityColors = {};
 
     graph.forEachNode((node, attributes) => {
         if (!attributes.isTitleFile) { // Exclude title files from community detection
             const community = communities[node];
             if (!communityNodes[community]) {
                 communityNodes[community] = [];
+                communityColors[community] = getRandomColor(); // Assign a random color to the community
             }
             communityNodes[community].push(node);
             graph.setNodeAttribute(node, 'community', community);
+            graph.setNodeAttribute(node, 'color', communityColors[community]); // Set the node color based on community
+            graph.setNodeAttribute(node, 'label', `${node} (Community ${community})`); // Set the node label to include community
         }
     });
 
     updateCommunityNodes(communityNodes, communityBody);
+    refreshGraph(containerId);
 }
+
+function getRandomColor() {
+    const letters = '0123456789ABCDEF';
+    let color = '#';
+    for (let i = 0; i < 6; i++) {
+        color += letters[Math.floor(Math.random() * 16)];
+    }
+    return color;
+}
+
+document.getElementById('toggle-community').addEventListener('click', () => {
+    const containerId = document.querySelector('.chart-container:not(.hidden)').id;
+    communityAssign(containerId);
+    refreshGraph(containerId); // Refresh the graph to apply new colors
+});
+
+document.getElementById('increase-community').addEventListener('click', () => {
+    comResoulution += 0.1;
+    if (comResoulution > 4.0){
+        alert('집단 수가 너무 많습니다')
+        comResoulution = 1.0
+    }
+    console.log(comResoulution)
+    const containerId = document.querySelector('.chart-container:not(.hidden)').id;
+    communityAssign(containerId);
+    refreshGraph(containerId); // Refresh the graph to apply new colors
+});
+
+document.getElementById('decrease-community').addEventListener('click', () => {
+    comResoulution -= 0.1;
+    if (comResoulution < 0.11){
+        alert('더 이상 줄일 수 없습니다.')
+        comResoulution = 1.0
+    }
+    console.log(comResoulution)
+    const containerId = document.querySelector('.chart-container:not(.hidden)').id;
+    communityAssign(containerId);
+    refreshGraph(containerId); // Refresh the graph to apply new colors
+});
+
+function refreshGraph(containerId) {
+    const renderer = renderers[containerId];
+    renderer.setSetting('nodeReducer', (node, data) => {
+        const res = { ...data };
+        res.label = data.label;
+        res.color = data.color;
+        res.borderColor = data.borderColor; // Ensure border color is maintained
+        return res;
+    });
+
+    renderer.setSetting('edgeReducer', (edge, data) => {
+        const res = { ...data };
+        res.hidden = false;
+        return res;
+    });
+
+    renderer.refresh();
+}
+
+
 
 function updateCommunityNodes(communityNodes, communityBody) {
     Object.keys(communityNodes).forEach(community => {
