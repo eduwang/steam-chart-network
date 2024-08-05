@@ -106,6 +106,38 @@ section {
     margin-bottom: 10px;
 }
 
+.table-title-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 10px;
+    position: relative;
+}
+
+.community-controls {
+    position: absolute;
+    right: 0;
+    display: flex;
+    gap: 10px;
+}
+
+.control-button {
+    padding: 1px 2px;
+    background-color: #f0f0f0;
+    border: 1px solid #ccc;
+    cursor: pointer;
+    border-radius: 3px;
+    transition: background-color 0.3s, border-color 0.3s;
+}
+
+.control-button:hover {
+    background-color: #e0e0e0 !important;
+    border-color: #999 !important;
+}
+
+
+
+
 .details-table {
     width: 100%;
     border-collapse: collapse;
@@ -221,7 +253,7 @@ footer .footer-text p {
 }
 
 #chart button:hover {
-    background-color: #ffffff;
+    background-color: #ededed;
 }
 
 #chart button.active {
