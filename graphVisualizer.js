@@ -7,6 +7,10 @@ import { degreeCentrality } from 'graphology-metrics/centrality/degree';
 import eigenvectorCentrality from 'graphology-metrics/centrality/eigenvector';
 import louvain from 'graphology-communities-louvain';
 import { NodeBorderProgram } from "@sigma/node-border";
+import seedrandom from 'seedrandom';
+
+// 시드 고정
+const rng = seedrandom('2024');
 
 // CSV 데이터를 저장할 전역 변수
 let csvData = [];
@@ -27,11 +31,11 @@ const platinumFiles = {
     'edges_5yrs': '/data/edges_btn_udt_platinum_5yrs.csv'
 };
 const titleFiles = {
-  'edges_2019': '/data/title_to_tag_2019.csv',
-  'edges_2020': '/data/title_to_tag_2020.csv',
-  'edges_2021': '/data/title_to_tag_2021.csv',
-  'edges_2022': '/data/title_to_tag_2022.csv',
-  'edges_2023': '/data/title_to_tag_2023.csv',
+    'edges_2019': '/data/title_to_tag_2019.csv',
+    'edges_2020': '/data/title_to_tag_2020.csv',
+    'edges_2021': '/data/title_to_tag_2021.csv',
+    'edges_2022': '/data/title_to_tag_2022.csv',
+    'edges_2023': '/data/title_to_tag_2023.csv',
 };
 const jaccardFiles = {
     'jaccard_2019': '/data/jaccard_2019.csv',
@@ -59,7 +63,7 @@ document.addEventListener('DOMContentLoaded', function() {
     });
 
     // 범례 표시/숨기기 이벤트 리스너 추가
-    document.getElementById('game-title-on').addEventListener('change', () => toggleLegend('tier-legend'));
+    // document.getElementById('game-title-on').addEventListener('change', () => toggleLegend('tier-legend'));
     document.getElementById('centrality-checkbox1').addEventListener('change', () => toggleCentralityTable('chart-container1'));
     document.getElementById('community-checkbox1').addEventListener('change', () => toggleCommunityTable('chart-container1'));
 
@@ -73,7 +77,7 @@ document.addEventListener('DOMContentLoaded', function() {
 
 function toggleLegend(legendId) {
     const legend = document.getElementById(legendId);
-    if (document.getElementById(`game-title-on`).checked) {
+    if (document.getElementById('game-title-on').checked) {
         legend.classList.remove('hidden');
     } else {
         legend.classList.add('hidden');
@@ -81,8 +85,9 @@ function toggleLegend(legendId) {
 }
 
 function toggleCentralityTable(containerId) {
-    const centralityTable = document.getElementById(`centrality-table`);
-    if (document.getElementById(`centrality-checkbox${containerId === 'chart-container1' ? '1' : '2'}`).checked) {
+    const centralityTable = document.getElementById('centrality-table');
+    const checkboxId = `centrality-checkbox${containerId === 'chart-container1' ? '1' : '2'}`;
+    if (document.getElementById(checkboxId).checked) {
         computeCentrality(containerId);
         centralityTable.classList.remove('hidden');
     } else {
@@ -91,8 +96,9 @@ function toggleCentralityTable(containerId) {
 }
 
 function toggleCommunityTable(containerId) {
-    const communityTable = document.getElementById(`community-table`);
-    if (document.getElementById(`community-checkbox${containerId === 'chart-container1' ? '1' : '2'}`).checked) {
+    const communityTable = document.getElementById('community-table');
+    const checkboxId = `community-checkbox${containerId === 'chart-container1' ? '1' : '2'}`;
+    if (document.getElementById(checkboxId).checked) {
         communityAssign(containerId);
         communityTable.classList.remove('hidden');
     } else {
@@ -100,52 +106,65 @@ function toggleCommunityTable(containerId) {
     }
 }
 
-function handleOptionChange() {
+function handleOptionChange(event) {
+    const isYearCheckbox = event.target.id.startsWith('edges_') || event.target.id.startsWith('jaccard_');
+    const isPlatinumCheckbox = event.target.id.startsWith('platinum_');
+    
+    if (isYearCheckbox || isPlatinumCheckbox) {
+        // 모든 연도별 데이터와 플래티넘 티어 체크박스 해제
+        document.querySelectorAll('.checkbox-wrapper input[type="checkbox"]').forEach(checkbox => {
+            if (checkbox.id.startsWith('edges_') || checkbox.id.startsWith('platinum_') || checkbox.id.startsWith('jaccard_')) {
+                checkbox.checked = false;
+            }
+        });
 
-    // 모든 체크박스 해제
-    document.querySelectorAll('.checkbox-wrapper input[type="checkbox"]').forEach(checkbox => {
-        checkbox.checked = false;
-    });
+        // 현재 클릭된 체크박스만 체크
+        event.target.checked = true;
 
-    // 현재 클릭된 체크박스만 체크
-    event.target.checked = true;
+        const selectedFiles = [];
+        const selectedTitleFiles = [];
+        const containerId = event.target.closest('.chart-container').id;
+        const suffix = containerId === 'chart-container1' ? 'edges' : 'jaccard';
+        // const isGameTitleOn = document.getElementById('game-title-on').checked;
 
-  const selectedFiles = [];
-  const selectedTitleFiles = [];
-  const containerId = this.closest('.chart-container').id;
-  const suffix = containerId === 'chart-container1' ? 'edges' : 'jaccard';
-  const isGameTitleOn = document.getElementById('game-title-on').checked;
-
-  if (event.target.id.startsWith('edges_')) {
-    document.querySelectorAll('.checkbox-container input[type="checkbox"]').forEach(checkbox => {
-        if (checkbox.id.startsWith('platinum_')) {
-            checkbox.checked = false;
+        if (isYearCheckbox) {
+            if (suffix === 'edges') {
+                for (const year in yearFiles) {
+                    if (document.getElementById(`${year}`).checked) {
+                        selectedFiles.push(yearFiles[year]);
+                        // if (isGameTitleOn) {
+                        //     selectedTitleFiles.push(titleFiles[year]);
+                        // }
+                    }
+                }
+            } else if (suffix === 'jaccard') {
+                for (const year in jaccardFiles) {
+                    if (document.getElementById(`${year}`).checked) {
+                        selectedFiles.push(jaccardFiles[year]);
+                    }
+                }
+            }
+        } else if (isPlatinumCheckbox) {
+            const platinumId = event.target.id.replace('platinum_', 'edges_');
+            selectedFiles.push(platinumFiles[platinumId]);
         }
-    });
+
+        console.log(`CSV 파일 로드 시작: ${selectedFiles.concat(selectedTitleFiles).join(', ')}`);
+        loadMultipleCSVs(selectedFiles.concat(selectedTitleFiles), containerId);
     }
-
-  for (const year in (suffix === 'edges' ? yearFiles : jaccardFiles)) {
-      if (document.getElementById(`${year}`).checked) {
-          selectedFiles.push(suffix === 'edges' ? yearFiles[year] : jaccardFiles[year]);
-          if (isGameTitleOn && suffix === 'edges') {
-              selectedTitleFiles.push(titleFiles[year]);
-          }
-      }
-  }
-
-  console.log(`CSV 파일 로드 시작: ${selectedFiles.concat(selectedTitleFiles).join(', ')}`);
-  loadMultipleCSVs(selectedFiles.concat(selectedTitleFiles), containerId);
 }
+
 
 function handlePlatinumChange(event) {
     const platinumId = event.target.id.replace('platinum_', 'edges_');
     document.querySelectorAll('.checkbox-wrapper input[type="checkbox"]').forEach(checkbox => {
-        checkbox.checked = false;
+        if (checkbox.id.startsWith('edges_') || checkbox.id.startsWith('platinum_')) {
+            checkbox.checked = false;
+        }
     });
     event.target.checked = true;
     loadMultipleCSVs([platinumFiles[platinumId]], 'chart-container1');
 }
-
 
 function loadMultipleCSVs(csvPaths, containerId) {
     csvData = [];
@@ -166,9 +185,9 @@ function loadMultipleCSVs(csvPaths, containerId) {
 
             if (document.getElementById(`community-checkbox${suffix}`).checked) {
                 communityAssign(containerId);
-                document.getElementById(`community-table`).classList.remove('hidden');
+                document.getElementById('community-table').classList.remove('hidden');
             } else {
-                document.getElementById(`community-table`).classList.add('hidden');
+                document.getElementById('community-table').classList.add('hidden');
             }
         })
         .catch(error => {
@@ -377,7 +396,7 @@ function drawGraph(containerId) {
 
 function computeCentrality(containerId) {
     const graph = graphs[containerId];
-    const centralityBody = document.getElementById(`centrality-body`);
+    const centralityBody = document.getElementById('centrality-body');
     centralityBody.innerHTML = ''; // 기존 내용 제거
     let nodes = [];
 
@@ -439,26 +458,33 @@ function computeCentrality(containerId) {
         eigenCell.textContent = eigenvectorCentrality === 'N/A' ? 'N/A' : eigenvectorCentrality.toFixed(3);
         row.appendChild(nodeCell);
         row.appendChild(degreeCell);
-        row.appendChild(eigenCell);
+        // row.appendChild(eigenCell);
         centralityBody.appendChild(row);
     });
 }
 
 let comResoulution = 1.0; // Default resolution value
 
-function communityAssign(containerId, resolution = 1.0) {
+function communityAssign(containerId) {
     const graph = graphs[containerId];
-    const communityBody = document.getElementById(`community-body`);
+    const communityBody = document.getElementById('community-body');
     communityBody.innerHTML = ''; // 기존 내용 제거
 
-    const communities = louvain(graph, { resolution: comResoulution }); // Community detection using louvain algorithm with resolution
+    console.log('Using RNG function:', rng); // RNG 함수 확인
+
+    // Community detection using louvain algorithm with resolution and RNG
+    louvain.assign(graph, {
+        resolution: comResoulution,
+        rng: rng
+    });
+
     let communityNodes = {};
     let communityWeights = {}; // 집단별 가중치 합을 저장할 객체
     let communityColors = {};
 
     graph.forEachNode((node, attributes) => {
         if (!attributes.isTitleFile) { // Exclude title files from community detection
-            const community = communities[node];
+            const community = graph.getNodeAttribute(node, 'community');
             if (!communityNodes[community]) {
                 communityNodes[community] = [];
                 communityWeights[community] = 0; // 초기화
@@ -486,6 +512,15 @@ function communityAssign(containerId, resolution = 1.0) {
     refreshGraph(containerId);
 }
 
+function getRandomColor() {
+    const letters = '0123456789ABCDEF';
+    let color = '#';
+    for (let i = 0; i < 6; i++) {
+        color += letters[Math.floor(Math.random() * 16)];
+    }
+    return color;
+}
+
 function updateCommunityNodes(communityNodes, communityWeights, communityBody) {
     Object.keys(communityNodes).forEach(community => {
         const row = document.createElement('tr');
@@ -501,46 +536,6 @@ function updateCommunityNodes(communityNodes, communityWeights, communityBody) {
         communityBody.appendChild(row);
     });
 }
-
-
-function getRandomColor() {
-    const letters = '0123456789ABCDEF';
-    let color = '#';
-    for (let i = 0; i < 6; i++) {
-        color += letters[Math.floor(Math.random() * 16)];
-    }
-    return color;
-}
-
-document.getElementById('toggle-community').addEventListener('click', () => {
-    const containerId = document.querySelector('.chart-container:not(.hidden)').id;
-    communityAssign(containerId);
-    refreshGraph(containerId); // Refresh the graph to apply new colors
-});
-
-document.getElementById('increase-community').addEventListener('click', () => {
-    comResoulution += 0.1;
-    if (comResoulution > 4.0){
-        alert('집단 수가 너무 많습니다')
-        comResoulution = 1.0
-    }
-    console.log(comResoulution)
-    const containerId = document.querySelector('.chart-container:not(.hidden)').id;
-    communityAssign(containerId);
-    refreshGraph(containerId); // Refresh the graph to apply new colors
-});
-
-document.getElementById('decrease-community').addEventListener('click', () => {
-    comResoulution -= 0.1;
-    if (comResoulution < 0.11){
-        alert('더 이상 줄일 수 없습니다.')
-        comResoulution = 1.0
-    }
-    console.log(comResoulution)
-    const containerId = document.querySelector('.chart-container:not(.hidden)').id;
-    communityAssign(containerId);
-    refreshGraph(containerId); // Refresh the graph to apply new colors
-});
 
 function refreshGraph(containerId) {
     const renderer = renderers[containerId];
@@ -561,54 +556,69 @@ function refreshGraph(containerId) {
     renderer.refresh();
 }
 
+document.getElementById('toggle-community').addEventListener('click', () => {
+    const containerId = document.querySelector('.chart-container:not(.hidden)').id;
+    communityAssign(containerId);
+    refreshGraph(containerId); // Refresh the graph to apply new colors
+});
 
+document.getElementById('increase-community').addEventListener('click', () => {
+    comResoulution += 0.1;
+    if (comResoulution > 4.0) {
+        alert('집단 수가 너무 많습니다');
+        comResoulution = 1.0;
+    }
+    console.log(comResoulution);
+    const containerId = document.querySelector('.chart-container:not(.hidden)').id;
+    communityAssign(containerId);
+    refreshGraph(containerId); // Refresh the graph to apply new colors
+});
 
-// function updateCommunityNodes(communityNodes, communityBody) {
-//     Object.keys(communityNodes).forEach(community => {
-//         const row = document.createElement('tr');
-//         const communityCell = document.createElement('td');
-//         communityCell.textContent = community;
-//         const nodesCell = document.createElement('td');
-//         nodesCell.textContent = communityNodes[community].join(', ');
-//         row.appendChild(communityCell);
-//         row.appendChild(nodesCell);
-//         communityBody.appendChild(row);
-//     });
-// }
+document.getElementById('decrease-community').addEventListener('click', () => {
+    comResoulution -= 0.1;
+    if (comResoulution < 0.1) {
+        alert('더 이상 줄일 수 없습니다.');
+        comResoulution = 1.0;
+    }
+    console.log(comResoulution);
+    const containerId = document.querySelector('.chart-container:not(.hidden)').id;
+    communityAssign(containerId);
+    refreshGraph(containerId); // Refresh the graph to apply new colors
+});
 
 function showChart(containerId) {
-  const containers = document.querySelectorAll('.chart-container');
-  containers.forEach(container => {
-      if (container.id === containerId) {
-          container.classList.remove('hidden');
-      } else {
-          container.classList.add('hidden');
-      }
-  });
+    const containers = document.querySelectorAll('.chart-container');
+    containers.forEach(container => {
+        if (container.id === containerId) {
+            container.classList.remove('hidden');
+        } else {
+            container.classList.add('hidden');
+        }
+    });
 
-  const buttons = document.querySelectorAll('#chart button');
-  buttons.forEach(button => {
-      if (button.id === `button${containerId === 'chart-container1' ? '1' : '2'}`) {
-          button.classList.add('active');
-      } else {
-          button.classList.remove('active');
-      }
-  });
+    const buttons = document.querySelectorAll('#chart button');
+    buttons.forEach(button => {
+        if (button.id === `button${containerId === 'chart-container1' ? '1' : '2'}`) {
+            button.classList.add('active');
+        } else {
+            button.classList.remove('active');
+        }
+    });
 
-  // Load CSV data for the selected container
-  const suffix = containerId === 'chart-container1' ? 'edges' : 'jaccard';
-  const selectedFiles = [];
-  const selectedTitleFiles = [];
-  const isGameTitleOn = document.getElementById('game-title-on').checked;
+    // Load CSV data for the selected container
+    const suffix = containerId === 'chart-container1' ? 'edges' : 'jaccard';
+    const selectedFiles = [];
+    const selectedTitleFiles = [];
+    // const isGameTitleOn = document.getElementById('game-title-on').checked;
 
-  for (const year in (suffix === 'edges' ? yearFiles : jaccardFiles)) {
-      if (document.getElementById(`${year}`).checked) {
-          selectedFiles.push(suffix === 'edges' ? yearFiles[year] : jaccardFiles[year]);
-          if (isGameTitleOn && suffix === 'edges') {
-              selectedTitleFiles.push(titleFiles[year]);
-          }
-      }
-  }
+    for (const year in (suffix === 'edges' ? yearFiles : jaccardFiles)) {
+        if (document.getElementById(`${year}`).checked) {
+            selectedFiles.push(suffix === 'edges' ? yearFiles[year] : jaccardFiles[year]);
+            // if (isGameTitleOn && suffix === 'edges') {
+            //     selectedTitleFiles.push(titleFiles[year]);
+            // }
+        }
+    }
 
-  loadMultipleCSVs(selectedFiles.concat(selectedTitleFiles), containerId);
+    loadMultipleCSVs(selectedFiles.concat(selectedTitleFiles), containerId);
 }
