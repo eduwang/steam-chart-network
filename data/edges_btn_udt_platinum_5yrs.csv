@@ -1,0 +1,162 @@
+Source1,Source2,Weight
+Multiplayer,Difficult,10
+Multiplayer,First-Person,13
+Multiplayer,PvP,14
+Multiplayer,Co-op,21
+Multiplayer,Shooter,11
+Multiplayer,Tactics,8
+Multiplayer,War,6
+Multiplayer,First-Person Shooter,10
+Multiplayer,Strategy,9
+Multiplayer,Action,25
+Multiplayer,Simulation,7
+Multiplayer,Atmospheric,12
+Multiplayer,Great Soundtrack,8
+Multiplayer,Singleplayer,18
+Multiplayer,Survival,8
+Multiplayer,Third Person,12
+Multiplayer,PvE,7
+Multiplayer,Character Customization,10
+Multiplayer,RPG,10
+Multiplayer,Combat,6
+Multiplayer,Action RPG,7
+Multiplayer,Massively Multiplayer,6
+Multiplayer,Free to Play,6
+Multiplayer,Adventure/Exploration,13
+Multiplayer,Open World,12
+Multiplayer,Fantasy,10
+Multiplayer,Violent,8
+Multiplayer,Story Rich,6
+Multiplayer,Mature,6
+Multiplayer,Gore,6
+Multiplayer,Horror,6
+Difficult,PvP,6
+Difficult,Co-op,9
+Difficult,Action,11
+Difficult,Third Person,6
+First-Person,PvP,6
+First-Person,Co-op,10
+First-Person,Shooter,10
+First-Person,First-Person Shooter,10
+First-Person,Action,15
+First-Person,Third Person,6
+First-Person,Adventure/Exploration,9
+First-Person,Atmospheric,9
+First-Person,Open World,7
+First-Person,Mature,6
+First-Person,Singleplayer,9
+First-Person,Horror,6
+First-Person,Story Rich,6
+PvP,Co-op,10
+PvP,Shooter,6
+PvP,First-Person Shooter,6
+PvP,Action,13
+PvP,Character Customization,6
+Co-op,Shooter,8
+Co-op,Tactics,7
+Co-op,First-Person Shooter,7
+Co-op,Strategy,7
+Co-op,Action,20
+Co-op,Simulation,6
+Co-op,Atmospheric,9
+Co-op,Singleplayer,12
+Co-op,Survival,7
+Co-op,Third Person,10
+Co-op,Character Customization,7
+Co-op,RPG,8
+Co-op,Action RPG,6
+Co-op,Adventure/Exploration,7
+Co-op,Open World,10
+Co-op,Fantasy,7
+Co-op,Violent,6
+Shooter,First-Person Shooter,10
+Shooter,Action,11
+Shooter,Singleplayer,6
+Tactics,Strategy,6
+Tactics,Action,6
+First-Person Shooter,Action,11
+First-Person Shooter,Singleplayer,6
+Strategy,Action,6
+Action,Survival,8
+Action,Third Person,15
+Action,PvE,6
+Action,Character Customization,12
+Action,RPG,13
+Action,Sci-fi,7
+Action,Singleplayer,19
+Action,Combat,7
+Action,Action RPG,10
+Action,Massively Multiplayer,6
+Action,Adventure/Exploration,16
+Action,Atmospheric,15
+Action,Great Soundtrack,10
+Action,Open World,16
+Action,Fantasy,10
+Action,Violent,10
+Action,Story Rich,9
+Action,Gore,7
+Action,Horror,8
+Action,Mature,7
+Atmospheric,Great Soundtrack,10
+Atmospheric,Singleplayer,14
+Atmospheric,RPG,10
+Atmospheric,Adventure/Exploration,11
+Atmospheric,Character Customization,7
+Atmospheric,Third Person,10
+Atmospheric,Open World,12
+Atmospheric,Action RPG,7
+Atmospheric,Fantasy,6
+Atmospheric,Story Rich,8
+Atmospheric,Horror,7
+Atmospheric,Violent,6
+Atmospheric,Mature,6
+Great Soundtrack,Singleplayer,12
+Great Soundtrack,RPG,7
+Great Soundtrack,Adventure/Exploration,8
+Great Soundtrack,Third Person,7
+Great Soundtrack,Open World,9
+Great Soundtrack,Fantasy,6
+Great Soundtrack,Story Rich,6
+Singleplayer,PvE,6
+Singleplayer,Character Customization,10
+Singleplayer,Third Person,12
+Singleplayer,RPG,13
+Singleplayer,Combat,7
+Singleplayer,Action RPG,9
+Singleplayer,Adventure/Exploration,15
+Singleplayer,Open World,15
+Singleplayer,Fantasy,11
+Singleplayer,Violent,8
+Singleplayer,Story Rich,10
+Singleplayer,Horror,6
+Third Person,Character Customization,8
+Third Person,RPG,10
+Third Person,Action RPG,6
+Third Person,Adventure/Exploration,9
+Third Person,Open World,10
+Third Person,Fantasy,7
+Third Person,Violent,6
+Character Customization,RPG,13
+Character Customization,Action RPG,9
+Character Customization,Adventure/Exploration,8
+Character Customization,Open World,8
+Character Customization,Fantasy,8
+RPG,Combat,6
+RPG,Action RPG,11
+RPG,Adventure/Exploration,9
+RPG,Open World,11
+RPG,Fantasy,11
+RPG,Story Rich,6
+Combat,Adventure/Exploration,7
+Action RPG,Adventure/Exploration,6
+Action RPG,Open World,8
+Action RPG,Fantasy,6
+Adventure/Exploration,Open World,13
+Adventure/Exploration,Fantasy,7
+Adventure/Exploration,Story Rich,9
+Adventure/Exploration,Horror,6
+Adventure/Exploration,Violent,6
+Open World,Fantasy,9
+Open World,Violent,6
+Open World,Story Rich,7
+Violent,Gore,6

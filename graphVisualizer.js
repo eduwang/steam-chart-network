@@ -16,6 +16,7 @@ const yearFiles = {
     'edges_2021': '/data/edges_btn_udt_2021_final.csv',
     'edges_2022': '/data/edges_btn_udt_2022_final.csv',
     'edges_2023': '/data/edges_btn_udt_2023_final.csv',
+    'edges_5yrs': '/data/edges_btn_udt_5yrs.csv'
 };
 const platinumFiles = {
     'edges_2019': '/data/edges_btn_udt_2019_platinum.csv',
@@ -23,6 +24,7 @@ const platinumFiles = {
     'edges_2021': '/data/edges_btn_udt_2021_platinum.csv',
     'edges_2022': '/data/edges_btn_udt_2022_platinum.csv',
     'edges_2023': '/data/edges_btn_udt_2023_platinum.csv',
+    'edges_5yrs': '/data/edges_btn_udt_platinum_5yrs.csv'
 };
 const titleFiles = {
   'edges_2019': '/data/title_to_tag_2019.csv',
@@ -99,6 +101,15 @@ function toggleCommunityTable(containerId) {
 }
 
 function handleOptionChange() {
+
+    // 모든 체크박스 해제
+    document.querySelectorAll('.checkbox-wrapper input[type="checkbox"]').forEach(checkbox => {
+        checkbox.checked = false;
+    });
+
+    // 현재 클릭된 체크박스만 체크
+    event.target.checked = true;
+
   const selectedFiles = [];
   const selectedTitleFiles = [];
   const containerId = this.closest('.chart-container').id;
