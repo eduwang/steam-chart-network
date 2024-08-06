@@ -105,6 +105,14 @@ function handleOptionChange() {
   const suffix = containerId === 'chart-container1' ? 'edges' : 'jaccard';
   const isGameTitleOn = document.getElementById('game-title-on').checked;
 
+  if (event.target.id.startsWith('edges_')) {
+    document.querySelectorAll('.checkbox-container input[type="checkbox"]').forEach(checkbox => {
+        if (checkbox.id.startsWith('platinum_')) {
+            checkbox.checked = false;
+        }
+    });
+    }
+
   for (const year in (suffix === 'edges' ? yearFiles : jaccardFiles)) {
       if (document.getElementById(`${year}`).checked) {
           selectedFiles.push(suffix === 'edges' ? yearFiles[year] : jaccardFiles[year]);
