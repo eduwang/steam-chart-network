@@ -410,6 +410,7 @@ function communityAssign(containerId, resolution = 1.0) {
 
     const communities = louvain(graph, { resolution: comResoulution }); // Community detection using louvain algorithm with resolution
     let communityNodes = {};
+    let communityWeights = {}; // 집단별 가중치 합을 저장할 객체
     let communityColors = {};
 
     graph.forEachNode((node, attributes) => {
@@ -417,6 +418,7 @@ function communityAssign(containerId, resolution = 1.0) {
             const community = communities[node];
             if (!communityNodes[community]) {
                 communityNodes[community] = [];
+                communityWeights[community] = 0; // 초기화
                 communityColors[community] = getRandomColor(); // Assign a random color to the community
             }
             communityNodes[community].push(node);
@@ -426,9 +428,37 @@ function communityAssign(containerId, resolution = 1.0) {
         }
     });
 
-    updateCommunityNodes(communityNodes, communityBody);
+    // 집단별 가중치 합 계산
+    Object.keys(communityNodes).forEach(community => {
+        communityNodes[community].forEach(node => {
+            graph.forEachEdge(node, (edge, attributes, source, target) => {
+                if (communityNodes[community].includes(source) && communityNodes[community].includes(target)) {
+                    communityWeights[community] += attributes.size; // 가중치 합 계산
+                }
+            });
+        });
+    });
+
+    updateCommunityNodes(communityNodes, communityWeights, communityBody);
     refreshGraph(containerId);
 }
+
+function updateCommunityNodes(communityNodes, communityWeights, communityBody) {
+    Object.keys(communityNodes).forEach(community => {
+        const row = document.createElement('tr');
+        const communityCell = document.createElement('td');
+        communityCell.textContent = community;
+        const nodesCell = document.createElement('td');
+        nodesCell.textContent = communityNodes[community].join(', ');
+        const weightCell = document.createElement('td');
+        weightCell.textContent = Math.round(communityWeights[community]); // 가중치 합 반올림하여 표시
+        row.appendChild(communityCell);
+        row.appendChild(nodesCell);
+        row.appendChild(weightCell);
+        communityBody.appendChild(row);
+    });
+}
+
 
 function getRandomColor() {
     const letters = '0123456789ABCDEF';
@@ -490,18 +520,18 @@ function refreshGraph(containerId) {
 
 
 
-function updateCommunityNodes(communityNodes, communityBody) {
-    Object.keys(communityNodes).forEach(community => {
-        const row = document.createElement('tr');
-        const communityCell = document.createElement('td');
-        communityCell.textContent = community;
-        const nodesCell = document.createElement('td');
-        nodesCell.textContent = communityNodes[community].join(', ');
-        row.appendChild(communityCell);
-        row.appendChild(nodesCell);
-        communityBody.appendChild(row);
-    });
-}
+// function updateCommunityNodes(communityNodes, communityBody) {
+//     Object.keys(communityNodes).forEach(community => {
+//         const row = document.createElement('tr');
+//         const communityCell = document.createElement('td');
+//         communityCell.textContent = community;
+//         const nodesCell = document.createElement('td');
+//         nodesCell.textContent = communityNodes[community].join(', ');
+//         row.appendChild(communityCell);
+//         row.appendChild(nodesCell);
+//         communityBody.appendChild(row);
+//     });
+// }
 
 function showChart(containerId) {
   const containers = document.querySelectorAll('.chart-container');
