@@ -17,6 +17,13 @@ const yearFiles = {
     'edges_2022': '/data/edges_btn_udt_2022_final.csv',
     'edges_2023': '/data/edges_btn_udt_2023_final.csv',
 };
+const platinumFiles = {
+    'edges_2019': '/data/edges_btn_udt_2019_platinum.csv',
+    'edges_2020': '/data/edges_btn_udt_2020_platinum.csv',
+    'edges_2021': '/data/edges_btn_udt_2021_platinum.csv',
+    'edges_2022': '/data/edges_btn_udt_2022_platinum.csv',
+    'edges_2023': '/data/edges_btn_udt_2023_platinum.csv',
+};
 const titleFiles = {
   'edges_2019': '/data/title_to_tag_2019.csv',
   'edges_2020': '/data/title_to_tag_2020.csv',
@@ -40,6 +47,13 @@ document.addEventListener('DOMContentLoaded', function() {
     // 이벤트 리스너 추가
     document.querySelectorAll('.checkbox-wrapper input[type="checkbox"]').forEach(checkbox => {
         checkbox.addEventListener('change', handleOptionChange);
+    });
+
+    // 플래티넘 티어 체크박스 리스너 추가
+    document.querySelectorAll('.checkbox-container label input[type="checkbox"]').forEach(checkbox => {
+        if (checkbox.id.startsWith('platinum_')) {
+            checkbox.addEventListener('change', handlePlatinumChange);
+        }
     });
 
     // 범례 표시/숨기기 이벤트 리스너 추가
@@ -103,6 +117,16 @@ function handleOptionChange() {
   console.log(`CSV 파일 로드 시작: ${selectedFiles.concat(selectedTitleFiles).join(', ')}`);
   loadMultipleCSVs(selectedFiles.concat(selectedTitleFiles), containerId);
 }
+
+function handlePlatinumChange(event) {
+    const platinumId = event.target.id.replace('platinum_', 'edges_');
+    document.querySelectorAll('.checkbox-wrapper input[type="checkbox"]').forEach(checkbox => {
+        checkbox.checked = false;
+    });
+    event.target.checked = true;
+    loadMultipleCSVs([platinumFiles[platinumId]], 'chart-container1');
+}
+
 
 function loadMultipleCSVs(csvPaths, containerId) {
     csvData = [];

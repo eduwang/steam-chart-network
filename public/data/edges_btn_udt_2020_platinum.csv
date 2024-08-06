@@ -1,0 +1,75 @@
+Source1,Source2,Weight
+Multiplayer,Difficult,7
+Multiplayer,First-Person,7
+Multiplayer,PvP,7
+Multiplayer,Co-op,9
+Multiplayer,Shooter,7
+Multiplayer,First-Person Shooter,6
+Multiplayer,Strategy,4
+Multiplayer,Action,11
+Multiplayer,Third Person,4
+Multiplayer,Adventure/Exploration,5
+Multiplayer,Atmospheric,5
+Multiplayer,Great Soundtrack,4
+Multiplayer,Singleplayer,4
+Multiplayer,Open World,4
+Difficult,First-Person,4
+Difficult,PvP,5
+Difficult,Co-op,6
+Difficult,Shooter,4
+Difficult,First-Person Shooter,4
+Difficult,Strategy,4
+Difficult,Action,7
+First-Person,PvP,4
+First-Person,Co-op,5
+First-Person,Shooter,7
+First-Person,First-Person Shooter,7
+First-Person,Action,8
+First-Person,Adventure/Exploration,5
+First-Person,Atmospheric,5
+First-Person,Mature,4
+First-Person,Great Soundtrack,4
+First-Person,Singleplayer,4
+First-Person,Open World,4
+PvP,Co-op,7
+PvP,Shooter,4
+PvP,First-Person Shooter,4
+PvP,Strategy,4
+PvP,Action,7
+Co-op,Shooter,5
+Co-op,First-Person Shooter,4
+Co-op,Strategy,4
+Co-op,Action,9
+Shooter,First-Person Shooter,6
+Shooter,Action,7
+Shooter,Adventure/Exploration,4
+Shooter,Atmospheric,4
+First-Person Shooter,Action,7
+First-Person Shooter,Adventure/Exploration,4
+First-Person Shooter,Atmospheric,4
+Strategy,Action,4
+Action,Third Person,4
+Action,Sci-fi,4
+Action,Adventure/Exploration,6
+Action,Atmospheric,6
+Action,Mature,4
+Action,Great Soundtrack,5
+Action,Singleplayer,5
+Action,Open World,5
+Action,RPG,4
+Adventure/Exploration,Atmospheric,6
+Adventure/Exploration,Mature,4
+Adventure/Exploration,Great Soundtrack,5
+Adventure/Exploration,Singleplayer,5
+Adventure/Exploration,Open World,5
+Atmospheric,Mature,4
+Atmospheric,Great Soundtrack,5
+Atmospheric,Singleplayer,5
+Atmospheric,Open World,5
+Mature,Great Soundtrack,4
+Mature,Singleplayer,4
+Great Soundtrack,Singleplayer,5
+Great Soundtrack,Open World,4
+Singleplayer,Open World,4
+RPG,Character Customization,4
+RPG,Action RPG,4

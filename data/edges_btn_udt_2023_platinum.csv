@@ -1,0 +1,62 @@
+Source1,Source2,Weight
+Multiplayer,First-Person,6
+Multiplayer,PvP,5
+Multiplayer,Co-op,7
+Multiplayer,Shooter,5
+Multiplayer,First-Person Shooter,5
+Multiplayer,Action,7
+Multiplayer,Tactics,4
+Multiplayer,Strategy,4
+First-Person,Adventure/Exploration,4
+First-Person,PvP,4
+First-Person,Atmospheric,5
+First-Person,Sci-fi,4
+First-Person,Co-op,6
+First-Person,Shooter,5
+First-Person,First-Person Shooter,6
+First-Person,Open World,4
+First-Person,Action,8
+First-Person,Tactics,4
+First-Person,Singleplayer,4
+Adventure/Exploration,Atmospheric,5
+Adventure/Exploration,Open World,5
+Adventure/Exploration,Action,5
+Adventure/Exploration,Character Customization,4
+Adventure/Exploration,RPG,4
+Adventure/Exploration,Singleplayer,5
+Adventure/Exploration,Story Rich,4
+PvP,Co-op,5
+PvP,Shooter,4
+PvP,First-Person Shooter,4
+PvP,Action,5
+Atmospheric,Open World,5
+Atmospheric,Action,6
+Atmospheric,Singleplayer,5
+Atmospheric,Story Rich,4
+Sci-fi,Action,4
+Co-op,Shooter,5
+Co-op,First-Person Shooter,5
+Co-op,Action,7
+Co-op,Tactics,4
+Shooter,First-Person Shooter,5
+Shooter,Action,5
+Shooter,Tactics,4
+First-Person Shooter,Action,6
+First-Person Shooter,Tactics,4
+Open World,Action,5
+Open World,Singleplayer,4
+Action,Tactics,4
+Action,Character Customization,5
+Action,Third Person,4
+Action,RPG,4
+Action,Action RPG,4
+Action,Singleplayer,5
+Action,Story Rich,4
+Character Customization,RPG,5
+Character Customization,Action RPG,4
+Character Customization,Singleplayer,4
+Character Customization,Story Rich,4
+RPG,Action RPG,4
+RPG,Singleplayer,4
+RPG,Story Rich,4
+Singleplayer,Story Rich,5

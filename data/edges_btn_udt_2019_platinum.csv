@@ -1,0 +1,92 @@
+Source1,Source2,Weight
+Multiplayer,Difficult,5
+Multiplayer,First-Person,5
+Multiplayer,PvP,6
+Multiplayer,Co-op,10
+Multiplayer,Shooter,6
+Multiplayer,Tactics,5
+Multiplayer,War,4
+Multiplayer,First-Person Shooter,5
+Multiplayer,Strategy,6
+Multiplayer,Action,10
+Multiplayer,Simulation,5
+Multiplayer,Atmospheric,5
+Multiplayer,Great Soundtrack,4
+Multiplayer,Singleplayer,6
+Multiplayer,Third Person,4
+Multiplayer,Character Customization,4
+Multiplayer,RPG,5
+Multiplayer,Action RPG,4
+Multiplayer,Adventure/Exploration,4
+Multiplayer,Open World,5
+Multiplayer,Fantasy,4
+Difficult,PvP,4
+Difficult,Co-op,5
+Difficult,Strategy,4
+Difficult,Action,6
+Difficult,RPG,4
+First-Person,PvP,4
+First-Person,Co-op,5
+First-Person,Shooter,5
+First-Person,First-Person Shooter,4
+First-Person,Action,5
+PvP,Co-op,5
+PvP,Shooter,4
+PvP,First-Person Shooter,4
+PvP,Strategy,4
+PvP,Action,6
+Co-op,Shooter,6
+Co-op,Tactics,5
+Co-op,War,4
+Co-op,First-Person Shooter,5
+Co-op,Strategy,6
+Co-op,Action,9
+Co-op,Simulation,5
+Co-op,Atmospheric,4
+Co-op,Great Soundtrack,4
+Co-op,Singleplayer,5
+Co-op,Third Person,4
+Co-op,RPG,4
+Co-op,Open World,4
+Shooter,First-Person Shooter,5
+Shooter,Action,6
+Tactics,War,4
+Tactics,Strategy,5
+Tactics,Action,4
+War,Strategy,4
+First-Person Shooter,Action,5
+Strategy,Action,5
+Strategy,Simulation,4
+Action,Simulation,4
+Action,Third Person,5
+Action,Character Customization,4
+Action,RPG,6
+Action,Singleplayer,6
+Action,Action RPG,4
+Action,Adventure/Exploration,5
+Action,Atmospheric,5
+Action,Great Soundtrack,4
+Action,Open World,6
+Action,Fantasy,5
+Atmospheric,Great Soundtrack,4
+Atmospheric,Singleplayer,5
+Atmospheric,RPG,4
+Atmospheric,Adventure/Exploration,5
+Atmospheric,Open World,5
+Great Soundtrack,Singleplayer,5
+Great Soundtrack,Open World,4
+Singleplayer,Third Person,4
+Singleplayer,RPG,5
+Singleplayer,Adventure/Exploration,4
+Singleplayer,Open World,5
+Singleplayer,Fantasy,4
+Third Person,RPG,4
+Character Customization,RPG,5
+Character Customization,Action RPG,4
+RPG,Combat,4
+RPG,Action RPG,5
+RPG,Adventure/Exploration,4
+RPG,Open World,4
+RPG,Fantasy,5
+Adventure/Exploration,Open World,5
+Open World,Fantasy,4
