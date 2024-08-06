@@ -1,3 +1,4 @@
+/* 기본 스타일 */
 body {
     font-family: Arial, sans-serif;
     background-color: #f0f0f0;
@@ -11,6 +12,12 @@ header {
     padding: 10px 0;
     text-align: center;
 }
+header h1 {
+    font-size: 50px;
+    font-family: "Sankofa Display", sans-serif;
+    font-weight: 900;
+    font-style: normal;
+}
 
 main {
     padding: 20px;
@@ -22,10 +29,59 @@ section {
     padding: 20px;
     border-radius: 8px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    margin-left: 3%;
+    margin-right: 3%;
+}
+.chapter-title {
+    text-indent: 1em;
+    font-size: 30px;
+    font-family: "Do Hyeon", sans-serif;
+    font-weight: 400;
+    font-style: normal;
 }
 .text-body {
     font-size: 16px;
+    font-family: "Noto Sans KR", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 500;
+    font-style: normal;
+    padding-left: 2%;
+    padding-right: 2%;
 }
+.text-body p {
+    margin-bottom: auto;
+}
+/* 결론 부분의 테이블 스타일 */
+.text-body .conclusion-table {
+    width: 80%;
+    max-width: 100%;
+    border-collapse: collapse;
+    margin: 2% auto;
+}
+.text-body .conclusion-table th, .text-body .conclusion-table td {
+    border: 1px solid black;
+    text-align: center;
+    padding: 8px;
+}
+.text-body .conclusion-table th {
+    background-color: #f2f2f2;
+}
+
+/* 모바일 대응 */
+@media (max-width: 768px) {
+    .text-body .conclusion-table th, .text-body .conclusion-table td {
+        padding: 6px;
+        font-size: 14px;
+    }
+}
+
+@media (max-width: 480px) {
+    .text-body .conclusion-table th, .text-body .conclusion-table td {
+        padding: 4px;
+        font-size: 12px;
+    }
+}
+
 .chart-container {
     position: relative;
     height: 600px;
@@ -38,7 +94,7 @@ section {
 }
 
 .graph-space {
-    flex-grow: 1; /* 남은 공간을 차지하도록 설정 */
+    flex-grow: 1;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -48,20 +104,20 @@ section {
 }
 
 .checkbox-wrapper {
-    position: absolute; /* 절대 위치 지정 */
-    top: 10px; /* 위쪽 여백 */
-    right: 10px; /* 왼쪽 여백 */
+    position: absolute;
+    top: 10px;
+    right: 10px;
     padding: 10px 10px 0px 10px;
     background-color: rgba(255, 255, 255, 0.8);
     border-radius: 8px;
     box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
     margin-left: 10px;
-    height: auto; /* 높이를 자동으로 설정 */
-    z-index: 10; /* z-index를 높여서 graph-space 위에 위치 */
+    height: auto;
+    z-index: 10;
 }
 
 .checkbox-container {
-    margin-bottom: 10px; /* 아래 여백 추가 */
+    margin-bottom: 10px;
 }
 
 .checkbox-container label {
@@ -138,19 +194,16 @@ section {
     border-color: #999 !important;
 }
 
-
-
-
 .details-table {
     width: 100%;
     border-collapse: collapse;
     background-color: white;
     border-radius: 8px;
     overflow: hidden;
-    text-align: center; /* 가운데 정렬 */
+    text-align: center;
 }
 .details-table-container {
-    max-height: 400px; /* Adjust the max height as needed */
+    max-height: 400px;
     overflow-y: auto;
 }
 .details-table th, .details-table td {
@@ -161,7 +214,6 @@ section {
 .details-table th {
     background-color: #f2f2f2;
 }
-
 
 footer {
     background-color: #b6b6b6;
@@ -177,18 +229,25 @@ footer .footer-content {
 }
 
 footer .footer-logo {
-    height: 50px; /* 이미지 높이를 조정 */
+    height: 50px;
     margin-right: 10px;
 }
 
 footer .footer-text p {
-    margin: 1px 0 0 0; /* 세로 간격을 줄이기 위해 margin 조정 */
+    margin: 1px 0 0 0;
     text-align: right;
     font-size: 12px;
 }
 
 /* 모바일 대응 */
 @media (max-width: 768px) {
+    header h1 {
+        font-size: 36px;
+    }
+    header h2 {
+        font-size: 18px;
+    }
+
     main {
         padding: 10px;
     }
@@ -198,7 +257,7 @@ footer .footer-text p {
     }
 
     .chart-container {
-        height: 300px;
+        height: 400px;
     }
 
     .checkbox-wrapper {
@@ -208,11 +267,30 @@ footer .footer-text p {
     .graph-space {
         font-size: 18px;
     }
+
+    .graph-details {
+        flex-direction: column;
+    }
+
+    .table-container {
+        width: 100%;
+        margin-bottom: 20px;
+    }
+
+    .control-button {
+        font-size: 12px !important;
+    }
 }
 
 @media (max-width: 480px) {
     header {
         padding: 5px 0;
+    }
+    header h1 {
+        font-size: 28px;
+    }
+    header h2 {
+        font-size: 14px;
     }
 
     section {
@@ -221,7 +299,7 @@ footer .footer-text p {
     }
 
     .chart-container {
-        height: 200px;
+        height: 300px;
     }
 
     .checkbox-wrapper {
@@ -231,47 +309,8 @@ footer .footer-text p {
     .graph-space {
         font-size: 16px;
     }
+
     footer .footer-logo {
-        height: 30px; /* 모바일에서 이미지 높이 조정 */
+        height: 30px;
     }
-}
-
-/* 버튼 동작 */
-#chart p {
-    display: flex;
-    margin: 0 3%;
-}
-
-#chart button {
-    flex: 1;
-    padding: 10px;
-    border: none;
-    color: #696969;
-    background-color: rgb(255, 255, 255);
-    cursor: pointer;
-    font-size: 16px;
-    transition: all 0.3s ease;
-    box-shadow:  inset 0px 0px 2px rgba(0, 0, 0, 0.3);
-
-}
-
-#chart button:hover {
-    background-color: #ededed;
-}
-
-#chart button.active {
-    box-shadow:  0px -2px 1px rgba(0, 0, 0, 0.3);
-    background-color: #dfdfdf6b;;
-    color: black;
-    font-weight: bold;
-}
-
-#chart button:first-child {
-    border-top-left-radius: 8px;
-    /* border-bottom-left-radius: 8px; */
-}
-
-#chart button:last-child {
-    border-top-right-radius: 8px;
-    /* border-bottom-right-radius: 8px; */
 }
